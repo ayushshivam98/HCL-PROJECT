@@ -1,0 +1,1215 @@
+Patient_ID,Age,Gender,Cancer_Type,Stage,Diagnosis_Date,Treatment_Type,Treatment_Start_Date,Treatment_End_Date,Tumor_Size_cm,Lymph_Nodes_Examined,Smoking_Status,BMI,Family_History,Survival_Months,Relapse,Occupation,Income_Level,Followup_Date
+1,69,Male,Leukemia,III,26-06-2015,Radiation,19-11-2015,24-04-2020,9.53,10,Current,19.4,Yes,83,No,Office Worker,Low,13-12-2022
+2,41,Male,Lung,I,05-03-2016,Hormone Therapy,01-07-2022,16-12-2023,6.68,1,Never,26.6,No,108,Yes,Healthcare,High,15-08-2024
+3,47,Female,Prostate,II,17-09-2017,Radiation,09-05-2022,10-06-2023,,0,Never,26.2,No,108,No,Retired,Medium,16-06-2024
+4,66,Male,Skin,I,07-03-2018,Immunotherapy,19-02-2019,03-06-2020,5.49,9,Current,15.4,Yes,108,Yes,Office Worker,High,27-04-2024
+5,72,Male,Breast,II,09-11-2019,Chemotherapy,17-11-2019,16-03-2023,9.84,2,Former,19.2,Yes,39,No,Manual Labor,Low,22-05-2023
+6,35,Female,Skin,II,29-09-2018,Hormone Therapy,23-11-2019,27-11-2019,9.51,13,Former,26.9,Yes,9,No,Office Worker,Low,29-04-2021
+7,70,Male,Colon,III,28-03-2023,Chemotherapy,19-04-2025,20-05-2025,2.69,14,Never,24.9,No,47,No,Healthcare,Medium,20-05-2025
+8,52,Male,Leukemia,III,28-02-2017,Hormone Therapy,06-01-2020,13-06-2022,9.14,3,Former,19.7,No,104,Yes,Office Worker,Low,14-01-2025
+9,21,Male,Leukemia,IV,26-08-2018,Hormone Therapy,02-03-2024,22-06-2024,3.46,5,Former,18.4,No,63,Yes,Office Worker,High,18-11-2024
+10,35,Female,Breast,III,20-11-2024,Immunotherapy,01-05-2025,14-05-2025,7.86,1,Never,26,Yes,62,Yes,Manual Labor,High,20-05-2025
+11,31,Male,Prostate,II,14-01-2021,Hormone Therapy,21-05-2024,08-05-2025,7.41,14,Former,28.9,No,62,No,Healthcare,Low,17-05-2025
+12,57,Male,Breast,I,19-09-2018,Immunotherapy,30-10-2021,11-05-2022,8.52,12,Never,38.3,Yes,111,No,Retired,High,07-05-2025
+13,70,Female,Skin,II,19-07-2018,Surgery,15-12-2023,25-03-2024,6.07,12,Former,20.8,Yes,89,Yes,Healthcare,Low,01-06-2024
+14,88,Female,Skin,II,14-02-2020,Hormone Therapy,01-01-2021,28-10-2024,4.52,0,Never,22.4,Yes,108,Yes,Office Worker,Medium,11-04-2025
+15,25,Male,Lung,III,23-05-2016,Immunotherapy,19-09-2020,10-03-2022,0.55,10,Current,30.2,No,33,Yes,Unemployed,Medium,25-08-2023
+16,22,Male,Breast,IV,26-05-2024,Surgery,05-05-2025,11-05-2025,9.3,8,Former,29.7,Yes,73,Yes,Unemployed,High,15-05-2025
+17,89,Female,Lung,II,22-01-2022,Radiation,30-09-2024,03-12-2024,4.77,0,Former,24.1,No,88,Yes,Office Worker,Medium,31-03-2025
+18,54,Male,Leukemia,I,07-09-2016,Chemotherapy,14-12-2021,23-12-2024,7.43,7,Former,22.9,Yes,91,No,Office Worker,Low,09-05-2025
+19,52,Female,Colon,III,17-09-2015,Immunotherapy,02-03-2016,25-01-2022,4.99,4,Current,26.8,No,14,Yes,Healthcare,Medium,16-04-2025
+20,44,Male,Skin,I,17-09-2023,Surgery,24-06-2024,08-07-2024,5.47,14,Current,32.7,Yes,42,Yes,Retired,Low,20-12-2024
+21,68,Male,Skin,I,14-06-2017,Radiation,19-02-2020,30-06-2020,0.8,6,Current,25.5,Yes,94,Yes,Unemployed,High,27-07-2022
+22,40,Female,Lung,III,15-06-2019,Radiation,21-06-2020,29-01-2022,6.24,14,Never,15.1,No,29,No,Office Worker,Low,19-09-2024
+23,53,Female,Skin,I,10-02-2023,Chemotherapy,22-09-2024,21-12-2024,9.46,6,Never,28.5,Yes,42,No,Manual Labor,Low,15-03-2025
+24,62,Female,Leukemia,III,24-04-2025,Hormone Therapy,15-05-2025,20-05-2025,3.31,5,Current,26.8,No,28,Yes,Office Worker,High,20-05-2025
+25,61,Male,Prostate,II,02-12-2024,Surgery,01-04-2025,26-04-2025,4.46,10,Current,23.4,Yes,62,Yes,Unemployed,Medium,08-05-2025
+26,18,Male,Prostate,II,25-10-2018,Surgery,12-08-2019,04-12-2024,2.67,19,Current,20.7,Yes,105,Yes,Office Worker,High,11-12-2024
+27,20,Male,Breast,III,15-07-2017,Hormone Therapy,13-09-2022,14-05-2024,0.57,7,Never,17.9,No,51,Yes,Manual Labor,Low,15-01-2025
+28,61,Male,Prostate,IV,01-12-2017,Hormone Therapy,04-08-2019,06-05-2024,2.82,8,Never,22.9,Yes,113,Yes,Manual Labor,Medium,07-05-2025
+29,79,Male,Lung,I,04-07-2024,Immunotherapy,08-02-2025,23-03-2025,9.73,19,Never,24.9,No,113,No,Healthcare,Low,27-04-2025
+30,73,Male,Colon,III,21-05-2024,Surgery,04-06-2024,06-10-2024,0.85,16,Former,16.6,No,2,No,Office Worker,Low,28-01-2025
+31,71,Female,Skin,III,11-11-2018,Chemotherapy,31-01-2023,09-07-2024,0.81,0,Former,32.2,No,53,Yes,Unemployed,High,01-04-2025
+32,61,Male,Breast,IV,23-05-2023,Chemotherapy,25-11-2024,08-12-2024,4.75,5,Former,30.3,No,55,Yes,Manual Labor,High,08-03-2025
+33,73,Female,Prostate,IV,20-02-2021,Surgery,23-08-2024,13-01-2025,2.76,5,Former,32,Yes,11,No,Unemployed,High,21-04-2025
+34,33,Male,Prostate,II,20-08-2017,Immunotherapy,10-03-2023,18-10-2023,8.44,5,Former,32,No,3,Yes,Office Worker,Medium,19-12-2023
+35,37,Female,Lung,III,30-01-2025,Radiation,31-03-2025,22-05-2025,3.6,3,Never,29.4,No,20,Yes,Unemployed,Medium,22-05-2025
+36,88,Male,Colon,IV,02-03-2018,Radiation,26-03-2023,11-08-2024,2.16,0,Never,28,Yes,40,No,Office Worker,High,18-08-2024
+37,56,Male,Colon,II,27-11-2021,Immunotherapy,19-01-2022,01-07-2023,9.4,0,Current,30.8,No,50,No,Healthcare,High,28-03-2024
+38,40,Female,Prostate,II,06-11-2015,Surgery,04-04-2022,28-12-2024,5.64,9,Former,29.4,No,7,Yes,Manual Labor,Medium,13-05-2025
+39,33,Female,Breast,II,16-11-2023,Radiation,29-09-2024,10-03-2025,8.26,19,Current,23.4,Yes,12,No,Unemployed,Medium,17-05-2025
+40,86,Female,Breast,II,09-07-2023,Immunotherapy,29-10-2023,02-09-2024,9.05,8,Current,24,Yes,99,No,Manual Labor,Medium,16-11-2024
+41,36,Female,Leukemia,II,09-10-2020,Immunotherapy,17-10-2024,16-12-2024,7.4,2,Former,28.1,No,75,No,Unemployed,High,22-01-2025
+42,89,Male,Lung,I,09-03-2019,Immunotherapy,22-09-2022,01-11-2023,7.96,7,Current,31.1,No,99,Yes,Office Worker,Medium,18-08-2024
+43,42,Female,Lung,IV,30-10-2020,Surgery,26-04-2025,30-04-2025,0.55,13,Former,10.6,Yes,61,No,Office Worker,High,01-05-2025
+44,58,Male,Lung,I,10-05-2022,Chemotherapy,07-02-2025,12-03-2025,2.17,3,Never,21,Yes,14,Yes,Healthcare,Medium,16-05-2025
+45,38,Male,Lung,IV,20-05-2019,Surgery,13-06-2022,17-06-2024,2.2,7,Current,20.2,Yes,48,No,Office Worker,High,27-04-2025
+46,76,Male,Skin,IV,26-09-2024,Immunotherapy,23-12-2024,16-05-2025,3.99,13,Current,30.5,Yes,38,No,Retired,Low,20-05-2025
+47,68,Male,Skin,IV,05-07-2024,Surgery,15-01-2025,04-03-2025,8.97,1,Never,38.7,Yes,64,No,Manual Labor,High,12-05-2025
+48,86,Female,Colon,II,27-10-2015,Hormone Therapy,21-06-2021,23-01-2023,2.69,15,Former,25.5,No,4,No,Healthcare,Low,14-05-2025
+49,52,Female,Lung,IV,24-11-2022,Hormone Therapy,09-08-2023,13-12-2023,7.8,16,Never,23.9,Yes,105,No,Healthcare,Medium,25-10-2024
+50,54,Female,Prostate,III,05-05-2025,Hormone Therapy,09-05-2025,21-05-2025,9.32,16,Never,28.6,No,53,Yes,Unemployed,High,22-05-2025
+51,77,Female,Breast,I,10-07-2024,Surgery,11-09-2024,19-12-2024,8.6,0,Current,20.4,No,25,No,Retired,High,04-04-2025
+52,71,Female,Leukemia,III,12-05-2024,Surgery,09-10-2024,25-04-2025,7.11,7,Former,22.4,Yes,24,Yes,Manual Labor,Low,04-05-2025
+53,49,Male,Lung,IV,19-11-2020,Surgery,12-09-2021,17-01-2022,6.88,1,Never,30.3,No,17,Yes,Manual Labor,Low,26-07-2024
+54,50,Male,Breast,I,26-06-2022,Hormone Therapy,07-12-2022,13-11-2024,1.8,15,Current,25.3,Yes,93,No,Unemployed,Medium,05-03-2025
+55,59,Female,Lung,I,28-11-2020,Surgery,27-06-2023,23-04-2025,8.19,2,Never,27.6,Yes,45,Yes,Healthcare,Low,15-05-2025
+56,37,Female,Lung,I,16-10-2018,Hormone Therapy,01-03-2022,12-06-2023,6.67,13,Current,44.3,No,76,No,Retired,Medium,06-09-2024
+57,32,Female,Skin,I,20-03-2016,Hormone Therapy,12-09-2019,02-12-2024,4.07,1,Current,22.6,Yes,25,Yes,Healthcare,Low,29-12-2024
+58,75,Male,Breast,IV,02-04-2021,Immunotherapy,14-03-2022,05-06-2022,5.66,16,Never,25.4,No,70,No,Office Worker,High,21-07-2023
+59,32,Male,Leukemia,II,24-10-2017,Immunotherapy,02-04-2023,03-03-2025,3.92,4,Current,22.3,Yes,108,Yes,Office Worker,Low,18-05-2025
+60,22,Female,Leukemia,III,17-11-2019,Immunotherapy,09-03-2023,13-04-2023,4.84,5,Current,28.9,No,96,No,Unemployed,Low,21-09-2023
+61,64,Male,Leukemia,III,07-07-2021,Hormone Therapy,31-05-2024,05-08-2024,7.15,7,Never,18.5,Yes,58,No,Retired,Low,05-01-2025
+62,72,Male,Skin,IV,26-11-2016,Surgery,11-06-2017,18-06-2021,2.88,8,Current,15,No,1,No,Unemployed,Medium,21-03-2023
+63,75,Female,Lung,III,30-07-2015,Immunotherapy,18-11-2023,20-02-2024,9.19,14,Current,23.4,Yes,89,No,Office Worker,Medium,20-04-2024
+64,18,Female,Breast,IV,17-09-2022,Hormone Therapy,07-04-2023,07-03-2025,9.57,6,Former,24,No,69,No,Unemployed,Low,02-04-2025
+65,39,Male,Skin,II,29-04-2022,Surgery,06-04-2025,14-04-2025,7.44,2,Never,31.3,Yes,57,Yes,Manual Labor,High,09-05-2025
+66,46,Male,Colon,I,17-05-2020,Radiation,03-07-2020,28-06-2024,1.6,4,Never,21.5,No,94,No,Retired,High,19-10-2024
+67,79,Female,Colon,IV,06-05-2017,Radiation,06-12-2023,20-04-2024,7.18,11,Former,28.5,Yes,100,Yes,Manual Labor,Medium,11-06-2024
+68,50,Female,Prostate,I,18-02-2016,Surgery,12-03-2025,01-05-2025,4.91,4,Never,28,No,10,No,Manual Labor,High,18-05-2025
+69,86,Female,Prostate,II,27-10-2021,Radiation,01-03-2022,08-03-2024,8.92,19,Former,25.3,No,1,No,Unemployed,High,22-04-2024
+70,86,Male,Breast,II,02-07-2015,Hormone Therapy,28-06-2016,12-02-2023,7,15,Former,36.7,No,80,Yes,Healthcare,Medium,19-04-2025
+71,19,Male,Colon,III,19-12-2018,Surgery,13-07-2024,30-09-2024,0.75,19,Former,32.9,No,33,No,Unemployed,High,10-12-2024
+72,78,Male,Breast,II,06-09-2015,Surgery,25-06-2023,14-01-2025,5.68,4,Former,18.8,No,67,Yes,Manual Labor,Low,09-03-2025
+73,82,Male,Breast,III,05-06-2017,Surgery,13-04-2019,14-02-2023,9.63,9,Never,25.6,No,87,Yes,Healthcare,Low,03-12-2024
+74,25,Male,Colon,II,09-03-2025,Immunotherapy,14-03-2025,02-05-2025,4.16,9,Former,22.8,No,34,No,Office Worker,Medium,21-05-2025
+75,24,Female,Lung,I,03-08-2018,Immunotherapy,22-12-2020,27-01-2024,1.62,17,Current,27.2,No,36,No,Healthcare,Medium,01-08-2024
+76,27,Female,Lung,IV,27-05-2023,Hormone Therapy,06-03-2024,10-10-2024,4.52,2,Current,24.6,No,99,No,Office Worker,High,17-11-2024
+77,53,Male,Leukemia,IV,19-10-2020,Surgery,21-08-2021,06-02-2024,4.03,6,Never,32.8,No,89,Yes,Office Worker,High,20-03-2025
+78,47,Male,Colon,I,14-04-2025,Hormone Therapy,22-05-2025,22-05-2025,9.07,19,Never,22.8,No,89,Yes,Healthcare,Low,22-05-2025
+79,30,Female,Skin,III,28-06-2021,Radiation,17-06-2023,22-06-2023,9.01,16,Former,23.6,Yes,78,No,Office Worker,Low,11-06-2024
+80,69,Male,Skin,III,14-09-2017,Chemotherapy,14-04-2020,01-10-2020,5.95,14,Former,21.9,No,69,No,Manual Labor,High,08-05-2023
+81,29,Female,Breast,II,05-09-2016,Immunotherapy,29-11-2018,28-12-2022,3.62,3,Current,28.1,No,109,No,Unemployed,Low,16-07-2023
+82,70,Male,Breast,III,12-12-2019,Immunotherapy,02-07-2022,18-11-2022,5.2,6,Never,28.1,No,95,No,Manual Labor,High,10-07-2023
+83,22,Female,Leukemia,II,28-03-2017,Immunotherapy,18-09-2022,05-10-2022,7.5,10,Current,28.1,Yes,102,No,Healthcare,Medium,21-10-2022
+84,24,Female,Prostate,I,20-05-2022,Surgery,29-03-2024,05-04-2024,4.55,7,Former,31.8,Yes,9,No,Office Worker,High,20-08-2024
+85,67,Male,Breast,I,11-02-2025,Surgery,25-03-2025,17-04-2025,8.97,1,Current,17.1,Yes,8,Yes,Healthcare,Medium,28-04-2025
+86,82,Male,Breast,III,20-06-2018,Radiation,07-02-2024,12-04-2024,8.86,16,Never,25.4,Yes,89,Yes,Manual Labor,Low,10-03-2025
+87,62,Female,Lung,III,21-12-2019,Chemotherapy,19-06-2023,16-05-2024,7.66,5,Current,14.8,No,90,No,Manual Labor,High,09-11-2024
+88,36,Male,Skin,II,19-03-2021,Hormone Therapy,09-02-2025,10-04-2025,1.56,2,Former,32.9,Yes,13,No,Unemployed,Medium,27-04-2025
+89,75,Male,Leukemia,IV,15-09-2017,Chemotherapy,30-04-2022,09-09-2022,7.54,7,Current,27.8,Yes,3,No,Retired,High,06-10-2022
+90,79,Female,Skin,III,15-04-2016,Immunotherapy,24-11-2023,21-07-2024,4.3,16,Current,28.7,Yes,38,No,Unemployed,Low,13-11-2024
+91,23,Female,Colon,IV,02-05-2018,Immunotherapy,04-01-2021,27-11-2024,8.12,12,Former,26.1,No,101,Yes,Unemployed,Low,25-03-2025
+92,53,Male,Breast,IV,04-03-2016,Chemotherapy,20-02-2022,06-04-2022,5.76,19,Current,25.1,No,47,Yes,Unemployed,Medium,29-12-2024
+93,66,Female,Prostate,III,09-05-2018,Surgery,08-01-2021,11-05-2023,7.11,0,Never,31,Yes,16,Yes,Manual Labor,High,15-05-2023
+94,74,Female,Prostate,II,12-01-2024,Immunotherapy,16-04-2024,28-05-2024,9.19,9,Never,34.1,No,102,No,Manual Labor,Low,04-08-2024
+95,41,Male,Skin,IV,20-02-2024,Chemotherapy,09-05-2025,09-05-2025,6.39,7,Never,24.2,Yes,58,No,Unemployed,Medium,10-05-2025
+96,77,Female,Prostate,III,18-05-2017,Surgery,25-12-2022,20-07-2024,6.04,4,Never,18.2,Yes,100,Yes,Manual Labor,Medium,01-11-2024
+97,81,Female,Skin,IV,23-09-2023,Immunotherapy,27-03-2025,24-04-2025,4.81,16,Current,29.8,No,92,Yes,Manual Labor,High,17-05-2025
+98,46,Female,Leukemia,III,17-08-2024,Chemotherapy,14-02-2025,27-03-2025,1.77,2,Current,22.1,Yes,6,No,Healthcare,Low,31-03-2025
+99,86,Female,Prostate,I,25-12-2022,Chemotherapy,26-11-2024,04-12-2024,6.33,1,Never,30.9,Yes,96,No,Office Worker,Medium,06-01-2025
+100,66,Male,Breast,IV,19-08-2017,Chemotherapy,09-05-2018,24-04-2020,4.08,16,Current,22.7,No,33,Yes,Unemployed,Low,01-03-2024
+101,18,Female,Skin,IV,29-10-2018,Surgery,13-07-2021,30-04-2025,0.63,5,Never,25,No,101,Yes,Unemployed,Medium,07-05-2025
+102,70,Female,Prostate,II,06-08-2023,Chemotherapy,05-05-2024,10-05-2025,9.48,9,Former,25.2,Yes,17,Yes,Healthcare,Medium,22-05-2025
+103,18,Male,Skin,II,06-05-2022,Chemotherapy,16-07-2024,08-09-2024,9.56,12,Former,28.6,No,32,No,Manual Labor,Low,26-04-2025
+104,51,Female,Colon,IV,29-01-2016,Surgery,12-04-2022,22-07-2023,3.9,7,Former,19.4,No,26,No,Unemployed,Low,29-12-2023
+105,51,Male,Prostate,I,12-06-2024,Chemotherapy,01-02-2025,10-02-2025,5.02,2,Current,29.7,No,108,Yes,Manual Labor,High,29-03-2025
+106,22,Female,Lung,I,16-01-2019,Immunotherapy,08-04-2019,26-06-2023,1.34,16,Current,22.2,Yes,47,Yes,Healthcare,High,19-11-2023
+107,40,Female,Skin,II,26-08-2020,Surgery,21-02-2021,12-11-2021,7.67,13,Former,26,Yes,50,No,Office Worker,Medium,10-03-2025
+108,47,Male,Leukemia,IV,23-04-2021,Surgery,01-05-2021,07-03-2025,5.77,18,Former,25.2,Yes,52,No,Manual Labor,High,30-04-2025
+109,55,Female,Skin,I,05-10-2024,Surgery,23-03-2025,21-04-2025,4.78,14,Never,26.1,Yes,81,No,Retired,Medium,27-04-2025
+110,22,Male,Prostate,II,30-11-2017,Radiation,11-06-2018,21-03-2023,8.07,9,Never,15.6,Yes,17,Yes,Manual Labor,Low,02-08-2024
+111,34,Male,Skin,II,10-08-2015,Hormone Therapy,20-02-2016,12-11-2017,2.95,4,Never,17.4,Yes,107,No,Office Worker,Medium,24-08-2022
+112,60,Female,Colon,III,12-09-2019,Immunotherapy,30-08-2023,14-02-2024,2.78,18,Former,31,No,23,No,Unemployed,Medium,29-03-2025
+113,72,Female,Skin,IV,23-02-2024,Radiation,21-12-2024,01-01-2025,6.06,10,Former,20.5,No,4,Yes,Retired,Low,04-03-2025
+114,73,Female,Lung,III,14-03-2021,Immunotherapy,18-04-2025,03-05-2025,4.41,2,Never,27.8,No,93,Yes,Unemployed,Low,08-05-2025
+115,49,Female,Prostate,II,17-11-2024,Immunotherapy,23-02-2025,23-04-2025,2.14,18,Never,22.5,Yes,42,No,Healthcare,Low,13-05-2025
+116,78,Male,Colon,II,23-03-2025,Immunotherapy,18-05-2025,22-05-2025,0.8,5,Never,30.2,Yes,5,Yes,Retired,High,22-05-2025
+117,29,Female,Prostate,II,29-07-2021,Surgery,12-12-2022,04-05-2025,2.46,,Never,34.8,No,73,Yes,Office Worker,Medium,16-05-2025
+118,43,Male,Skin,II,15-07-2022,Radiation,05-05-2023,23-01-2025,8.09,14,Never,25.2,Yes,94,No,Healthcare,High,12-05-2025
+119,80,Male,Prostate,I,09-10-2018,Hormone Therapy,22-10-2021,14-05-2025,4.08,16,Former,28.1,No,52,No,Office Worker,Medium,15-05-2025
+120,64,Male,Lung,I,02-11-2023,Hormone Therapy,21-07-2024,04-02-2025,4.02,13,Never,28.8,No,28,Yes,Unemployed,High,18-02-2025
+121,19,Female,Lung,I,01-02-2024,Immunotherapy,17-05-2025,19-05-2025,7.6,13,Never,29.3,Yes,111,No,Manual Labor,High,21-05-2025
+122,40,Female,Colon,III,06-02-2024,Chemotherapy,02-03-2024,29-11-2024,5.36,14,Former,20.1,No,109,Yes,Manual Labor,Medium,11-04-2025
+123,35,Female,Colon,III,25-05-2018,Radiation,29-09-2020,07-03-2022,4.75,2,Former,20.9,Yes,101,No,Office Worker,Medium,30-05-2024
+124,45,Male,Prostate,III,11-12-2021,Chemotherapy,25-11-2022,12-10-2024,0.69,16,Current,20.5,No,86,No,Healthcare,High,21-11-2024
+125,61,Female,Colon,I,10-02-2019,Surgery,21-06-2021,04-08-2023,2.72,12,Current,14.1,No,105,No,Retired,High,17-08-2023
+126,35,Male,Lung,IV,16-12-2018,Chemotherapy,18-06-2021,22-08-2021,1.33,14,Never,23,No,34,No,Retired,Low,11-11-2024
+127,25,Male,Prostate,III,03-07-2022,Immunotherapy,11-12-2023,27-01-2025,6.07,11,Current,17.4,No,52,No,Healthcare,Low,28-03-2025
+128,43,Male,Colon,IV,28-03-2022,Hormone Therapy,24-02-2025,18-03-2025,6.27,12,Former,19.3,Yes,101,No,Unemployed,Low,12-04-2025
+129,50,Male,Breast,IV,04-02-2024,Radiation,24-12-2024,15-02-2025,0.57,5,Current,21.7,Yes,75,No,Manual Labor,Low,30-03-2025
+130,79,Male,Skin,II,17-04-2018,Chemotherapy,09-01-2024,14-11-2024,3.21,8,Never,22.6,No,3,No,Unemployed,High,29-01-2025
+131,48,Male,Breast,I,14-02-2019,Surgery,12-01-2021,01-04-2025,4.4,3,Current,23.8,Yes,92,Yes,Manual Labor,High,12-05-2025
+132,21,Male,Colon,III,18-04-2022,Radiation,17-07-2022,04-08-2022,0.55,16,Former,20.5,Yes,51,Yes,Manual Labor,Low,28-02-2023
+133,79,Male,Leukemia,II,16-11-2017,Surgery,20-09-2021,28-02-2024,9.33,14,Former,16.7,No,44,Yes,Manual Labor,High,14-05-2025
+134,22,Male,Leukemia,II,06-02-2019,Hormone Therapy,19-10-2023,16-12-2023,2.28,3,Current,27.7,No,84,Yes,Office Worker,Low,14-06-2024
+135,37,Male,Prostate,II,03-06-2023,Hormone Therapy,09-05-2025,14-05-2025,2.8,14,Former,17.4,No,37,No,Unemployed,Low,16-05-2025
+136,28,Female,Colon,I,28-01-2020,Chemotherapy,09-02-2020,24-01-2025,9.35,12,Former,29,Yes,3,No,Retired,Low,12-02-2025
+137,50,Female,Leukemia,III,24-12-2016,Immunotherapy,09-05-2021,15-11-2022,4.01,9,Current,30,No,65,Yes,Unemployed,Low,20-09-2024
+138,80,Female,Lung,II,03-09-2024,Chemotherapy,09-02-2025,30-03-2025,6.97,16,Former,22.1,Yes,75,Yes,Manual Labor,High,15-04-2025
+139,32,Female,Lung,IV,16-06-2018,Hormone Therapy,05-12-2022,21-12-2024,4.98,2,Former,22.2,Yes,117,No,Retired,Medium,21-01-2025
+140,26,Male,Skin,III,25-01-2025,Chemotherapy,17-03-2025,21-04-2025,2.45,2,Former,32.5,No,1,Yes,Office Worker,Medium,27-04-2025
+141,57,Male,Leukemia,III,14-01-2016,Immunotherapy,06-01-2018,28-08-2019,7.36,7,Former,22,Yes,30,No,Retired,Medium,18-04-2024
+142,52,Male,Skin,IV,06-12-2024,Hormone Therapy,17-05-2025,21-05-2025,2.06,4,Never,27.9,No,78,No,Retired,Medium,22-05-2025
+143,43,Male,Skin,IV,08-09-2019,Hormone Therapy,07-12-2022,15-05-2024,9.12,12,Never,31,No,39,No,Healthcare,High,07-03-2025
+144,31,Male,Skin,III,22-04-2017,Radiation,22-11-2021,30-07-2023,9.05,5,Current,23,No,23,No,Unemployed,Low,23-04-2024
+145,80,Female,Leukemia,I,04-10-2023,Immunotherapy,24-01-2024,13-10-2024,5.28,16,Current,28.4,Yes,53,Yes,Retired,Medium,07-01-2025
+146,68,Male,Leukemia,IV,10-12-2016,Radiation,18-08-2022,10-02-2025,5.66,5,Current,13.3,Yes,67,Yes,Unemployed,Medium,13-04-2025
+147,24,Female,Colon,II,15-05-2025,Immunotherapy,17-05-2025,20-05-2025,7.44,9,Current,27.5,Yes,116,No,Unemployed,High,22-05-2025
+148,44,Female,Lung,IV,08-10-2017,Hormone Therapy,22-04-2018,08-02-2023,7.99,5,Current,31.2,No,97,Yes,Healthcare,Medium,29-09-2023
+149,44,Female,Prostate,III,04-08-2024,Radiation,22-11-2024,06-03-2025,7.57,3,Former,24.7,No,74,No,Office Worker,High,19-05-2025
+150,55,Female,Prostate,II,18-12-2019,Surgery,03-07-2020,25-11-2021,5.6,14,Current,34.2,No,109,No,Unemployed,Low,27-03-2025
+151,69,Male,Prostate,III,08-05-2024,Radiation,02-12-2024,15-12-2024,4.27,7,Never,12.1,Yes,45,Yes,Office Worker,Low,20-03-2025
+152,19,Female,Leukemia,IV,21-03-2020,Chemotherapy,23-10-2020,13-09-2022,0.62,18,Current,23.1,No,36,No,Healthcare,Medium,20-07-2024
+153,53,Female,Leukemia,I,16-01-2019,Chemotherapy,29-05-2019,17-10-2020,7.3,4,Never,16.1,Yes,47,No,Unemployed,Low,07-08-2023
+154,63,Female,Breast,III,10-05-2017,Hormone Therapy,26-10-2020,23-02-2025,6.34,12,Former,32.5,No,62,Yes,Retired,Medium,20-04-2025
+155,77,Female,Breast,III,19-04-2022,Radiation,07-03-2025,20-04-2025,6.13,11,Current,22,No,9,No,Retired,High,06-05-2025
+156,68,Male,Skin,IV,13-01-2025,Immunotherapy,13-04-2025,11-05-2025,7.5,7,Former,31.5,Yes,86,Yes,Unemployed,Medium,19-05-2025
+157,28,Male,Prostate,IV,15-02-2017,Radiation,05-06-2020,17-12-2020,4.78,13,Former,25.3,Yes,40,No,Manual Labor,High,10-02-2023
+158,32,Male,Leukemia,I,17-02-2023,Immunotherapy,14-11-2023,25-12-2023,4.29,8,Former,30.5,No,9,Yes,Manual Labor,Medium,29-11-2024
+159,69,Male,Lung,IV,31-08-2021,Radiation,28-11-2023,03-04-2025,7.98,8,Former,29.3,No,75,Yes,Healthcare,High,06-04-2025
+160,55,Male,Colon,III,01-04-2016,Chemotherapy,24-08-2024,28-04-2025,3.79,17,Current,13.4,Yes,91,Yes,Manual Labor,High,01-05-2025
+161,34,Female,Leukemia,II,27-03-2020,Hormone Therapy,13-06-2020,30-04-2025,6.08,11,Current,23.8,No,71,Yes,Retired,Medium,01-05-2025
+162,69,Female,Breast,IV,29-04-2016,Surgery,20-07-2019,11-09-2021,4.48,0,Former,23.6,Yes,49,Yes,Unemployed,Medium,07-04-2023
+163,46,Male,Breast,I,14-09-2017,Immunotherapy,05-09-2023,30-01-2024,6.02,17,Former,23.7,No,92,No,Unemployed,Medium,29-09-2024
+164,80,Female,Breast,II,09-02-2018,Surgery,17-10-2021,05-04-2024,9.97,16,Current,19.5,Yes,1,Yes,Office Worker,Low,21-01-2025
+165,30,Female,Leukemia,IV,11-09-2016,Hormone Therapy,16-11-2017,16-05-2022,4.27,18,Never,22.8,Yes,49,No,Healthcare,High,01-01-2023
+166,62,Male,Leukemia,IV,20-06-2024,Hormone Therapy,21-07-2024,03-10-2024,4.09,15,Never,14.4,Yes,19,No,Retired,High,27-12-2024
+167,35,Male,Leukemia,I,05-12-2020,Immunotherapy,15-08-2023,02-10-2023,3.29,18,Current,37.1,Yes,113,No,Healthcare,High,09-03-2024
+168,55,Female,Skin,III,29-03-2023,Radiation,07-10-2023,05-02-2024,7.77,3,Current,34.7,No,8,No,Manual Labor,Low,01-05-2024
+169,46,Male,Skin,IV,23-05-2022,Chemotherapy,24-05-2024,10-06-2024,1.22,2,Current,29.2,No,97,Yes,Manual Labor,Medium,02-11-2024
+170,72,Male,Colon,II,14-12-2023,Radiation,27-10-2024,13-12-2024,1.98,17,Former,18.4,No,93,No,Retired,High,13-02-2025
+171,25,Male,Lung,III,07-04-2025,Radiation,11-04-2025,06-05-2025,0.76,2,Former,25.5,Yes,67,Yes,Manual Labor,Medium,20-05-2025
+172,68,Male,Lung,II,16-02-2025,Immunotherapy,07-04-2025,28-04-2025,6.7,14,Former,24.3,Yes,34,Yes,Unemployed,Low,13-05-2025
+173,52,Male,Lung,III,20-11-2021,Surgery,03-05-2022,14-02-2025,2.81,13,Current,16.5,No,82,No,Manual Labor,High,28-03-2025
+174,24,Female,Breast,IV,16-02-2016,Surgery,06-12-2023,24-02-2024,6.52,0,Former,20.5,Yes,23,Yes,Office Worker,Medium,17-06-2024
+175,36,Female,Lung,II,25-04-2024,Surgery,18-06-2024,07-08-2024,1.67,18,Current,31.8,No,1,No,Unemployed,High,06-12-2024
+176,64,Female,Lung,III,10-12-2018,Radiation,08-05-2019,02-06-2020,6.44,10,Never,29.8,Yes,2,Yes,Office Worker,Low,06-02-2025
+177,84,Female,Leukemia,II,16-04-2019,Chemotherapy,14-12-2021,16-08-2023,6.11,11,Never,18.6,No,94,Yes,Retired,High,21-01-2025
+178,26,Female,Breast,I,09-10-2022,Hormone Therapy,12-12-2024,01-02-2025,4.64,11,Never,33.8,No,116,Yes,Retired,High,24-04-2025
+179,41,Female,Breast,I,23-06-2015,Hormone Therapy,31-12-2024,12-01-2025,1.59,13,Never,23.3,No,115,No,Manual Labor,Medium,20-04-2025
+180,31,Male,Colon,IV,31-12-2021,Hormone Therapy,20-03-2022,24-09-2022,7.55,1,Former,31.7,Yes,25,Yes,Unemployed,Medium,31-03-2024
+181,39,Female,Colon,I,26-10-2022,Chemotherapy,06-08-2024,18-05-2025,8.43,3,Former,18.6,Yes,87,Yes,Healthcare,Low,19-05-2025
+182,54,Female,Breast,I,31-01-2016,Surgery,29-10-2023,02-12-2024,0.67,17,Former,25.5,Yes,100,No,Office Worker,Medium,03-05-2025
+183,58,Male,Lung,IV,31-05-2017,Hormone Therapy,28-09-2018,04-12-2018,3.1,16,Current,30.1,No,87,Yes,Office Worker,Medium,05-12-2019
+184,44,Male,Prostate,IV,17-07-2021,Surgery,02-09-2021,24-10-2024,9.05,5,Former,27.4,No,40,No,Unemployed,Low,23-01-2025
+185,29,Female,Skin,III,24-01-2023,Radiation,26-10-2023,10-12-2023,6.51,6,Former,24.2,Yes,92,No,Manual Labor,Medium,02-12-2024
+186,79,Male,Breast,III,21-09-2023,Immunotherapy,12-05-2025,20-05-2025,5.43,1,Never,29,Yes,54,No,Unemployed,High,20-05-2025
+187,82,Female,Breast,I,26-01-2025,Surgery,01-05-2025,12-05-2025,1.29,3,Former,21.9,No,40,No,Office Worker,High,21-05-2025
+188,28,Male,Skin,II,26-05-2019,Immunotherapy,05-10-2024,25-12-2024,3.88,16,Former,18,No,104,Yes,Office Worker,Low,26-02-2025
+189,71,Female,Colon,III,04-07-2019,Immunotherapy,22-07-2020,02-11-2021,5.02,14,Former,25.5,Yes,33,No,Office Worker,Low,04-10-2023
+190,53,Female,Colon,III,08-10-2020,Hormone Therapy,18-08-2022,15-05-2024,5.63,18,Former,25.9,Yes,116,No,Manual Labor,High,29-07-2024
+191,79,Male,Prostate,II,21-02-2022,Immunotherapy,28-01-2024,11-08-2024,9.57,10,Current,22.6,Yes,73,No,Unemployed,Medium,19-10-2024
+192,57,Female,Breast,II,14-02-2025,Hormone Therapy,10-03-2025,16-04-2025,7.42,10,Current,36.5,No,42,No,Office Worker,Medium,26-04-2025
+193,42,Female,Leukemia,III,28-02-2020,Radiation,24-09-2023,29-12-2023,2.84,2,Current,28.2,Yes,94,No,Retired,Medium,17-02-2025
+194,29,Female,Skin,IV,21-06-2016,Hormone Therapy,22-12-2016,10-03-2020,3.93,11,Current,29.9,Yes,49,Yes,Healthcare,High,26-10-2021
+195,78,Female,Leukemia,I,17-04-2025,Hormone Therapy,18-04-2025,19-05-2025,8.01,16,Former,28.5,Yes,81,No,Healthcare,High,19-05-2025
+196,87,Male,Prostate,IV,11-01-2024,Immunotherapy,03-11-2024,09-05-2025,9.82,17,Never,31.4,No,15,No,Office Worker,Low,09-05-2025
+197,76,Male,Prostate,III,30-08-2022,Immunotherapy,13-04-2025,14-04-2025,9.88,12,Former,29.1,No,14,No,Manual Labor,Low,26-04-2025
+198,24,Female,Leukemia,I,02-01-2021,Chemotherapy,24-02-2022,27-01-2025,3.32,15,Current,25.7,Yes,114,Yes,Manual Labor,High,01-04-2025
+199,76,Female,Lung,IV,13-09-2018,Radiation,10-11-2024,09-12-2024,9.47,17,Former,31.8,Yes,103,No,Retired,Medium,21-03-2025
+200,34,Female,Leukemia,II,10-10-2024,Radiation,05-11-2024,06-12-2024,6.68,2,Current,11.4,Yes,98,No,Manual Labor,Low,21-02-2025
+201,20,Female,Prostate,IV,31-10-2015,Hormone Therapy,12-06-2017,10-04-2025,7.11,7,Current,23.7,Yes,15,No,Manual Labor,Medium,26-04-2025
+202,21,Male,Skin,I,29-09-2017,Radiation,31-08-2023,20-04-2025,8.01,12,Never,25.7,Yes,33,No,Healthcare,High,04-05-2025
+203,33,Female,Skin,II,25-07-2019,Hormone Therapy,18-11-2020,26-06-2021,4.55,11,Never,28.6,Yes,99,Yes,Unemployed,Medium,05-03-2024
+204,56,Male,Prostate,IV,13-12-2020,Hormone Therapy,20-05-2023,26-08-2023,0.59,16,Never,25.2,Yes,57,No,Retired,High,08-10-2023
+205,33,Female,Leukemia,IV,22-09-2022,Immunotherapy,23-06-2024,25-02-2025,8.8,14,Never,22.8,Yes,103,Yes,Manual Labor,Low,23-04-2025
+206,22,Female,Skin,III,06-11-2023,Radiation,30-04-2024,26-01-2025,7.46,16,Current,32.3,Yes,45,No,Retired,Medium,02-05-2025
+207,31,Male,Skin,II,11-11-2019,Immunotherapy,16-01-2024,26-01-2025,3.32,17,Former,28.3,No,48,No,Office Worker,Medium,30-01-2025
+208,82,Male,Lung,III,26-06-2024,Hormone Therapy,18-05-2025,22-05-2025,9.15,14,Current,33.1,Yes,15,Yes,Retired,Medium,22-05-2025
+209,66,Female,Skin,II,10-01-2023,Surgery,08-03-2023,08-03-2023,4.22,3,Current,27.8,Yes,39,Yes,Unemployed,Low,18-11-2023
+210,73,Female,Leukemia,II,04-02-2018,Radiation,20-04-2022,25-04-2022,8.9,10,Never,17.3,No,25,Yes,Retired,High,04-04-2023
+211,88,Female,Colon,IV,21-08-2018,Chemotherapy,22-11-2020,17-10-2024,9.92,7,Current,22.6,No,115,No,Unemployed,Medium,27-04-2025
+212,74,Male,Leukemia,IV,09-10-2016,Surgery,14-11-2017,01-12-2022,2.59,16,Never,28,No,6,No,Manual Labor,Medium,27-07-2024
+213,22,Female,Skin,II,22-09-2023,Hormone Therapy,02-08-2024,09-04-2025,1.05,14,Current,32.1,Yes,62,No,Office Worker,Low,01-05-2025
+214,34,Male,Colon,I,27-10-2024,Immunotherapy,13-02-2025,28-02-2025,1.96,2,Current,22.1,No,13,Yes,Manual Labor,Medium,01-05-2025
+215,85,Male,Leukemia,II,09-10-2022,Chemotherapy,12-02-2023,05-06-2023,6.01,1,Current,23.2,No,92,Yes,Office Worker,Low,24-04-2025
+216,46,Male,Breast,II,25-12-2023,Hormone Therapy,23-06-2024,23-12-2024,8.94,1,Never,27.9,Yes,42,No,Healthcare,Medium,30-12-2024
+217,26,Male,Colon,I,23-01-2019,Chemotherapy,08-10-2023,20-02-2024,3.63,4,Former,24.1,No,79,Yes,Healthcare,Low,21-05-2024
+218,55,Male,Leukemia,II,06-04-2021,Immunotherapy,09-07-2021,07-10-2024,2.97,4,Current,21,No,18,No,Healthcare,Low,10-04-2025
+219,87,Male,Breast,IV,04-09-2018,Surgery,24-01-2024,09-02-2024,9.64,15,Never,29.5,Yes,67,Yes,Retired,High,30-03-2024
+220,73,Female,Leukemia,III,15-01-2021,Radiation,01-02-2023,21-04-2024,6.79,7,Former,25.2,Yes,77,No,Unemployed,Low,17-04-2025
+221,50,Male,Leukemia,I,26-12-2017,Hormone Therapy,22-07-2018,08-11-2023,8.85,18,Former,,No,59,No,Retired,High,18-10-2024
+222,65,Male,Breast,I,18-03-2025,Hormone Therapy,13-04-2025,22-04-2025,7.23,10,Former,27.1,Yes,53,No,Retired,Medium,07-05-2025
+223,59,Female,Leukemia,IV,14-05-2016,Chemotherapy,12-04-2025,27-04-2025,1.51,5,Never,24.2,Yes,107,Yes,Retired,Medium,20-05-2025
+224,70,Female,Leukemia,I,26-06-2017,Surgery,05-08-2020,14-08-2022,7.56,17,Never,25.7,No,2,Yes,Unemployed,High,01-03-2023
+225,29,Male,Leukemia,II,01-07-2015,Chemotherapy,28-10-2016,20-10-2022,0.56,12,Current,25.1,No,95,No,Retired,High,05-05-2023
+226,77,Female,Prostate,II,04-05-2023,Surgery,24-02-2025,11-05-2025,0.59,12,Former,25.4,Yes,112,No,Retired,High,21-05-2025
+227,87,Male,Colon,III,03-04-2021,Chemotherapy,27-06-2024,25-03-2025,3.19,6,Former,30.9,Yes,28,Yes,Healthcare,High,22-05-2025
+228,77,Male,Breast,II,15-03-2021,Chemotherapy,03-04-2022,16-11-2022,2.21,4,Former,23.8,Yes,22,No,Healthcare,Medium,18-09-2024
+229,85,Male,Leukemia,III,02-12-2023,Surgery,17-05-2024,11-12-2024,2.15,3,Never,28.8,Yes,118,Yes,Retired,Low,12-05-2025
+230,82,Female,Colon,III,26-05-2017,Surgery,26-12-2021,24-07-2024,1.05,17,Current,29.9,No,14,Yes,Manual Labor,High,18-10-2024
+231,81,Female,Lung,IV,01-01-2018,Surgery,02-06-2018,22-05-2025,6.92,11,Current,30.5,Yes,76,Yes,Unemployed,Low,22-05-2025
+232,24,Male,Prostate,I,23-02-2024,Surgery,23-01-2025,26-03-2025,1.12,0,Current,33.6,Yes,6,Yes,Retired,Low,18-05-2025
+233,49,Female,Breast,II,23-05-2016,Surgery,08-03-2022,03-05-2023,7.82,1,Never,28.4,No,99,No,Office Worker,High,11-04-2025
+234,30,Male,Lung,IV,21-04-2025,Chemotherapy,17-05-2025,18-05-2025,8.61,14,Current,24.8,No,29,No,Manual Labor,Medium,18-05-2025
+235,46,Female,Colon,III,19-07-2016,Radiation,26-01-2017,24-07-2019,3.33,1,Never,30.6,Yes,27,Yes,Healthcare,Medium,08-03-2022
+236,84,Female,Colon,I,27-04-2019,Hormone Therapy,23-03-2020,28-06-2021,9.53,11,Former,31.6,No,92,Yes,Office Worker,Low,21-01-2024
+237,38,Female,Breast,II,30-03-2017,Surgery,29-01-2019,02-02-2025,9.14,4,Current,15.8,No,58,Yes,Manual Labor,Medium,29-04-2025
+238,55,Male,Colon,IV,11-07-2016,Hormone Therapy,14-12-2021,15-06-2022,2.68,2,Former,22.2,Yes,25,Yes,Office Worker,Low,07-09-2024
+239,41,Male,Colon,III,25-06-2018,Chemotherapy,08-08-2020,23-08-2021,4,14,Never,27.5,No,46,Yes,Office Worker,Medium,30-01-2023
+240,34,Male,Colon,I,01-08-2017,Radiation,04-03-2022,22-12-2024,1.37,7,Former,24.9,No,27,Yes,Manual Labor,Low,07-02-2025
+241,63,Male,Prostate,IV,28-01-2023,Radiation,20-05-2023,08-11-2024,5.54,6,Current,21.8,No,24,No,Office Worker,Low,10-04-2025
+242,77,Female,Lung,IV,25-06-2021,Radiation,16-07-2024,01-05-2025,9.69,19,Former,29.7,No,15,No,Manual Labor,High,20-05-2025
+243,42,Female,Prostate,II,28-11-2021,Chemotherapy,23-04-2022,24-02-2024,0.51,6,Never,17.9,No,9,No,Retired,Low,23-10-2024
+244,55,Male,Lung,II,10-07-2022,Surgery,09-01-2024,04-12-2024,2.64,1,Current,28,Yes,72,Yes,Healthcare,High,17-01-2025
+245,28,Female,Skin,I,24-01-2018,Surgery,18-03-2025,21-04-2025,9.85,16,Former,34.8,Yes,82,No,Office Worker,Low,15-05-2025
+246,55,Male,Skin,II,27-06-2016,Chemotherapy,17-05-2021,01-10-2021,3.27,12,Former,23.1,Yes,33,No,Healthcare,Medium,26-03-2022
+247,58,Male,Lung,II,07-11-2018,Chemotherapy,28-12-2023,17-09-2024,0.88,18,Former,25,Yes,86,No,Manual Labor,Medium,10-01-2025
+248,37,Male,Leukemia,IV,19-02-2020,Immunotherapy,09-03-2020,25-05-2021,3.79,7,Current,19.2,No,114,Yes,Retired,Low,04-05-2023
+249,19,Female,Leukemia,III,28-10-2019,Radiation,12-07-2023,20-09-2023,5.58,8,Current,22.6,Yes,103,Yes,Retired,Medium,28-06-2024
+250,83,Male,Breast,IV,20-06-2021,Radiation,11-10-2021,01-02-2022,9.79,13,Never,30.4,Yes,114,Yes,Manual Labor,Medium,29-04-2025
+251,32,Male,Lung,II,04-03-2017,Chemotherapy,29-12-2017,26-03-2020,2.4,11,Never,26.1,Yes,73,No,Unemployed,High,04-05-2020
+252,49,Female,Colon,IV,09-08-2022,Immunotherapy,18-05-2023,05-09-2024,3.34,11,Never,29.4,Yes,72,Yes,Unemployed,Low,04-02-2025
+253,67,Male,Breast,III,14-07-2018,Surgery,20-07-2022,23-02-2023,6.44,19,Former,25.6,Yes,58,Yes,Retired,Low,22-04-2023
+254,39,Female,Skin,IV,20-12-2015,Chemotherapy,23-11-2016,12-09-2018,4.8,2,Current,29.8,Yes,41,Yes,Manual Labor,Low,16-03-2022
+255,77,Male,Leukemia,III,04-08-2018,Surgery,05-04-2024,27-12-2024,7.45,10,Never,19.8,No,119,Yes,Office Worker,Medium,26-03-2025
+256,70,Male,Breast,III,10-05-2020,Hormone Therapy,01-09-2024,18-02-2025,6.76,18,Never,22.4,Yes,82,No,Office Worker,Medium,19-04-2025
+257,87,Male,Colon,IV,21-02-2016,Immunotherapy,15-09-2020,01-03-2022,7.33,4,Current,20.8,Yes,115,No,Unemployed,Medium,21-11-2024
+258,52,Male,Breast,III,27-10-2017,Immunotherapy,21-11-2017,14-02-2020,2.6,14,Never,24.9,Yes,7,Yes,Office Worker,Low,14-07-2023
+259,66,Female,Colon,II,17-07-2019,Hormone Therapy,23-07-2023,21-12-2024,8.75,19,Current,18.9,No,20,Yes,Unemployed,Medium,04-04-2025
+260,77,Male,Leukemia,I,09-06-2016,Hormone Therapy,04-06-2017,21-11-2017,0.88,16,Former,17.7,Yes,36,Yes,Healthcare,Low,26-10-2022
+261,83,Female,Leukemia,IV,18-06-2023,Radiation,27-07-2023,22-03-2025,6.18,3,Former,20.6,Yes,3,No,Retired,Medium,19-05-2025
+262,35,Female,Skin,IV,03-10-2017,Chemotherapy,18-06-2021,19-07-2024,6.5,14,Former,18.2,Yes,99,Yes,Retired,Low,30-08-2024
+263,43,Female,Prostate,IV,08-01-2021,Surgery,04-02-2021,30-07-2022,7.3,15,Current,22.2,Yes,78,Yes,Manual Labor,Medium,05-05-2025
+264,19,Male,Skin,IV,08-07-2016,Chemotherapy,25-10-2017,05-08-2022,2.22,4,Current,21.6,No,41,No,Manual Labor,Low,24-11-2023
+265,79,Female,Prostate,III,24-11-2023,Immunotherapy,06-12-2024,21-02-2025,1.43,14,Never,13.8,No,2,No,Unemployed,High,30-03-2025
+266,87,Male,Colon,II,28-11-2023,Immunotherapy,14-07-2024,29-08-2024,6.7,1,Never,26.2,Yes,101,No,Retired,Medium,18-01-2025
+267,22,Male,Skin,I,15-05-2022,Radiation,25-05-2023,20-10-2023,3.59,7,Never,17.2,No,67,Yes,Manual Labor,High,06-05-2025
+268,31,Male,Prostate,IV,10-11-2023,Hormone Therapy,21-11-2024,15-04-2025,3.64,9,Current,23.6,No,1,No,Retired,Medium,25-04-2025
+269,22,Male,Skin,III,16-05-2018,Surgery,01-09-2022,30-07-2024,2.86,10,Current,21.3,No,28,Yes,Unemployed,Low,30-08-2024
+270,54,Male,Lung,II,11-08-2021,Radiation,17-10-2024,28-02-2025,3.89,11,Current,18.5,Yes,49,Yes,Unemployed,Low,17-03-2025
+271,61,Male,Breast,II,12-03-2021,Surgery,17-06-2021,22-09-2021,4.74,14,Former,32.9,No,20,No,Healthcare,Medium,14-05-2023
+272,19,Female,Skin,IV,25-03-2025,Hormone Therapy,04-04-2025,15-05-2025,1.67,4,Current,36.5,No,26,No,Office Worker,Medium,16-05-2025
+273,46,Male,Prostate,III,01-09-2020,Surgery,05-07-2021,02-04-2024,6.58,2,Never,26,Yes,12,Yes,Retired,Medium,04-11-2024
+274,37,Female,Leukemia,I,13-06-2021,Immunotherapy,10-07-2024,12-01-2025,9.87,10,Former,20.5,Yes,89,Yes,Manual Labor,High,03-05-2025
+275,67,Male,Leukemia,IV,02-01-2016,Surgery,03-12-2016,17-04-2021,9.74,6,Current,25.7,No,23,Yes,Unemployed,Low,08-01-2025
+276,61,Female,Lung,III,23-09-2024,Chemotherapy,30-04-2025,06-05-2025,5.56,12,Never,16.6,No,80,No,Manual Labor,Medium,09-05-2025
+277,67,Female,Breast,IV,27-04-2018,Chemotherapy,09-03-2023,22-03-2025,2.42,7,Never,28,No,29,No,Unemployed,Low,04-04-2025
+278,22,Male,Lung,III,15-02-2022,Immunotherapy,21-03-2024,30-03-2024,9.65,14,Former,20.9,Yes,65,No,Manual Labor,High,06-06-2024
+279,72,Male,Leukemia,I,09-09-2022,Chemotherapy,29-11-2023,05-01-2025,9.8,10,Never,25.9,Yes,113,No,Office Worker,Low,17-02-2025
+280,89,Female,Colon,IV,08-07-2019,Immunotherapy,22-04-2023,24-02-2024,8.06,3,Never,25.8,No,1,Yes,Manual Labor,High,19-07-2024
+281,36,Male,Leukemia,I,01-04-2018,Radiation,30-04-2020,07-06-2022,9.44,13,Former,29.2,No,62,No,Healthcare,Low,31-07-2022
+282,83,Male,Prostate,IV,13-04-2020,Hormone Therapy,17-04-2024,19-04-2024,9.99,5,Current,34.1,No,33,No,Healthcare,Low,26-01-2025
+283,58,Female,Lung,II,17-04-2023,Radiation,11-10-2023,28-02-2025,9.94,12,Current,23.7,Yes,75,No,Office Worker,Medium,29-04-2025
+284,85,Female,Skin,I,04-02-2020,Hormone Therapy,03-05-2022,09-03-2024,6.68,5,Current,22.5,Yes,4,No,Unemployed,Medium,08-04-2025
+285,36,Male,Prostate,IV,20-11-2015,Radiation,15-10-2016,29-04-2019,8.17,17,Former,23.5,No,75,Yes,Unemployed,Low,28-01-2020
+286,18,Male,Breast,I,30-08-2020,Immunotherapy,02-02-2024,17-03-2024,1.64,6,Former,31.9,No,85,No,Manual Labor,Low,25-05-2024
+287,32,Male,Colon,II,03-10-2019,Immunotherapy,02-11-2020,20-09-2023,6.49,6,Never,20.6,Yes,89,No,Healthcare,Low,14-09-2024
+288,50,Male,Prostate,II,12-01-2023,Immunotherapy,03-08-2024,29-08-2024,2.76,16,Former,32.8,Yes,44,Yes,Manual Labor,Medium,25-01-2025
+289,28,Female,Leukemia,I,10-12-2021,Chemotherapy,13-10-2023,28-12-2024,6.23,13,Never,21.6,No,3,No,Unemployed,High,17-03-2025
+290,43,Female,Prostate,III,13-06-2015,Radiation,25-03-2025,26-03-2025,9.54,1,Former,36.3,No,28,No,Unemployed,High,10-04-2025
+291,43,Male,Lung,I,12-03-2021,Radiation,16-02-2022,21-07-2023,1.53,4,Current,16.8,No,100,Yes,Retired,Medium,28-11-2024
+292,32,Female,Breast,II,11-08-2023,Immunotherapy,24-03-2024,29-09-2024,4.25,5,Former,25.9,Yes,114,No,Manual Labor,Low,09-01-2025
+293,60,Male,Skin,I,15-01-2017,Immunotherapy,12-12-2023,01-01-2025,0.67,10,Former,25.6,Yes,51,Yes,Office Worker,High,20-01-2025
+294,32,Male,Colon,IV,04-11-2018,Radiation,31-08-2024,07-01-2025,2.37,12,Former,26.9,No,19,Yes,Retired,Low,19-04-2025
+295,51,Female,Lung,I,01-01-2016,Immunotherapy,26-05-2020,12-11-2022,2.08,3,Never,35.2,No,29,Yes,Unemployed,High,08-07-2024
+296,45,Male,Colon,IV,26-10-2022,Chemotherapy,03-05-2023,13-05-2024,5.62,15,Current,26.4,Yes,36,No,Manual Labor,Medium,15-07-2024
+297,47,Male,Colon,III,05-12-2021,Hormone Therapy,26-08-2022,31-08-2022,7.3,16,Current,20.1,Yes,75,Yes,Office Worker,Medium,26-12-2024
+298,24,Female,Skin,III,14-11-2021,Chemotherapy,21-11-2024,26-02-2025,6.97,9,Former,23.9,Yes,13,No,Retired,Low,08-05-2025
+299,48,Male,Colon,II,26-05-2019,Immunotherapy,19-01-2025,22-01-2025,7.24,16,Never,20.9,Yes,54,No,Unemployed,High,26-03-2025
+300,18,Male,Breast,I,09-07-2021,Hormone Therapy,22-05-2025,22-05-2025,4.05,12,Current,24.2,Yes,47,Yes,Office Worker,Medium,22-05-2025
+301,30,Female,Colon,IV,25-09-2024,Hormone Therapy,10-04-2025,06-05-2025,6.22,8,Former,19.7,No,42,Yes,Healthcare,Medium,22-05-2025
+302,89,Female,Prostate,II,29-07-2015,Radiation,20-08-2016,19-10-2020,7.81,16,Current,27.4,Yes,68,No,Office Worker,Medium,12-05-2022
+303,67,Female,Skin,IV,03-11-2021,Hormone Therapy,13-05-2025,18-05-2025,7.45,3,Never,30.1,Yes,19,No,Healthcare,Low,18-05-2025
+304,53,Male,Prostate,II,10-03-2023,Surgery,05-11-2024,25-12-2024,1.92,17,Never,27.8,Yes,47,Yes,Manual Labor,Medium,13-05-2025
+305,66,Male,Leukemia,II,24-04-2020,Hormone Therapy,02-09-2022,16-12-2022,7.5,1,Current,24.1,Yes,48,No,Unemployed,Medium,11-03-2023
+306,54,Female,Breast,I,09-01-2018,Surgery,14-02-2022,08-03-2023,6.6,6,Never,24.4,Yes,10,Yes,Manual Labor,Medium,11-04-2025
+307,74,Male,Lung,II,22-09-2022,Hormone Therapy,16-12-2023,04-09-2024,5.22,1,Never,27.1,No,67,Yes,Healthcare,High,01-04-2025
+308,59,Female,Prostate,IV,15-11-2021,Radiation,10-06-2023,25-06-2023,4.57,6,Former,21.1,No,113,No,Retired,High,28-11-2024
+309,41,Female,Leukemia,III,09-11-2018,Hormone Therapy,31-12-2019,21-03-2023,1.72,18,Current,27.8,Yes,39,No,Retired,High,29-03-2025
+310,53,Female,Prostate,II,05-04-2025,Radiation,24-04-2025,11-05-2025,1.31,0,Former,33.1,No,36,Yes,Office Worker,High,12-05-2025
+311,20,Female,Lung,II,17-08-2023,Chemotherapy,17-10-2024,31-10-2024,4.31,0,Never,21.8,No,68,Yes,Retired,Medium,27-12-2024
+312,30,Female,Breast,III,04-08-2020,Radiation,05-05-2025,15-05-2025,5.43,1,Never,18.9,Yes,5,Yes,Healthcare,High,16-05-2025
+313,61,Male,Breast,II,22-08-2015,Hormone Therapy,26-11-2023,26-11-2024,2.72,7,Current,33.4,Yes,44,No,Manual Labor,Low,04-01-2025
+314,75,Male,Breast,II,22-02-2021,Surgery,12-01-2023,03-11-2023,3.66,5,Former,29.4,No,87,No,Unemployed,Medium,09-02-2024
+315,61,Male,Leukemia,I,11-11-2022,Hormone Therapy,10-07-2024,08-03-2025,6.79,16,Current,23.7,Yes,8,No,Retired,Low,01-04-2025
+316,39,Female,Skin,I,01-01-2024,Surgery,12-01-2025,12-04-2025,5.84,3,Former,33.6,No,77,Yes,Retired,Low,06-05-2025
+317,48,Male,Skin,III,10-06-2015,Radiation,03-03-2017,15-05-2024,7.67,15,Never,24.4,Yes,16,Yes,Office Worker,Low,09-10-2024
+318,29,Female,Skin,I,12-05-2024,Surgery,06-12-2024,22-01-2025,3.8,11,Never,20.5,Yes,84,Yes,Healthcare,Low,29-03-2025
+319,20,Female,Breast,II,30-07-2015,Hormone Therapy,18-11-2024,08-04-2025,9.31,12,Current,19.5,No,5,Yes,Manual Labor,Low,21-04-2025
+320,82,Male,Colon,III,05-01-2025,Surgery,23-01-2025,29-03-2025,8.5,19,Never,23.4,Yes,22,Yes,Manual Labor,Medium,19-05-2025
+321,89,Female,Skin,III,26-05-2024,Hormone Therapy,08-04-2025,23-04-2025,7.68,0,Former,25.8,Yes,116,No,Healthcare,Low,17-05-2025
+322,31,Female,Prostate,II,02-12-2015,Surgery,16-12-2023,24-06-2024,1.62,17,Former,37.3,No,66,Yes,Healthcare,High,03-02-2025
+323,19,Male,Lung,II,19-01-2024,Surgery,18-09-2024,18-09-2024,9.4,8,Never,20.8,No,23,Yes,Office Worker,High,13-11-2024
+324,43,Female,Skin,IV,14-03-2024,Radiation,30-03-2025,16-05-2025,6.21,5,Never,17,Yes,22,No,Retired,High,19-05-2025
+325,60,Male,Prostate,I,06-07-2021,Radiation,10-01-2022,13-04-2024,5.96,4,Former,25.4,Yes,35,No,Manual Labor,Low,09-04-2025
+326,47,Male,Lung,I,01-07-2022,Surgery,18-04-2023,20-01-2024,8.84,13,Never,24.5,No,67,No,Unemployed,Medium,05-08-2024
+327,24,Male,Leukemia,III,27-05-2022,Chemotherapy,23-08-2023,10-12-2023,3.39,8,Current,28.6,Yes,66,No,Unemployed,Medium,20-09-2024
+328,42,Male,Prostate,IV,02-07-2016,Radiation,03-07-2018,,5.05,0,Former,25.6,Yes,36,Yes,Unemployed,Low,08-04-2024
+329,31,Male,Skin,III,24-05-2017,Radiation,06-03-2025,05-04-2025,1.82,15,Never,22.4,Yes,99,Yes,Unemployed,Medium,01-05-2025
+330,58,Male,Leukemia,IV,21-11-2021,Immunotherapy,27-08-2023,11-01-2025,8.34,12,Current,29.7,Yes,98,Yes,Healthcare,High,01-03-2025
+331,25,Male,Leukemia,I,03-08-2015,Hormone Therapy,06-02-2023,29-02-2024,5.04,3,Never,24.5,No,12,Yes,Manual Labor,Low,23-02-2025
+332,49,Male,Skin,IV,19-03-2025,Immunotherapy,07-05-2025,09-05-2025,1.66,12,Former,24.7,Yes,18,No,Healthcare,High,10-05-2025
+333,77,Female,Skin,I,27-02-2025,Radiation,02-04-2025,07-05-2025,8.59,10,Never,20.2,Yes,115,No,Healthcare,High,17-05-2025
+334,22,Male,Colon,I,01-01-2024,Hormone Therapy,27-04-2024,02-09-2024,7.92,9,Former,27.1,Yes,2,No,Retired,Medium,18-01-2025
+335,28,Female,Leukemia,IV,25-11-2019,Radiation,25-10-2020,23-11-2020,7.67,14,Former,18.8,Yes,21,No,Healthcare,Medium,21-06-2024
+336,45,Female,Breast,III,20-07-2024,Hormone Therapy,28-11-2024,01-01-2025,3.38,18,Never,23.7,Yes,80,Yes,Unemployed,High,22-02-2025
+337,33,Male,Colon,III,10-11-2024,Chemotherapy,09-12-2024,12-05-2025,1.09,3,Current,17.3,No,52,No,Retired,Medium,18-05-2025
+338,53,Female,Lung,IV,17-05-2017,Hormone Therapy,18-07-2020,29-06-2021,5.51,6,Former,29.6,No,63,No,Manual Labor,High,01-09-2021
+339,80,Female,Leukemia,II,10-06-2017,Chemotherapy,04-07-2024,18-10-2024,4.77,2,Current,15.3,Yes,71,No,Manual Labor,High,11-05-2025
+340,22,Male,Colon,I,12-06-2020,Chemotherapy,11-05-2024,21-03-2025,0.6,1,Current,38.5,Yes,91,No,Healthcare,Medium,08-05-2025
+341,38,Male,Breast,IV,05-04-2016,Immunotherapy,08-02-2017,02-06-2021,0.68,14,Never,22.3,No,39,Yes,Healthcare,High,06-02-2024
+342,22,Female,Breast,II,11-01-2022,Hormone Therapy,16-10-2022,18-12-2024,2.54,17,Former,27,Yes,85,Yes,Manual Labor,Medium,10-05-2025
+343,70,Female,Colon,II,03-05-2023,Hormone Therapy,03-08-2024,23-02-2025,8.11,12,Never,18.1,No,11,No,Manual Labor,Low,29-03-2025
+344,80,Male,Colon,I,21-05-2019,Surgery,26-09-2019,15-12-2020,5.24,3,Current,21.2,Yes,52,No,Manual Labor,Low,09-06-2021
+345,69,Female,Skin,III,08-05-2016,Immunotherapy,15-11-2021,25-01-2022,8.67,9,Never,26.5,No,41,Yes,Unemployed,Low,22-07-2024
+346,18,Female,Colon,II,11-07-2019,Radiation,19-02-2021,27-04-2025,8.18,15,Former,21.3,Yes,97,No,Healthcare,Medium,10-05-2025
+347,27,Male,Leukemia,III,10-11-2022,Chemotherapy,15-01-2023,04-06-2024,9.34,7,Former,24.9,No,8,Yes,Healthcare,Medium,16-07-2024
+348,76,Male,Leukemia,II,05-11-2017,Surgery,14-10-2020,15-01-2021,4.78,16,Never,31.6,No,17,Yes,Office Worker,Low,20-09-2024
+349,77,Male,Skin,I,21-05-2025,Hormone Therapy,22-05-2025,22-05-2025,4.78,12,Former,22,No,72,No,Unemployed,Low,22-05-2025
+350,60,Female,Lung,II,17-12-2018,Chemotherapy,18-05-2022,18-07-2024,6.76,18,Current,24.6,No,24,No,Healthcare,Medium,11-08-2024
+351,34,Male,Colon,III,11-08-2022,Chemotherapy,25-11-2024,23-01-2025,9.59,7,Former,26.2,No,52,No,Retired,Medium,22-02-2025
+352,32,Male,Prostate,II,22-07-2017,Surgery,07-08-2017,05-10-2021,9.45,18,Former,24.9,No,107,Yes,Unemployed,High,25-05-2022
+353,75,Female,Colon,III,17-05-2016,Immunotherapy,05-11-2020,21-06-2022,1.43,7,Current,21,Yes,112,No,Healthcare,High,01-11-2024
+354,25,Female,Lung,II,27-06-2016,Radiation,07-02-2020,24-10-2021,7.81,8,Never,24.3,Yes,79,No,Unemployed,Medium,24-03-2022
+355,67,Female,Skin,I,29-09-2020,Immunotherapy,29-09-2024,16-04-2025,0.6,3,Never,23.9,No,89,Yes,Unemployed,High,19-05-2025
+356,79,Female,Prostate,III,13-09-2015,Hormone Therapy,25-05-2018,02-01-2019,9.01,9,Never,24.4,No,36,Yes,Retired,High,21-08-2019
+357,29,Male,Prostate,III,26-01-2022,Hormone Therapy,18-02-2022,06-03-2025,5.01,1,Never,29.2,No,16,No,Healthcare,Low,13-03-2025
+358,49,Female,Leukemia,IV,14-04-2017,Chemotherapy,08-04-2019,20-07-2021,6.36,1,Former,24.9,No,10,No,Manual Labor,High,01-12-2021
+359,32,Female,Colon,III,29-01-2023,Hormone Therapy,15-04-2023,31-10-2024,1.55,17,Never,19.8,Yes,89,Yes,Manual Labor,High,07-03-2025
+360,39,Male,Lung,IV,25-09-2017,Chemotherapy,01-02-2023,12-04-2024,3.1,19,Former,15.2,Yes,32,No,Retired,Low,20-12-2024
+361,68,Male,Skin,II,31-01-2020,Chemotherapy,27-11-2020,04-12-2024,8.93,2,Never,26.5,No,113,Yes,Healthcare,High,12-01-2025
+362,29,Male,Breast,III,10-09-2022,Surgery,13-02-2024,19-02-2025,9.23,17,Current,26.3,No,21,Yes,Retired,Low,25-04-2025
+363,25,Female,Colon,III,31-10-2023,Surgery,20-05-2024,08-03-2025,7.61,13,Never,30.6,No,89,No,Manual Labor,Low,14-05-2025
+364,39,Female,Breast,II,03-04-2019,Surgery,25-01-2024,22-02-2025,5.63,12,Current,21,No,2,No,Office Worker,Medium,15-05-2025
+365,46,Female,Lung,I,13-01-2019,Hormone Therapy,30-10-2024,25-12-2024,7.01,19,Former,25.2,No,88,Yes,Healthcare,High,12-04-2025
+366,61,Female,Lung,III,25-11-2021,Chemotherapy,15-09-2022,10-11-2022,7.46,10,Current,17.5,No,61,No,Unemployed,Low,24-07-2024
+367,73,Male,Lung,III,13-01-2022,Chemotherapy,21-05-2025,21-05-2025,6.31,18,Former,30,No,101,Yes,Manual Labor,Low,21-05-2025
+368,25,Male,Skin,I,16-09-2024,Radiation,28-09-2024,19-03-2025,4.88,15,Former,26,Yes,1,Yes,Office Worker,Low,07-05-2025
+369,22,Male,Lung,III,24-07-2024,Immunotherapy,18-05-2025,19-05-2025,8.87,3,Former,26.2,No,98,Yes,Healthcare,Low,19-05-2025
+370,27,Female,Breast,IV,08-04-2021,Radiation,01-03-2023,24-03-2025,7.55,13,Former,24,Yes,91,No,Unemployed,Low,30-03-2025
+371,44,Male,Colon,I,14-10-2017,Hormone Therapy,10-10-2020,03-11-2024,7.03,15,Former,33.2,No,106,Yes,Office Worker,High,24-02-2025
+372,75,Male,Colon,III,27-10-2022,Radiation,23-01-2023,18-07-2023,0.84,16,Current,38.1,Yes,14,No,Manual Labor,Low,10-04-2024
+373,51,Male,Skin,I,31-10-2024,Immunotherapy,09-12-2024,30-01-2025,7.71,19,Never,28.2,Yes,70,No,Office Worker,Low,09-04-2025
+374,73,Male,Breast,III,24-01-2025,Chemotherapy,27-03-2025,23-04-2025,5.27,3,Current,27.4,Yes,4,Yes,Unemployed,Low,04-05-2025
+375,37,Female,Leukemia,III,22-04-2019,Immunotherapy,28-04-2022,29-06-2023,7.91,2,Current,17.9,Yes,104,No,Office Worker,Medium,26-10-2023
+376,38,Female,Prostate,IV,20-08-2020,Radiation,03-12-2020,19-11-2021,0.78,13,Former,16.2,No,60,Yes,Office Worker,High,01-04-2023
+377,74,Male,Prostate,III,14-01-2021,Hormone Therapy,30-07-2024,04-01-2025,4.18,16,Never,36.1,No,88,Yes,Office Worker,High,11-02-2025
+378,75,Female,Lung,III,10-07-2018,Chemotherapy,03-08-2021,02-05-2025,5.83,3,Current,23.5,Yes,24,No,Manual Labor,Medium,20-05-2025
+379,51,Female,Breast,I,20-03-2018,Chemotherapy,25-06-2018,21-08-2023,6.19,18,Never,20.9,No,22,Yes,Office Worker,Low,06-12-2023
+380,41,Female,Skin,III,28-03-2017,Chemotherapy,31-10-2022,18-09-2023,3.68,5,Current,25,Yes,31,Yes,Unemployed,Low,29-09-2024
+381,81,Female,Prostate,IV,04-07-2022,Surgery,11-09-2024,07-11-2024,5.44,12,Current,26.8,No,97,Yes,Healthcare,High,07-02-2025
+382,35,Male,Leukemia,II,18-11-2024,Hormone Therapy,21-02-2025,26-03-2025,4.03,16,Never,22.1,Yes,75,No,Office Worker,High,05-04-2025
+383,74,Female,Leukemia,IV,16-10-2023,Chemotherapy,23-04-2024,30-09-2024,9.36,12,Current,34.3,No,112,Yes,Retired,High,23-12-2024
+384,64,Female,Prostate,III,18-09-2017,Surgery,18-02-2024,27-08-2024,1.62,5,Current,19.6,Yes,75,Yes,Unemployed,High,25-12-2024
+385,26,Female,Colon,IV,20-08-2015,Immunotherapy,05-03-2016,05-05-2025,9.53,4,Former,26.8,Yes,3,No,Office Worker,Medium,05-05-2025
+386,87,Male,Prostate,I,10-06-2016,Surgery,15-05-2021,01-09-2022,5.42,12,Never,25.2,Yes,117,Yes,Manual Labor,Medium,24-12-2024
+387,36,Male,Prostate,III,10-12-2019,Chemotherapy,17-08-2021,16-09-2022,2.96,13,Current,27.6,No,74,Yes,Unemployed,High,25-01-2023
+388,81,Male,Leukemia,III,16-03-2024,Chemotherapy,27-11-2024,20-12-2024,5.09,5,Never,22.3,No,4,No,Office Worker,Low,02-04-2025
+389,56,Male,Breast,III,24-10-2019,Hormone Therapy,04-10-2021,04-01-2023,5.22,0,Current,23.6,No,84,Yes,Healthcare,Low,09-03-2024
+390,41,Female,Skin,I,18-02-2024,Radiation,11-05-2024,04-04-2025,4.98,11,Former,20,No,30,Yes,Unemployed,High,07-04-2025
+391,24,Male,Colon,III,09-06-2018,Chemotherapy,18-06-2022,26-11-2022,2.85,13,Current,24.7,No,95,Yes,Unemployed,Medium,09-11-2023
+392,87,Male,Skin,II,03-11-2020,Radiation,26-02-2023,20-02-2025,1.12,12,Former,26.2,Yes,56,Yes,Unemployed,Medium,03-04-2025
+393,74,Female,Lung,III,01-05-2016,Surgery,29-07-2017,06-08-2020,3.79,17,Never,24.2,No,15,Yes,Unemployed,Low,03-06-2024
+394,49,Male,Leukemia,III,02-08-2023,Radiation,14-09-2024,11-02-2025,6.81,19,Current,25.6,Yes,48,No,Office Worker,Medium,30-04-2025
+395,88,Male,Colon,IV,27-06-2018,Chemotherapy,22-02-2025,01-04-2025,4.24,11,Current,29.4,Yes,58,No,Retired,Medium,22-04-2025
+396,38,Male,Colon,I,17-02-2018,Surgery,29-07-2018,03-03-2020,2.94,2,Former,20.4,No,90,Yes,Unemployed,High,03-06-2022
+397,54,Male,Colon,III,27-06-2022,Surgery,16-03-2023,25-04-2023,5.87,18,Former,25.4,Yes,61,No,Retired,High,17-05-2025
+398,58,Male,Colon,I,14-03-2017,Radiation,20-03-2017,09-04-2024,0.71,3,Current,26.7,Yes,106,Yes,Retired,Medium,19-01-2025
+399,88,Female,Colon,II,15-12-2018,Chemotherapy,16-03-2024,21-11-2024,7,0,Former,19.9,Yes,98,No,Office Worker,High,10-05-2025
+400,45,Female,Breast,III,22-05-2018,Radiation,16-09-2019,14-03-2025,7.37,8,Former,25.3,Yes,86,No,Retired,High,16-04-2025
+401,66,Male,Lung,II,15-09-2015,Immunotherapy,10-10-2021,05-07-2022,5.66,5,Former,19.6,Yes,85,Yes,Retired,High,05-11-2022
+402,22,Male,Prostate,II,21-09-2015,Immunotherapy,12-12-2022,19-03-2023,9.48,15,Former,10.4,Yes,66,Yes,Manual Labor,Low,29-06-2023
+403,33,Male,Colon,IV,01-06-2021,Surgery,13-10-2023,18-05-2025,4.41,6,Never,29.7,Yes,38,Yes,Office Worker,High,20-05-2025
+404,77,Female,Skin,II,17-09-2016,Hormone Therapy,23-08-2023,12-09-2023,3.88,2,Current,21.6,Yes,63,No,Healthcare,High,15-02-2024
+405,66,Female,Lung,IV,23-11-2022,Immunotherapy,15-12-2023,18-12-2024,2.41,6,Never,22.6,Yes,110,No,Office Worker,Medium,25-12-2024
+406,32,Female,Leukemia,II,15-06-2023,Radiation,17-07-2024,22-02-2025,2.45,14,Former,20.2,No,116,No,Healthcare,Medium,12-04-2025
+407,31,Female,Skin,IV,06-11-2024,Surgery,04-12-2024,01-03-2025,2.77,8,Current,29.4,No,97,Yes,Healthcare,High,20-03-2025
+408,59,Female,Skin,IV,22-08-2021,Hormone Therapy,12-06-2022,16-01-2023,5.23,5,Former,24.6,No,23,No,Unemployed,Low,07-12-2023
+409,67,Female,Skin,I,13-05-2020,Hormone Therapy,28-06-2023,01-06-2024,1.39,4,Current,22.4,Yes,8,Yes,Retired,High,29-10-2024
+410,41,Male,Colon,III,14-07-2017,Immunotherapy,15-01-2020,27-06-2024,3.89,8,Former,22.4,No,101,Yes,Manual Labor,Medium,23-01-2025
+411,89,Male,Breast,I,01-03-2021,Immunotherapy,15-12-2022,21-03-2025,8.08,14,Current,25.3,Yes,42,No,Retired,Medium,12-04-2025
+412,77,Male,Prostate,II,27-11-2021,Radiation,28-02-2022,04-04-2022,7.11,11,Current,29.3,No,7,No,Unemployed,Medium,26-11-2023
+413,20,Male,Lung,II,19-04-2017,Chemotherapy,11-08-2020,24-03-2024,3.95,17,Former,22.3,Yes,101,No,Healthcare,Low,12-06-2024
+414,49,Female,Colon,IV,22-03-2020,Chemotherapy,16-03-2023,13-09-2024,6.72,10,Current,22.4,Yes,4,Yes,Healthcare,Low,15-10-2024
+415,87,Male,Breast,II,04-01-2024,Chemotherapy,19-04-2025,30-04-2025,9.69,18,Never,25.1,No,16,Yes,Healthcare,High,07-05-2025
+416,18,Female,Leukemia,II,01-05-2025,Immunotherapy,14-05-2025,14-05-2025,4.47,12,Never,32.1,No,4,No,Office Worker,Medium,18-05-2025
+417,45,Male,Colon,II,14-07-2019,Chemotherapy,04-09-2020,24-03-2022,8.88,4,Current,22.5,Yes,5,Yes,Retired,Low,18-03-2025
+418,78,Male,Leukemia,I,04-07-2021,Immunotherapy,06-09-2022,23-12-2022,3.7,8,Current,27.8,No,102,Yes,Retired,High,28-04-2024
+419,67,Female,Leukemia,IV,06-05-2024,Immunotherapy,30-10-2024,15-11-2024,1.55,11,Current,31.6,Yes,108,Yes,Office Worker,Medium,11-02-2025
+420,20,Male,Skin,IV,31-07-2017,Immunotherapy,03-10-2020,26-04-2023,8.86,15,Former,24.4,Yes,28,Yes,Manual Labor,Medium,18-11-2023
+421,79,Male,Prostate,III,07-07-2020,Chemotherapy,24-07-2020,04-07-2021,7.33,2,Former,21.7,Yes,58,Yes,Healthcare,Medium,15-08-2022
+422,74,Female,Colon,I,26-12-2016,Radiation,31-03-2017,08-03-2018,4.64,16,Current,14.9,No,108,No,Unemployed,High,03-02-2021
+423,28,Male,Prostate,III,04-01-2017,Hormone Therapy,27-11-2021,06-12-2021,8.52,2,Current,26.9,No,66,Yes,Healthcare,Medium,08-06-2023
+424,57,Male,Colon,II,19-06-2023,Hormone Therapy,19-06-2023,19-06-2023,0.54,14,Current,21,No,70,Yes,Manual Labor,Medium,17-09-2024
+425,37,Male,Lung,III,10-04-2025,Immunotherapy,18-05-2025,22-05-2025,2.66,7,Current,29.4,Yes,4,No,Office Worker,Low,22-05-2025
+426,75,Male,Skin,I,10-04-2016,Immunotherapy,24-04-2025,22-05-2025,5.37,5,Former,18.3,No,99,No,Healthcare,Low,22-05-2025
+427,74,Male,Leukemia,I,21-12-2015,Immunotherapy,24-10-2021,04-04-2023,3.39,13,Never,28.6,Yes,77,No,Unemployed,Low,16-09-2023
+428,23,Male,Leukemia,III,04-10-2016,Chemotherapy,24-04-2021,29-09-2022,6.87,1,Former,28.3,No,46,No,Retired,Medium,08-06-2024
+429,55,Female,Prostate,II,15-09-2016,Radiation,08-07-2024,12-05-2025,2.65,7,Never,26.3,Yes,78,Yes,Retired,Medium,15-05-2025
+430,42,Female,Lung,III,07-02-2018,Hormone Therapy,18-07-2024,27-11-2024,4.5,13,Never,24.7,No,102,No,Office Worker,Low,27-02-2025
+431,39,Male,Leukemia,I,06-03-2019,Chemotherapy,12-12-2020,28-03-2025,8.65,18,Never,26,Yes,73,No,Retired,Medium,07-05-2025
+432,45,Female,Lung,I,04-05-2023,Immunotherapy,12-10-2024,19-03-2025,0.67,6,Current,26.6,No,63,No,Unemployed,Medium,06-04-2025
+433,36,Male,Lung,III,11-06-2021,Surgery,13-01-2025,01-04-2025,8.79,13,Current,26.8,No,40,No,Unemployed,Low,19-05-2025
+434,47,Male,Breast,III,15-02-2022,Immunotherapy,04-10-2022,16-07-2023,0.94,0,,34.2,Yes,52,Yes,Unemployed,High,03-01-2025
+435,31,Male,Skin,I,04-01-2020,Surgery,10-01-2023,14-12-2024,6.18,2,Current,30.3,Yes,68,Yes,Unemployed,Medium,19-04-2025
+436,85,Male,Lung,IV,30-09-2015,Immunotherapy,05-11-2021,13-03-2022,8.83,1,Never,20.7,No,110,Yes,Retired,High,12-11-2023
+437,58,Female,Skin,I,08-03-2019,Immunotherapy,30-04-2019,16-04-2024,9.9,15,Former,22.5,Yes,12,No,Manual Labor,Medium,25-09-2024
+438,52,Male,Lung,II,17-07-2020,Hormone Therapy,30-11-2020,27-12-2020,3.04,13,Current,29,No,85,No,Retired,High,01-01-2022
+439,38,Female,Lung,III,22-06-2017,Surgery,10-04-2022,23-11-2022,1.1,19,Current,20.4,Yes,73,No,Healthcare,Medium,19-12-2022
+440,78,Male,Skin,I,28-03-2016,Chemotherapy,14-02-2017,01-05-2025,0.81,,Former,26.2,No,98,No,Manual Labor,High,12-05-2025
+441,82,Female,Colon,IV,11-05-2024,Hormone Therapy,03-11-2024,10-02-2025,0.74,14,Former,21.7,No,47,No,Unemployed,Low,03-05-2025
+442,32,Female,Lung,I,05-02-2024,Chemotherapy,25-01-2025,02-03-2025,6.22,19,Current,15.8,Yes,21,Yes,Healthcare,High,10-03-2025
+443,68,Female,Leukemia,IV,07-09-2023,Hormone Therapy,13-03-2025,10-04-2025,4.73,18,Current,20.9,No,4,No,Manual Labor,Low,13-04-2025
+444,39,Male,Skin,I,25-09-2017,Hormone Therapy,16-06-2021,11-02-2023,7.97,2,Current,26.9,No,108,No,Office Worker,Low,09-03-2023
+445,83,Female,Breast,IV,27-03-2024,Chemotherapy,18-06-2024,24-03-2025,3.08,8,Former,21.9,Yes,86,Yes,Unemployed,High,16-04-2025
+446,42,Male,Skin,III,12-05-2022,Hormone Therapy,17-09-2022,16-11-2022,0.53,11,Current,17.3,No,90,No,Retired,High,22-06-2024
+447,44,Female,Prostate,III,29-07-2024,Surgery,18-04-2025,11-05-2025,1.83,9,Current,17.9,No,99,Yes,Unemployed,High,19-05-2025
+448,57,Male,Breast,III,30-07-2021,Hormone Therapy,09-10-2022,01-05-2025,4.96,15,Former,12,Yes,84,No,Manual Labor,Low,13-05-2025
+449,73,Female,Prostate,I,12-07-2022,Chemotherapy,13-03-2024,22-02-2025,6.11,5,Current,30.4,Yes,49,No,Healthcare,Medium,16-05-2025
+450,81,Male,Breast,III,25-05-2020,Chemotherapy,03-03-2023,19-11-2023,5.37,10,Former,22.1,Yes,105,No,Healthcare,Low,23-07-2024
+451,26,Female,Leukemia,III,08-01-2025,Chemotherapy,27-02-2025,15-04-2025,8.26,16,Former,25.7,No,59,No,Retired,Low,25-04-2025
+452,56,Female,Colon,III,09-12-2017,Radiation,28-08-2019,24-06-2024,5.96,6,Former,31.7,No,64,Yes,Office Worker,High,06-11-2024
+453,28,Female,Skin,III,23-03-2024,Surgery,20-12-2024,04-01-2025,0.93,10,Never,32.4,No,72,No,Healthcare,High,17-03-2025
+454,89,Male,Prostate,II,03-02-2020,Surgery,14-02-2021,10-07-2024,6.87,12,Never,21.5,Yes,61,Yes,Unemployed,Medium,03-08-2024
+455,50,Male,Prostate,II,30-07-2018,Chemotherapy,01-02-2020,28-12-2023,8.33,6,Never,22.6,Yes,109,Yes,Office Worker,High,08-12-2024
+456,64,Male,Leukemia,II,26-02-2023,Chemotherapy,05-04-2023,05-12-2023,1.07,14,Former,25.7,No,82,No,Unemployed,High,13-03-2024
+457,35,Female,Lung,I,02-06-2019,Surgery,18-12-2020,02-09-2021,1.59,0,Former,14.2,No,19,No,Healthcare,Medium,18-03-2023
+458,45,Male,Lung,IV,30-12-2024,Radiation,22-01-2025,05-04-2025,5.72,16,Never,21.4,Yes,76,Yes,Unemployed,High,26-04-2025
+459,32,Female,Breast,I,22-04-2023,Chemotherapy,12-10-2024,12-05-2025,7.62,1,Never,31.7,Yes,51,Yes,Unemployed,Medium,16-05-2025
+460,27,Male,Colon,I,30-01-2016,Hormone Therapy,14-02-2022,26-03-2025,5.27,18,Former,31.6,Yes,39,Yes,Unemployed,High,18-05-2025
+461,45,Female,Skin,III,02-07-2023,Surgery,30-01-2024,31-05-2024,2.13,5,Never,26,No,3,No,Office Worker,Medium,26-02-2025
+462,33,Female,Lung,I,18-08-2021,Immunotherapy,24-03-2025,13-04-2025,9.92,1,Current,33.4,No,41,No,Office Worker,High,01-05-2025
+463,29,Female,Lung,I,29-09-2023,Radiation,29-10-2023,21-06-2024,3.3,0,Former,24.1,No,101,No,Retired,Medium,08-08-2024
+464,79,Male,Prostate,I,03-02-2017,Surgery,18-12-2022,07-02-2025,5.81,5,Never,21.2,No,21,Yes,Retired,Low,03-05-2025
+465,71,Male,Leukemia,II,09-11-2023,Immunotherapy,01-02-2024,06-11-2024,8.59,3,Current,25.4,Yes,102,Yes,Healthcare,High,15-12-2024
+466,47,Male,Breast,IV,16-06-2016,Hormone Therapy,12-03-2023,15-06-2024,4.74,1,Never,21,Yes,67,Yes,Healthcare,Medium,18-11-2024
+467,84,Female,Prostate,I,14-04-2017,Hormone Therapy,27-07-2023,21-02-2025,8.65,14,Never,15.9,Yes,48,No,Office Worker,Low,15-03-2025
+468,49,Female,Colon,II,31-03-2016,Surgery,10-09-2017,18-06-2023,4.03,3,Never,21.5,Yes,33,Yes,Retired,Medium,15-01-2025
+469,41,Male,Colon,I,24-08-2021,Chemotherapy,22-01-2023,23-10-2024,4.06,4,Never,24.2,No,74,No,Unemployed,High,26-03-2025
+470,77,Male,Lung,III,24-11-2019,Hormone Therapy,06-02-2020,26-09-2022,4.1,2,Never,27.2,Yes,111,Yes,Unemployed,High,31-08-2023
+471,28,Male,Prostate,IV,23-04-2016,Chemotherapy,24-01-2023,17-03-2023,3.46,5,Never,31.1,No,56,Yes,Unemployed,High,27-12-2024
+472,82,Male,Breast,II,18-08-2020,Chemotherapy,09-06-2022,19-05-2025,1.5,16,Former,25.6,Yes,50,Yes,Manual Labor,Medium,19-05-2025
+473,86,Male,Prostate,III,04-04-2021,Hormone Therapy,03-09-2023,09-03-2025,2.67,2,Never,16.2,Yes,6,Yes,Office Worker,Medium,11-03-2025
+474,76,Male,Lung,IV,26-10-2024,Hormone Therapy,24-11-2024,30-01-2025,1.9,9,Never,17.7,Yes,37,Yes,Manual Labor,Low,15-03-2025
+475,59,Male,Leukemia,IV,20-03-2016,Radiation,19-06-2017,23-02-2023,4.06,2,Never,25.6,No,73,Yes,Unemployed,Low,13-10-2023
+476,46,Male,Colon,II,04-05-2018,Immunotherapy,15-06-2020,17-11-2023,3.24,14,Former,24.9,No,116,No,Healthcare,Medium,02-01-2024
+477,34,Male,Leukemia,I,06-03-2025,Surgery,20-05-2025,22-05-2025,4.16,15,Former,19,Yes,49,No,Healthcare,Medium,22-05-2025
+478,30,Male,Lung,II,02-03-2020,Chemotherapy,09-02-2022,17-03-2024,5.65,18,Never,25.7,No,42,No,Office Worker,High,27-09-2024
+479,49,Female,Lung,III,05-07-2023,Immunotherapy,27-08-2024,29-12-2024,7.24,16,Current,19.4,Yes,11,Yes,Unemployed,High,28-01-2025
+480,85,Male,Skin,IV,25-11-2018,Immunotherapy,15-05-2025,22-05-2025,3.8,2,Former,28.7,Yes,111,No,Healthcare,Low,22-05-2025
+481,28,Female,Lung,I,30-07-2021,Chemotherapy,01-02-2023,23-12-2023,2.47,16,Never,26.5,Yes,24,No,Unemployed,Low,28-04-2025
+482,36,Female,Prostate,IV,28-07-2019,Chemotherapy,24-10-2023,25-07-2024,2.41,7,Current,29.5,Yes,5,No,Unemployed,Medium,01-01-2025
+483,34,Male,Skin,III,25-08-2016,Chemotherapy,19-10-2022,02-07-2023,7.25,18,Never,26.3,No,12,Yes,Manual Labor,Medium,06-10-2024
+484,38,Male,Leukemia,I,09-01-2022,Hormone Therapy,23-07-2024,06-09-2024,7.59,6,Former,33.8,Yes,5,No,Retired,High,27-10-2024
+485,73,Male,Prostate,III,27-01-2017,Surgery,20-11-2017,03-10-2024,3.12,13,Never,26.9,No,108,No,Unemployed,High,06-05-2025
+486,69,Male,Leukemia,III,27-11-2020,Immunotherapy,21-09-2024,06-04-2025,8.7,3,Never,24.9,Yes,75,No,Healthcare,Medium,20-04-2025
+487,50,Male,Lung,III,07-03-2016,Chemotherapy,21-02-2017,20-05-2024,5.85,14,Never,14.3,Yes,114,No,Unemployed,High,24-06-2024
+488,68,Male,Prostate,IV,11-12-2017,Immunotherapy,18-11-2024,19-04-2025,9,17,Never,40.7,Yes,111,No,Unemployed,High,13-05-2025
+489,21,Female,Colon,IV,12-04-2024,Immunotherapy,23-10-2024,16-11-2024,8.16,2,Former,30.8,Yes,96,No,Manual Labor,Medium,21-03-2025
+490,89,Male,Prostate,III,23-09-2022,Immunotherapy,09-01-2023,24-02-2024,1.09,5,Current,24,Yes,59,Yes,Healthcare,Low,09-10-2024
+491,86,Male,Breast,III,14-08-2016,Hormone Therapy,20-08-2022,23-04-2023,5.35,13,Former,34.8,Yes,43,Yes,Manual Labor,Medium,25-07-2023
+492,84,Male,Colon,II,02-01-2022,Hormone Therapy,24-02-2024,11-05-2025,7.08,9,Never,23.8,Yes,80,No,Manual Labor,Low,19-05-2025
+493,83,Male,Skin,III,20-12-2022,Surgery,21-01-2025,09-02-2025,3.67,2,Current,22.3,No,7,No,Office Worker,High,11-05-2025
+494,84,Female,Lung,I,16-10-2022,Surgery,22-09-2024,07-11-2024,7.51,4,Current,29.3,No,15,Yes,Manual Labor,Low,27-03-2025
+495,54,Male,Skin,II,13-08-2019,Surgery,29-01-2023,07-01-2024,0.55,7,Never,27.3,Yes,1,No,Healthcare,Medium,13-05-2024
+496,53,Female,Skin,I,08-01-2025,Surgery,01-03-2025,22-03-2025,7.15,7,Current,27.4,No,9,No,Office Worker,Medium,14-04-2025
+497,51,Female,Prostate,IV,01-08-2021,Hormone Therapy,23-09-2021,21-08-2024,1.24,3,Current,35.5,No,77,No,Healthcare,High,28-09-2024
+498,62,Female,Lung,I,11-11-2018,Radiation,09-01-2025,06-05-2025,7.13,12,Former,28.9,Yes,83,No,Office Worker,Low,19-05-2025
+499,33,Female,Colon,II,05-09-2021,Hormone Therapy,25-03-2022,01-04-2024,6.98,16,Never,28.3,No,60,No,Office Worker,Medium,14-02-2025
+500,83,Female,Skin,IV,24-01-2021,Radiation,04-11-2024,24-11-2024,1.19,12,Never,29.7,No,111,Yes,Manual Labor,Medium,31-03-2025
+501,48,Male,Leukemia,II,12-09-2021,Chemotherapy,06-12-2024,27-04-2025,2.71,6,Former,29.1,No,93,No,Retired,Medium,05-05-2025
+502,70,Female,Leukemia,I,18-01-2020,Surgery,29-10-2022,28-01-2023,8.5,16,Never,24,Yes,30,No,Unemployed,High,16-06-2023
+503,70,Male,Lung,I,03-12-2022,Surgery,25-11-2023,22-02-2025,0.82,18,Current,20.7,No,81,No,Retired,High,17-04-2025
+504,72,Male,Lung,II,13-05-2025,Chemotherapy,18-05-2025,20-05-2025,5.28,9,Former,26.7,No,100,No,Office Worker,High,20-05-2025
+505,89,Female,Breast,II,18-06-2020,Hormone Therapy,14-11-2021,05-07-2024,5.77,19,Former,29,Yes,116,Yes,Healthcare,Low,02-03-2025
+506,70,Male,Skin,I,15-12-2023,Immunotherapy,20-09-2024,05-02-2025,8.14,3,Never,20.1,No,59,No,Manual Labor,High,21-04-2025
+507,25,Female,Colon,III,16-02-2025,Radiation,27-02-2025,10-05-2025,3.08,13,Current,26.7,Yes,75,Yes,Healthcare,Medium,18-05-2025
+508,66,Male,Lung,I,04-09-2018,Immunotherapy,27-11-2024,06-05-2025,3.52,16,Never,20.3,Yes,81,Yes,Office Worker,Low,19-05-2025
+509,67,Male,Breast,III,08-07-2015,Chemotherapy,22-08-2016,19-12-2016,4.94,5,Current,25.9,Yes,34,Yes,Retired,Low,26-08-2018
+510,61,Male,Breast,I,07-08-2019,Radiation,11-09-2021,20-02-2025,5.93,17,Former,19.7,Yes,51,Yes,Office Worker,High,03-04-2025
+511,30,Male,Lung,II,26-05-2015,Surgery,08-06-2020,30-10-2022,4.51,5,Current,21.3,No,87,No,Retired,Low,21-10-2024
+512,46,Female,Lung,III,17-06-2017,Immunotherapy,01-11-2022,27-11-2023,4.18,9,Current,26.7,Yes,85,No,Office Worker,Medium,07-09-2024
+513,38,Male,Lung,IV,16-12-2022,Surgery,17-01-2023,10-02-2025,8.82,4,Never,21.7,Yes,68,No,Manual Labor,Medium,01-05-2025
+514,64,Female,Lung,IV,26-11-2023,Surgery,27-10-2024,02-01-2025,9.47,8,Never,23,Yes,84,Yes,Unemployed,High,25-03-2025
+515,29,Male,Colon,I,12-04-2018,Chemotherapy,05-11-2020,12-03-2024,9.99,16,Former,12.9,Yes,41,Yes,Office Worker,Medium,22-05-2025
+516,64,Male,Lung,IV,04-11-2016,Chemotherapy,04-09-2024,24-11-2024,1.55,13,Current,24.8,No,108,No,Manual Labor,Medium,20-01-2025
+517,88,Female,Skin,III,15-10-2024,Radiation,17-10-2024,13-12-2024,7.79,17,Never,26.6,No,16,Yes,Healthcare,Low,26-03-2025
+518,26,Male,Breast,IV,14-04-2022,Chemotherapy,14-05-2023,15-03-2025,6.74,10,Current,26.5,Yes,56,No,Retired,High,19-04-2025
+519,62,Male,Leukemia,IV,22-07-2022,Immunotherapy,07-06-2024,24-01-2025,0.84,8,Current,25.7,No,54,No,Retired,High,04-02-2025
+520,71,Male,Colon,I,18-04-2020,Immunotherapy,23-11-2024,08-03-2025,6,10,Former,23.3,Yes,13,Yes,Healthcare,High,25-04-2025
+521,74,Female,Colon,IV,24-08-2019,Radiation,18-11-2021,05-06-2023,8.32,9,Former,28.7,No,46,No,Unemployed,High,21-10-2023
+522,30,Male,Breast,IV,20-05-2018,Surgery,02-11-2023,25-11-2024,4.1,1,Current,22.4,No,81,No,Office Worker,Low,09-04-2025
+523,31,Male,Prostate,III,24-05-2016,Hormone Therapy,30-04-2020,25-08-2023,4.43,2,Former,28.3,No,116,No,Unemployed,Medium,05-06-2024
+524,41,Male,Lung,II,02-11-2020,Surgery,24-06-2023,01-05-2024,7.39,3,Former,23.6,Yes,60,Yes,Retired,Medium,13-03-2025
+525,82,Male,Leukemia,IV,03-09-2021,Hormone Therapy,17-10-2021,15-12-2022,3.46,15,Never,22.8,Yes,76,No,Unemployed,High,22-12-2024
+526,44,Female,Skin,I,08-03-2016,Immunotherapy,26-05-2024,06-11-2024,5.97,9,Former,23.3,No,34,Yes,Retired,Medium,18-12-2024
+527,54,Female,Lung,IV,07-04-2021,Chemotherapy,21-05-2022,19-02-2023,3.02,0,Former,20.8,No,57,Yes,Retired,High,11-03-2025
+528,29,Male,Breast,III,18-07-2024,Surgery,03-05-2025,10-05-2025,0.51,10,Former,28.7,Yes,100,No,Retired,Medium,13-05-2025
+529,24,Female,Prostate,II,22-08-2015,Immunotherapy,21-03-2021,06-03-2023,8.85,18,Current,31.3,Yes,87,Yes,Retired,Low,09-07-2024
+530,89,Female,Leukemia,IV,21-08-2019,Surgery,24-01-2023,29-07-2023,2.47,3,Current,25.9,No,67,Yes,Healthcare,Low,03-03-2024
+531,46,Female,Colon,III,25-06-2022,Chemotherapy,21-05-2024,23-03-2025,2.67,1,Former,33.4,No,87,Yes,Unemployed,Low,12-04-2025
+532,61,Male,Lung,I,29-11-2023,Radiation,17-08-2024,16-02-2025,1.05,7,Former,24.5,No,119,Yes,Healthcare,Low,20-04-2025
+533,22,Female,Breast,III,16-09-2024,Surgery,23-09-2024,15-05-2025,5.54,19,Current,29.2,Yes,22,Yes,Manual Labor,High,15-05-2025
+534,34,Female,Colon,III,04-09-2016,Chemotherapy,24-10-2018,07-08-2024,2.64,11,Never,34.9,Yes,106,No,Unemployed,Low,03-02-2025
+535,74,Male,Breast,III,27-11-2020,Surgery,11-11-2022,01-09-2024,6.41,9,Former,26.6,Yes,104,Yes,Healthcare,Medium,08-01-2025
+536,85,Female,Prostate,I,21-12-2021,Immunotherapy,01-09-2022,14-02-2024,4.19,10,Former,23.2,No,65,Yes,Manual Labor,Low,13-04-2025
+537,66,Female,Leukemia,III,13-09-2021,Surgery,26-12-2024,24-01-2025,9.5,5,Current,29.9,Yes,105,No,Retired,Medium,11-04-2025
+538,63,Female,Leukemia,I,31-03-2019,Hormone Therapy,28-06-2020,18-03-2022,1.09,16,Former,24.6,No,84,No,Office Worker,Low,17-12-2022
+539,69,Female,Lung,IV,10-04-2017,Surgery,15-11-2019,03-07-2020,2.69,0,Former,25.2,No,15,No,Manual Labor,High,18-03-2023
+540,78,Female,Lung,III,23-11-2024,Hormone Therapy,08-05-2025,17-05-2025,9.52,13,Former,27.9,No,6,No,Office Worker,Low,20-05-2025
+541,55,Male,Leukemia,II,09-02-2021,Chemotherapy,22-07-2021,06-10-2021,9.32,17,Current,13.9,Yes,94,Yes,Healthcare,Low,05-12-2022
+542,20,Male,Leukemia,IV,16-03-2025,Surgery,14-04-2025,15-04-2025,2.07,7,Current,32.7,Yes,109,No,Manual Labor,Low,17-04-2025
+543,50,Male,Prostate,II,29-04-2017,Immunotherapy,13-05-2017,09-06-2017,1.8,10,Never,22.9,Yes,70,Yes,Unemployed,Low,06-06-2022
+544,58,Female,Breast,IV,22-04-2019,Hormone Therapy,02-12-2023,31-12-2023,2.37,2,Never,27.9,Yes,90,Yes,Office Worker,High,03-03-2024
+545,79,Female,Leukemia,IV,18-05-2016,Chemotherapy,05-05-2020,08-02-2022,5.91,10,Never,35.1,No,55,No,Healthcare,Medium,17-06-2024
+546,43,Male,Lung,III,29-08-2019,Radiation,18-03-2022,06-04-2025,0.63,11,Former,18.2,No,29,No,Healthcare,High,12-05-2025
+547,76,Female,Prostate,IV,10-03-2025,Chemotherapy,19-03-2025,22-03-2025,3.87,16,Never,27.6,Yes,34,No,Unemployed,High,22-03-2025
+548,25,Female,Breast,I,12-12-2018,Chemotherapy,30-09-2020,27-06-2024,2.04,7,Former,24.4,Yes,96,Yes,Manual Labor,High,16-03-2025
+549,82,Female,Colon,III,13-11-2016,Radiation,11-12-2023,16-10-2024,4.85,16,Former,28.1,No,42,No,Unemployed,Low,02-11-2024
+550,60,Male,Leukemia,IV,26-12-2016,Radiation,15-11-2021,18-07-2022,0.94,9,Former,24,No,66,No,Manual Labor,Medium,28-01-2024
+551,72,Female,Skin,III,09-04-2017,Hormone Therapy,24-01-2023,16-02-2025,7.42,4,Never,24.9,Yes,13,No,Office Worker,Low,21-02-2025
+552,62,Male,Lung,II,19-11-2020,Chemotherapy,17-05-2021,21-02-2025,1.63,8,Never,22.6,No,119,Yes,Unemployed,Low,11-04-2025
+553,44,Female,Leukemia,IV,23-08-2017,Immunotherapy,04-12-2021,29-09-2024,9.57,0,Current,18.3,No,117,Yes,Healthcare,Medium,17-01-2025
+554,52,Male,Leukemia,III,17-05-2022,Hormone Therapy,23-08-2024,19-09-2024,1.05,6,Current,17,No,90,Yes,Healthcare,Medium,12-05-2025
+555,34,Male,Breast,III,15-02-2025,Chemotherapy,22-04-2025,06-05-2025,7.98,19,Current,15.8,Yes,65,Yes,Office Worker,Medium,21-05-2025
+556,18,Female,Leukemia,III,28-08-2020,Hormone Therapy,28-07-2021,18-10-2021,2.32,12,Never,33.1,No,116,No,Retired,Low,17-10-2022
+557,27,Male,Leukemia,III,13-03-2022,Surgery,08-06-2024,02-03-2025,8.48,8,Current,27.2,Yes,41,No,Manual Labor,Low,09-04-2025
+558,85,Male,Breast,I,27-10-2018,Radiation,24-02-2025,22-05-2025,6.03,10,Former,20.7,Yes,51,No,Unemployed,Medium,22-05-2025
+559,38,Female,Lung,III,25-03-2017,Chemotherapy,27-09-2019,29-02-2020,5.41,18,Former,23.9,No,119,No,Retired,High,19-10-2022
+560,88,Female,Colon,III,30-12-2020,Hormone Therapy,16-09-2022,05-05-2023,8.54,4,Current,19.4,Yes,78,No,Unemployed,High,05-11-2023
+561,21,Male,Colon,I,16-10-2023,Surgery,10-08-2024,01-01-2025,8.32,19,Never,17.9,Yes,8,Yes,Manual Labor,Low,25-01-2025
+562,58,Female,Skin,I,13-05-2025,Hormone Therapy,18-05-2025,22-05-2025,3.31,15,Current,26.1,No,46,No,Office Worker,Medium,22-05-2025
+563,45,Female,Prostate,I,13-04-2017,Hormone Therapy,16-01-2021,07-01-2022,6.54,3,Current,25.1,Yes,67,Yes,Unemployed,Low,05-02-2023
+564,41,Male,Leukemia,III,09-08-2018,Surgery,13-04-2023,29-02-2024,8.35,3,Current,28.5,Yes,93,Yes,Healthcare,Low,22-11-2024
+565,41,Female,Colon,I,29-01-2020,Chemotherapy,15-02-2020,08-08-2020,3.85,3,Never,10.4,No,53,No,Retired,High,16-07-2023
+566,40,Female,Skin,III,24-05-2015,Immunotherapy,24-03-2025,26-03-2025,9.34,8,Never,31.2,Yes,60,Yes,Office Worker,High,19-05-2025
+567,71,Male,Lung,IV,03-06-2024,Radiation,28-03-2025,17-05-2025,3.94,9,Current,21.3,Yes,61,No,Unemployed,Low,18-05-2025
+568,20,Female,Breast,I,13-11-2023,Radiation,07-11-2024,20-12-2024,8.89,14,Former,19.9,No,92,Yes,Healthcare,Medium,10-03-2025
+569,55,Female,Prostate,I,09-12-2017,Chemotherapy,30-04-2022,16-09-2023,7.45,3,Former,32.4,No,58,Yes,Unemployed,Medium,30-11-2023
+570,67,Female,Skin,IV,19-06-2022,Radiation,28-06-2024,13-11-2024,9.01,4,Former,22.6,Yes,112,No,Unemployed,Medium,17-01-2025
+571,44,Male,Skin,III,03-11-2023,Immunotherapy,24-11-2023,28-02-2025,3.08,15,Never,28.5,No,54,No,Unemployed,Low,12-03-2025
+572,38,Male,Leukemia,III,13-06-2018,Hormone Therapy,12-03-2021,01-04-2022,1.92,15,Former,21.2,No,119,No,Unemployed,Low,13-12-2024
+573,48,Male,Leukemia,I,08-05-2021,Immunotherapy,17-12-2024,24-01-2025,7.66,1,Never,16.3,No,96,Yes,Unemployed,Medium,15-03-2025
+574,27,Female,Lung,I,03-11-2018,Chemotherapy,28-01-2024,06-03-2024,5.08,16,Former,25.7,Yes,48,Yes,Office Worker,Medium,23-05-2024
+575,69,Female,Skin,II,26-07-2023,Chemotherapy,17-11-2023,13-01-2025,6.51,4,Former,35,Yes,36,No,Healthcare,High,04-05-2025
+576,83,Male,Colon,IV,29-08-2016,Chemotherapy,22-06-2021,08-10-2024,7.12,6,Current,40.5,Yes,70,Yes,Office Worker,Low,19-11-2024
+577,18,Female,Leukemia,III,12-12-2019,Immunotherapy,27-04-2022,24-02-2024,1.66,6,Never,22.9,No,41,Yes,Office Worker,Low,14-02-2025
+578,30,Female,Breast,II,10-11-2016,Immunotherapy,05-02-2025,25-03-2025,2.53,19,Current,28.4,No,117,No,Unemployed,Medium,19-04-2025
+579,20,Male,Skin,IV,22-11-2024,Radiation,07-03-2025,27-04-2025,1.63,16,Former,21.5,No,64,Yes,Unemployed,Low,30-04-2025
+580,82,Male,Breast,I,24-06-2016,Surgery,23-07-2016,19-06-2023,3.46,14,Never,34.4,No,32,Yes,Healthcare,High,23-10-2023
+581,85,Male,Prostate,IV,14-08-2015,Immunotherapy,02-12-2017,04-11-2019,4.15,18,Former,17.4,Yes,59,No,Unemployed,High,11-07-2023
+582,46,Male,Skin,IV,10-08-2023,Surgery,11-07-2024,13-11-2024,8.26,0,Former,23.2,No,49,No,Healthcare,High,04-12-2024
+583,57,Female,Breast,III,17-03-2020,Hormone Therapy,07-04-2022,21-05-2025,0.99,0,Never,24.1,No,104,Yes,Manual Labor,High,21-05-2025
+584,30,Female,Breast,I,10-12-2018,Surgery,10-12-2022,23-10-2024,9.63,2,Never,15.3,No,76,No,Retired,High,15-12-2024
+585,60,Male,Prostate,II,27-10-2022,Hormone Therapy,12-07-2024,08-05-2025,8.72,19,Former,17.6,Yes,22,No,Retired,High,09-05-2025
+586,74,Male,Prostate,II,06-06-2020,Surgery,29-12-2021,19-11-2024,8.07,6,Never,30.1,No,56,Yes,Office Worker,Low,21-11-2024
+587,84,Female,Colon,II,03-07-2023,Immunotherapy,01-08-2023,12-11-2024,8.58,18,Current,25.3,No,53,No,Retired,Medium,17-12-2024
+588,22,Female,Leukemia,IV,07-06-2020,Immunotherapy,22-06-2023,19-05-2024,3.85,16,Current,21.8,No,97,Yes,Retired,High,10-03-2025
+589,22,Male,Colon,IV,14-04-2021,Chemotherapy,18-12-2021,16-04-2022,7.46,13,Never,22.3,Yes,19,Yes,Manual Labor,High,12-10-2023
+590,86,Female,Skin,II,01-07-2024,Chemotherapy,04-11-2024,29-04-2025,1.19,14,Former,16.5,No,68,Yes,Healthcare,Low,22-05-2025
+591,50,Female,Prostate,III,11-02-2022,Radiation,07-11-2024,27-01-2025,6.6,6,Never,26.3,No,54,Yes,Office Worker,Medium,04-05-2025
+592,37,Female,Prostate,IV,19-10-2015,Surgery,17-12-2020,01-09-2023,3.14,17,Current,23.2,Yes,105,No,Unemployed,High,11-12-2024
+593,74,Female,Leukemia,III,21-12-2021,Chemotherapy,11-11-2022,03-12-2024,0.61,9,Never,25.6,Yes,28,No,Manual Labor,High,05-03-2025
+594,79,Male,Leukemia,I,07-12-2022,Hormone Therapy,27-11-2023,30-11-2023,5.78,17,Current,20.3,Yes,49,Yes,Retired,High,24-02-2025
+595,66,Male,Skin,I,14-02-2019,Chemotherapy,28-05-2020,13-04-2021,4.28,2,Former,33.5,No,2,Yes,Retired,High,18-05-2021
+596,41,Female,Skin,I,09-01-2025,Immunotherapy,18-04-2025,18-05-2025,6.74,10,Former,25.6,Yes,39,No,Unemployed,Medium,22-05-2025
+597,46,Male,Breast,II,05-01-2024,Surgery,05-08-2024,17-05-2025,9.29,19,Former,26,No,84,No,Healthcare,Low,21-05-2025
+598,83,Female,Breast,I,15-06-2018,Surgery,16-10-2020,18-04-2024,3.04,1,Former,20.9,No,67,No,Unemployed,Low,14-10-2024
+599,23,Male,Lung,II,23-09-2015,Immunotherapy,04-01-2018,13-04-2021,2.88,9,Former,29.1,No,105,No,Office Worker,Medium,23-06-2021
+600,76,Male,Leukemia,II,11-05-2018,Chemotherapy,26-05-2022,15-12-2022,3.08,1,Never,32.7,No,68,No,Unemployed,Low,02-11-2023
+601,82,Male,Prostate,II,21-02-2019,Radiation,24-11-2021,27-02-2024,1.61,9,Never,23.9,No,22,Yes,Office Worker,Low,29-01-2025
+602,47,Female,Skin,III,07-08-2022,Immunotherapy,17-11-2024,15-04-2025,6.96,0,Current,26.4,Yes,113,Yes,Retired,High,19-05-2025
+603,62,Male,Breast,IV,21-12-2017,Chemotherapy,16-05-2024,06-09-2024,6.04,16,Former,27.9,No,36,No,Manual Labor,High,26-01-2025
+604,63,Female,Lung,III,26-07-2016,Surgery,15-04-2021,17-08-2024,2.29,5,Current,24.7,Yes,17,Yes,,Medium,12-04-2025
+605,44,Male,Leukemia,II,06-04-2025,Immunotherapy,05-05-2025,15-05-2025,4.62,2,Current,26.3,Yes,73,No,Office Worker,Medium,19-05-2025
+606,44,Female,Prostate,IV,10-10-2015,Radiation,03-04-2018,10-05-2025,0.59,16,Former,26.5,No,41,Yes,Healthcare,High,14-05-2025
+607,59,Male,Leukemia,III,03-01-2016,Radiation,23-09-2022,04-11-2022,7.16,12,Current,30.3,No,111,No,Office Worker,Medium,22-11-2022
+608,69,Female,Lung,I,31-10-2019,Radiation,14-09-2022,30-04-2023,0.63,0,Former,27.6,No,110,Yes,Retired,Low,25-09-2023
+609,86,Male,Skin,II,04-11-2015,Chemotherapy,09-04-2019,01-02-2022,1.23,1,Current,20.1,No,62,Yes,Office Worker,High,10-01-2025
+610,75,Female,Colon,I,14-08-2019,Immunotherapy,17-06-2020,05-08-2021,6.17,15,Former,15.6,Yes,94,No,Unemployed,Medium,19-10-2024
+611,65,Male,Breast,III,04-07-2020,Immunotherapy,19-10-2022,29-03-2024,3.66,17,Never,24.3,No,63,Yes,Retired,Low,06-12-2024
+612,63,Male,Breast,II,27-04-2016,Radiation,06-05-2018,07-03-2020,4.28,5,Former,13,Yes,119,No,Unemployed,Low,13-08-2022
+613,25,Female,Lung,I,07-05-2024,Immunotherapy,18-12-2024,06-01-2025,1.15,9,Never,25.8,Yes,89,Yes,Retired,High,13-04-2025
+614,56,Female,Leukemia,IV,12-06-2024,Hormone Therapy,29-04-2025,01-05-2025,3.05,0,Never,28.8,No,54,Yes,Healthcare,Low,15-05-2025
+615,54,Female,Prostate,IV,15-06-2018,Chemotherapy,18-12-2020,04-12-2024,6.83,1,Current,26.7,No,102,No,Office Worker,High,30-03-2025
+616,57,Female,Skin,I,14-05-2021,Immunotherapy,27-05-2023,10-04-2025,4.7,10,Former,29.5,Yes,79,No,Office Worker,Medium,10-04-2025
+617,35,Female,Lung,I,27-02-2016,Chemotherapy,12-09-2017,01-05-2021,8.34,10,Current,21.5,Yes,54,No,Manual Labor,Medium,05-02-2022
+618,85,Female,Colon,II,01-04-2023,Radiation,27-05-2024,11-02-2025,2.5,0,Never,25,No,55,No,Manual Labor,High,17-03-2025
+619,20,Male,Colon,III,11-08-2016,Hormone Therapy,22-08-2024,27-10-2024,4.39,17,Former,32.4,Yes,92,Yes,Healthcare,High,09-02-2025
+620,38,Male,Prostate,II,14-12-2024,Radiation,08-02-2025,05-03-2025,7.59,2,Former,25.4,No,47,No,Retired,High,13-04-2025
+621,52,Female,Prostate,IV,21-06-2019,Surgery,24-03-2023,05-08-2023,8.16,0,Former,19.6,Yes,56,Yes,Healthcare,High,27-10-2023
+622,40,Male,Skin,II,01-04-2019,Radiation,17-04-2022,27-04-2023,2.92,19,Current,20.9,No,55,Yes,Office Worker,Medium,10-04-2024
+623,63,Male,Prostate,I,17-06-2020,Hormone Therapy,20-06-2024,11-04-2025,9.18,4,Former,18.1,No,58,Yes,Office Worker,Low,10-05-2025
+624,56,Male,Lung,II,10-07-2018,Surgery,16-12-2022,11-12-2023,2.7,16,Current,32.2,Yes,6,Yes,Healthcare,Medium,02-12-2024
+625,52,Male,Leukemia,II,30-10-2017,Immunotherapy,17-01-2025,21-01-2025,3.81,8,Never,26.4,Yes,76,No,Manual Labor,High,19-04-2025
+626,84,Male,Skin,IV,25-10-2017,Chemotherapy,05-08-2024,15-03-2025,4.44,8,Never,26.1,No,87,No,Manual Labor,High,11-04-2025
+627,30,Female,Breast,II,20-01-2022,Hormone Therapy,08-12-2022,15-10-2023,7.36,19,Former,11.2,No,119,Yes,Retired,High,18-05-2025
+628,83,Female,Leukemia,I,09-06-2016,Immunotherapy,15-01-2023,10-09-2024,5.55,11,Current,22.9,No,94,No,Retired,Medium,31-03-2025
+629,39,Male,Leukemia,III,18-10-2020,Hormone Therapy,24-03-2021,22-11-2024,5.64,16,Former,27.9,No,10,Yes,Healthcare,Low,02-04-2025
+630,53,Male,Lung,IV,17-03-2021,Radiation,24-07-2021,28-07-2023,1.62,9,Former,26.7,No,119,No,Retired,Low,22-02-2024
+631,64,Male,Prostate,IV,25-01-2024,Hormone Therapy,06-04-2025,18-05-2025,4.21,18,Current,27.2,No,107,No,Unemployed,Medium,18-05-2025
+632,26,Female,Prostate,IV,03-12-2019,Surgery,30-03-2023,12-11-2024,4.45,0,Never,32.8,Yes,19,No,Office Worker,Medium,17-04-2025
+633,84,Male,Skin,I,03-06-2020,Surgery,21-05-2024,12-10-2024,7.12,14,Never,25,Yes,115,Yes,Manual Labor,Low,12-10-2024
+634,30,Female,Prostate,III,18-04-2022,Radiation,15-09-2022,06-12-2023,8.77,1,Never,18.5,No,48,No,Unemployed,High,04-02-2024
+635,65,Male,Leukemia,II,03-09-2023,Immunotherapy,23-12-2023,13-01-2025,6.25,6,Current,19.9,No,26,Yes,Retired,High,21-05-2025
+636,66,Female,Prostate,I,22-09-2016,Surgery,12-12-2022,04-03-2023,6.95,16,Current,25.2,No,53,No,Retired,Low,08-10-2024
+637,82,Female,Skin,II,19-08-2020,Surgery,29-06-2024,19-02-2025,0.67,16,Current,24.8,Yes,79,No,Unemployed,High,30-03-2025
+638,46,Female,Prostate,III,15-06-2016,Hormone Therapy,05-07-2020,27-06-2022,6.47,15,Never,21.2,No,54,No,Healthcare,Medium,07-08-2024
+639,45,Male,Colon,II,04-04-2022,Immunotherapy,10-07-2023,30-12-2023,7.12,0,Current,30.3,Yes,41,Yes,Office Worker,High,21-09-2024
+640,68,Male,Leukemia,IV,03-08-2020,Chemotherapy,27-08-2023,12-04-2024,3.21,6,Never,24.5,Yes,29,Yes,Manual Labor,High,01-12-2024
+641,36,Male,Breast,III,09-04-2021,Hormone Therapy,06-04-2025,28-04-2025,8.62,12,Former,24.8,Yes,57,Yes,Healthcare,High,11-05-2025
+642,35,Female,Leukemia,I,22-02-2017,Immunotherapy,03-10-2021,05-10-2021,9.07,15,Never,24,No,96,Yes,Retired,High,26-12-2024
+643,25,Female,Lung,IV,22-01-2023,Surgery,17-09-2023,02-10-2024,8.83,11,Never,28.3,No,116,Yes,Retired,Medium,30-12-2024
+644,74,Female,Colon,I,02-09-2021,Chemotherapy,17-01-2023,07-11-2023,9.83,17,Former,27.3,No,77,Yes,Unemployed,Low,06-04-2024
+645,62,Male,Leukemia,IV,28-10-2018,Immunotherapy,25-12-2018,29-03-2021,9.9,19,Current,19.6,No,54,Yes,Healthcare,Low,30-08-2024
+646,81,Female,Prostate,I,04-08-2019,Radiation,08-05-2020,05-11-2024,6.28,3,Current,21.6,Yes,60,Yes,Retired,Medium,30-04-2025
+647,47,Female,Lung,III,01-08-2019,Radiation,09-06-2024,25-01-2025,2.57,16,Never,26.3,No,25,No,Unemployed,Low,25-04-2025
+648,53,Female,Breast,III,22-01-2018,Chemotherapy,26-05-2018,26-10-2024,7.78,4,Current,32.6,No,62,No,Office Worker,Low,31-12-2024
+649,56,Male,Lung,IV,02-08-2016,Surgery,22-03-2025,25-03-2025,6.94,19,Never,21,Yes,92,No,Office Worker,High,06-05-2025
+650,26,Female,Breast,I,20-07-2024,Surgery,30-03-2025,20-04-2025,3.8,5,Former,32.5,Yes,58,Yes,Unemployed,High,11-05-2025
+651,34,Male,Leukemia,I,04-06-2017,Immunotherapy,03-01-2024,05-04-2024,2.95,2,Never,28.9,Yes,101,No,Healthcare,Low,20-06-2024
+652,79,Female,Lung,I,08-09-2023,Chemotherapy,16-07-2024,10-01-2025,1.99,9,Never,26.6,Yes,16,Yes,Office Worker,High,14-01-2025
+653,25,Male,Breast,IV,12-02-2017,Hormone Therapy,04-12-2022,24-10-2023,6.09,7,Former,23.1,Yes,76,No,Unemployed,Low,28-09-2024
+654,27,Male,Breast,III,27-05-2017,Surgery,23-07-2018,24-11-2022,5.32,14,Former,18,Yes,90,No,Healthcare,Medium,22-04-2023
+655,19,Male,Leukemia,III,15-11-2019,Hormone Therapy,16-10-2020,13-07-2023,1.77,18,Never,24.6,No,62,No,Office Worker,High,01-02-2024
+656,55,Male,Breast,III,04-06-2019,Immunotherapy,11-05-2024,09-03-2025,5.57,2,Never,27.7,No,67,Yes,Manual Labor,Low,17-04-2025
+657,78,Female,Skin,II,29-08-2024,Hormone Therapy,23-01-2025,06-02-2025,3.58,12,Never,16.2,No,27,Yes,Unemployed,Low,11-05-2025
+658,24,Male,Lung,III,05-07-2024,Immunotherapy,21-10-2024,24-01-2025,3.01,6,Never,23.5,Yes,79,Yes,Retired,Medium,05-05-2025
+659,21,Female,Prostate,III,17-02-2022,Chemotherapy,15-03-2022,25-04-2025,4.88,5,Never,28.7,No,33,Yes,Healthcare,High,27-04-2025
+660,45,Male,Leukemia,II,09-01-2022,Hormone Therapy,29-05-2024,19-11-2024,2.56,4,Never,29.1,Yes,21,No,Office Worker,Low,13-03-2025
+661,52,Male,Lung,II,01-01-2016,Chemotherapy,14-09-2017,13-08-2023,8.33,13,Never,23.2,No,110,No,Manual Labor,Low,26-02-2024
+662,76,Male,Colon,II,24-09-2023,Hormone Therapy,19-08-2024,14-03-2025,5.38,6,Former,32.1,Yes,102,No,Unemployed,Low,25-03-2025
+663,35,Female,Colon,II,15-09-2019,Immunotherapy,26-01-2024,01-08-2024,8.53,10,Current,21.5,Yes,48,No,Office Worker,Medium,30-12-2024
+664,44,Female,Prostate,II,02-09-2020,Hormone Therapy,28-06-2023,13-02-2025,9.99,10,Former,25.6,No,96,No,Unemployed,High,01-04-2025
+665,78,Female,Prostate,II,19-03-2024,Immunotherapy,15-06-2024,16-02-2025,8.65,12,Never,19.9,No,116,No,Unemployed,Medium,21-02-2025
+666,76,Female,Colon,IV,20-01-2018,Surgery,02-12-2018,25-07-2019,8.57,10,Never,23.8,Yes,35,Yes,Unemployed,Medium,22-09-2022
+667,55,Female,Leukemia,IV,17-12-2015,Surgery,30-01-2019,27-06-2019,0.66,17,Former,26.9,Yes,99,No,Office Worker,Medium,22-03-2023
+668,20,Male,Prostate,IV,05-03-2019,Radiation,02-04-2019,18-08-2021,6.43,9,Current,30.5,Yes,25,Yes,Office Worker,High,20-11-2023
+669,85,Female,Leukemia,I,14-07-2016,Hormone Therapy,15-11-2024,20-12-2024,9.91,18,Never,20.8,No,25,No,Retired,Medium,18-04-2025
+670,37,Female,Breast,III,07-12-2015,Radiation,16-11-2021,31-05-2024,5.91,10,Current,27,Yes,55,Yes,Unemployed,Low,13-03-2025
+671,45,Male,Leukemia,IV,20-04-2020,Hormone Therapy,12-07-2022,04-03-2023,5.51,4,Current,23.5,Yes,118,No,Healthcare,High,12-05-2025
+672,59,Male,Colon,II,07-07-2019,Hormone Therapy,28-09-2021,02-02-2022,7.29,13,Current,10.4,Yes,32,Yes,Healthcare,Low,25-04-2022
+673,28,Female,Colon,I,09-01-2025,Radiation,28-02-2025,14-03-2025,8.41,17,Never,25,No,41,Yes,Manual Labor,Low,07-05-2025
+674,76,Male,Colon,I,16-11-2015,Chemotherapy,01-10-2016,12-03-2023,7.12,8,Never,18.6,Yes,74,Yes,Healthcare,High,15-03-2023
+675,39,Male,Skin,III,02-11-2020,Immunotherapy,28-06-2022,19-04-2023,1.98,6,Current,18.3,No,22,No,Manual Labor,Low,11-11-2024
+676,64,Female,Colon,I,07-03-2022,Surgery,18-04-2024,30-04-2024,4.8,13,Never,23.1,Yes,50,Yes,Retired,Low,20-05-2024
+677,37,Female,Prostate,IV,11-07-2021,Hormone Therapy,27-12-2021,31-03-2025,7.01,0,Current,32.8,No,12,Yes,Manual Labor,Low,19-05-2025
+678,57,Female,Lung,IV,09-02-2025,Immunotherapy,29-04-2025,13-05-2025,8.13,5,Former,29.3,No,28,No,Retired,Low,18-05-2025
+679,73,Male,Skin,I,06-05-2019,Radiation,22-05-2024,21-01-2025,9.56,12,Former,30.9,No,66,Yes,Unemployed,Low,10-05-2025
+680,53,Female,Lung,II,11-03-2022,Radiation,20-09-2024,30-04-2025,1.25,10,Never,26.5,Yes,108,No,Unemployed,Medium,19-05-2025
+681,57,Male,Leukemia,IV,16-09-2016,Chemotherapy,15-08-2018,06-04-2020,6.14,19,Never,26,Yes,55,Yes,Manual Labor,Medium,05-03-2022
+682,33,Female,Colon,II,31-01-2022,Radiation,16-08-2022,28-09-2024,7.06,10,Former,28.7,Yes,80,No,Retired,Low,23-04-2025
+683,62,Male,Prostate,II,05-06-2015,Surgery,31-05-2019,24-11-2023,9.77,15,Former,20.5,Yes,73,No,Unemployed,Medium,15-04-2025
+684,52,Female,Skin,II,04-05-2016,Chemotherapy,21-02-2023,10-10-2024,2.41,4,Current,30,Yes,81,No,Healthcare,Medium,23-03-2025
+685,74,Female,Skin,III,27-08-2019,Radiation,02-02-2020,26-12-2023,4.92,13,Former,20.9,No,12,No,Healthcare,Medium,13-10-2024
+686,66,Female,Breast,III,03-08-2020,Radiation,27-09-2024,31-12-2024,6.86,9,Current,15.3,Yes,110,No,Unemployed,Medium,27-01-2025
+687,28,Male,Skin,IV,12-06-2018,Surgery,14-11-2021,21-06-2024,8,6,Former,24.5,Yes,50,No,Manual Labor,High,08-03-2025
+688,27,Male,Colon,I,19-12-2015,Radiation,17-01-2023,05-10-2024,1.21,14,Current,18.6,Yes,84,Yes,Unemployed,High,03-11-2024
+689,20,Female,Lung,II,07-06-2016,Radiation,12-10-2019,27-09-2023,9.86,7,Former,16.5,Yes,104,Yes,Unemployed,Medium,09-07-2024
+690,28,Male,Breast,III,11-03-2025,Immunotherapy,20-03-2025,16-04-2025,3.6,7,Never,22.7,No,94,Yes,Unemployed,Low,09-05-2025
+691,73,Male,Lung,IV,17-04-2018,Immunotherapy,26-08-2023,10-02-2024,1.73,6,Current,31.8,Yes,96,No,Unemployed,Medium,08-08-2024
+692,53,Female,Breast,I,25-08-2019,Chemotherapy,20-03-2025,20-03-2025,2.5,3,Former,19.3,Yes,82,Yes,Retired,High,07-04-2025
+693,81,Female,Leukemia,I,31-03-2025,Hormone Therapy,21-04-2025,20-05-2025,1.23,1,Former,27.9,No,96,Yes,Office Worker,Medium,21-05-2025
+694,79,Male,Lung,IV,18-03-2024,Chemotherapy,07-11-2024,31-03-2025,1.8,5,Never,16.1,Yes,40,Yes,Office Worker,Low,02-04-2025
+695,41,Male,Skin,IV,23-12-2018,Surgery,16-01-2020,10-10-2022,6.43,15,Never,20.8,Yes,119,Yes,Retired,Medium,04-11-2022
+696,74,Male,Breast,III,28-05-2017,Surgery,23-09-2023,15-10-2023,7.29,1,Current,24.9,No,22,Yes,Retired,Medium,06-12-2023
+697,30,Female,Skin,IV,29-08-2022,Surgery,21-09-2024,09-05-2025,3.8,17,Current,27.4,Yes,15,Yes,Healthcare,Low,12-05-2025
+698,80,Female,Lung,II,03-08-2016,Hormone Therapy,03-09-2017,30-12-2018,1.7,12,Never,26.8,No,32,Yes,Retired,Medium,15-03-2021
+699,26,Female,Leukemia,II,17-09-2018,Immunotherapy,12-12-2020,01-05-2022,9.43,17,Former,24.7,Yes,44,Yes,Office Worker,High,05-11-2022
+700,55,Female,Leukemia,III,13-06-2017,Hormone Therapy,17-11-2024,19-11-2024,8.46,6,Never,33.5,No,99,Yes,Retired,Low,26-02-2025
+701,65,Male,Breast,I,26-05-2017,Hormone Therapy,05-01-2018,03-01-2025,4.36,6,Former,27.2,No,104,No,Manual Labor,Low,20-01-2025
+702,30,Male,Breast,I,05-06-2016,Immunotherapy,22-09-2016,28-11-2018,8.95,16,Never,11.9,No,6,No,Office Worker,High,29-09-2020
+703,77,Female,Prostate,III,07-12-2020,Hormone Therapy,23-02-2025,27-02-2025,5.15,3,Never,14.5,Yes,32,No,Retired,High,02-04-2025
+704,76,Female,Skin,II,22-10-2017,Surgery,28-10-2021,04-12-2023,1.84,5,Current,29.3,No,53,No,Office Worker,High,10-07-2024
+705,84,Female,Leukemia,IV,06-08-2020,Immunotherapy,30-12-2020,28-05-2024,2.58,12,Former,22.3,No,38,No,Unemployed,High,31-01-2025
+706,89,Male,Leukemia,I,09-01-2017,Surgery,03-04-2022,20-03-2025,5.81,5,Never,29.2,Yes,32,Yes,Office Worker,Low,16-04-2025
+707,27,Male,Leukemia,III,10-01-2016,Hormone Therapy,02-04-2019,26-12-2023,3.99,11,Former,27.6,Yes,69,No,Unemployed,High,14-05-2024
+708,79,Male,Breast,II,07-09-2015,Chemotherapy,29-05-2016,01-03-2024,9.89,8,Never,33.1,Yes,84,No,Healthcare,High,03-04-2024
+709,39,Male,Breast,III,13-05-2017,Radiation,17-12-2018,24-04-2019,7.64,12,Former,27.7,Yes,77,No,Office Worker,Medium,13-06-2020
+710,71,Male,Breast,III,02-11-2018,Surgery,29-11-2024,14-01-2025,3.02,0,Former,31.1,No,15,Yes,Manual Labor,High,05-03-2025
+711,34,Male,Skin,IV,14-06-2022,Chemotherapy,30-01-2024,23-07-2024,3.29,7,Current,28.5,No,111,No,Office Worker,Low,10-11-2024
+712,76,Female,Colon,III,03-06-2015,Chemotherapy,13-03-2017,16-02-2023,6.1,4,Former,25.9,Yes,28,No,Office Worker,Medium,06-07-2023
+713,78,Male,Leukemia,III,14-07-2020,Radiation,21-12-2022,25-01-2023,1.97,1,Former,34.7,No,103,Yes,Retired,Medium,26-04-2024
+714,30,Male,Leukemia,IV,22-01-2019,Radiation,09-12-2023,17-02-2024,7.81,13,Current,18,No,82,Yes,Office Worker,Low,25-10-2024
+715,30,Female,Lung,IV,06-06-2020,Immunotherapy,01-02-2025,10-03-2025,6.91,15,Never,18.9,No,15,No,Office Worker,Medium,14-03-2025
+716,69,Female,Colon,II,18-09-2019,Surgery,09-04-2021,23-07-2021,5.34,19,Never,28.3,Yes,57,Yes,Healthcare,Medium,05-03-2023
+717,69,Male,Breast,III,23-03-2017,Immunotherapy,07-06-2018,26-08-2020,9.32,14,Former,28.2,No,80,Yes,Unemployed,Low,08-04-2025
+718,26,Male,Lung,II,26-10-2016,Surgery,04-12-2018,25-01-2021,3.69,11,Current,28.8,Yes,109,No,Office Worker,High,20-11-2022
+719,74,Male,Skin,II,12-03-2020,Radiation,10-05-2022,04-09-2024,2.3,11,Former,18.7,Yes,115,Yes,Unemployed,Low,29-03-2025
+720,28,Male,Breast,IV,21-08-2021,Immunotherapy,23-05-2024,04-11-2024,5.9,16,Never,27.3,No,32,Yes,Retired,Medium,24-03-2025
+721,57,Male,Breast,III,24-03-2022,Surgery,07-12-2022,04-05-2025,9.33,5,Current,25.5,No,105,Yes,Healthcare,Low,20-05-2025
+722,66,Male,Leukemia,III,29-07-2020,Radiation,22-08-2022,29-12-2022,2.73,10,Former,31.5,No,49,Yes,Manual Labor,Medium,19-06-2023
+723,38,Female,Prostate,I,21-04-2016,Chemotherapy,26-06-2020,18-11-2023,9.63,7,Former,31,No,6,Yes,Manual Labor,Low,27-02-2025
+724,36,Female,Breast,II,05-03-2020,Hormone Therapy,07-02-2024,04-11-2024,2.33,1,Current,33.5,Yes,119,No,Office Worker,Low,11-11-2024
+725,54,Female,Leukemia,IV,07-04-2019,Radiation,03-01-2023,10-10-2024,8.91,3,Never,20.2,No,58,No,Manual Labor,Medium,24-10-2024
+726,30,Male,Breast,IV,23-03-2024,Immunotherapy,19-06-2024,04-09-2024,0.6,16,Current,20.1,No,100,Yes,Retired,Low,08-10-2024
+727,77,Male,Colon,I,01-02-2024,Radiation,22-07-2024,08-12-2024,9.91,2,Current,24.5,No,1,Yes,Healthcare,Low,12-04-2025
+728,59,Male,Lung,I,25-01-2023,Hormone Therapy,29-02-2024,12-04-2024,3.76,7,Former,21,No,63,Yes,Healthcare,Low,14-07-2024
+729,89,Male,Lung,III,22-05-2020,Chemotherapy,10-08-2023,29-12-2023,9.42,17,Never,22.6,Yes,111,Yes,Retired,Low,09-01-2024
+730,33,Male,Leukemia,III,02-12-2024,Surgery,12-01-2025,14-01-2025,7.25,13,Current,22.8,No,25,No,Office Worker,High,11-05-2025
+731,51,Male,Lung,III,06-09-2021,Radiation,29-05-2024,20-10-2024,2.3,9,Current,29.1,Yes,10,No,Manual Labor,High,14-12-2024
+732,84,Male,Lung,III,23-05-2018,Surgery,01-02-2023,15-03-2025,3.3,2,Never,29.1,No,27,No,Healthcare,Medium,31-03-2025
+733,32,Male,Lung,IV,07-07-2024,Radiation,20-04-2025,12-05-2025,4.89,8,Current,29.2,No,87,Yes,Manual Labor,Low,20-05-2025
+734,67,Male,Leukemia,II,16-09-2022,Chemotherapy,30-01-2024,06-05-2024,9.01,3,Former,20.2,No,48,Yes,Retired,Low,27-09-2024
+735,72,Male,Breast,IV,19-11-2024,Immunotherapy,22-01-2025,09-02-2025,1.52,1,Never,25.7,Yes,84,Yes,Office Worker,Medium,23-02-2025
+736,66,Male,Breast,I,01-05-2017,Chemotherapy,26-07-2024,12-03-2025,8.31,0,Never,28.1,No,116,Yes,Manual Labor,Medium,15-05-2025
+737,55,Female,Lung,I,16-03-2022,Hormone Therapy,08-02-2024,25-03-2025,6.98,13,Never,28.9,No,88,Yes,Retired,Medium,22-04-2025
+738,22,Male,Lung,I,01-04-2018,Radiation,08-03-2020,09-02-2022,3.87,10,Never,31.9,Yes,68,No,Office Worker,Medium,07-05-2025
+739,35,Male,Lung,I,03-07-2020,Surgery,12-01-2021,16-02-2021,1.51,2,Current,34.5,No,40,Yes,Office Worker,High,03-06-2023
+740,27,Male,Colon,III,22-07-2021,Hormone Therapy,05-06-2022,12-09-2023,3.6,16,Never,26.1,No,119,No,Office Worker,Medium,19-02-2025
+741,78,Female,Prostate,I,25-01-2018,Chemotherapy,02-06-2022,24-05-2023,7.91,12,Former,19.9,No,109,No,Office Worker,Low,02-01-2025
+742,86,Female,Lung,I,21-05-2023,Surgery,19-08-2024,18-11-2024,1.14,15,Former,24.5,No,65,No,Unemployed,High,07-01-2025
+743,77,Female,Leukemia,III,22-02-2022,Radiation,29-01-2023,10-04-2024,6.36,10,Former,26.3,No,63,Yes,Unemployed,Low,27-08-2024
+744,81,Female,Skin,II,01-02-2019,Chemotherapy,14-05-2020,11-08-2022,9.41,8,Never,18.8,No,95,No,Healthcare,Low,16-03-2025
+745,75,Male,Prostate,II,24-02-2023,Surgery,11-04-2025,22-05-2025,4.6,14,Current,22.9,Yes,40,Yes,Office Worker,High,22-05-2025
+746,18,Male,Leukemia,II,17-09-2018,Immunotherapy,24-06-2022,19-08-2022,2.9,9,Former,34.4,Yes,42,No,Retired,Low,21-06-2024
+747,38,Male,Prostate,II,24-04-2018,Chemotherapy,21-12-2019,10-06-2024,7.58,5,Never,18.6,Yes,47,Yes,Unemployed,High,05-10-2024
+748,34,Male,Leukemia,III,24-12-2016,Immunotherapy,15-05-2018,07-10-2021,3.62,12,Former,18,No,38,Yes,Healthcare,Low,27-01-2023
+749,62,Male,Lung,II,18-04-2017,Chemotherapy,14-03-2025,22-03-2025,8.49,13,Current,31,No,54,No,Healthcare,Medium,30-03-2025
+750,44,Male,Breast,IV,21-06-2022,Radiation,04-03-2023,21-01-2025,7.92,2,Current,22.7,No,69,Yes,Retired,High,09-02-2025
+751,75,Male,Colon,III,05-08-2023,Immunotherapy,22-04-2024,28-01-2025,7,1,Never,24.1,Yes,6,No,Office Worker,Low,22-03-2025
+752,87,Male,Skin,III,06-05-2022,Chemotherapy,22-09-2022,25-11-2022,6.71,17,Never,27,Yes,4,Yes,Retired,Low,02-10-2024
+753,34,Female,Skin,II,03-02-2025,Chemotherapy,28-04-2025,19-05-2025,9.32,13,Never,21.4,Yes,15,No,Office Worker,Low,22-05-2025
+754,36,Female,Prostate,I,14-10-2023,Surgery,15-06-2024,06-04-2025,7.85,14,Current,21.2,No,35,No,Healthcare,High,16-04-2025
+755,52,Male,Colon,I,08-02-2017,Hormone Therapy,28-12-2021,25-11-2024,3.87,3,Current,30.8,Yes,104,No,Healthcare,Low,31-03-2025
+756,41,Female,Leukemia,I,15-11-2023,Radiation,28-07-2024,30-09-2024,6.31,16,Current,23.3,No,107,No,Healthcare,Medium,11-12-2024
+757,67,Female,Skin,IV,19-11-2015,Chemotherapy,05-09-2018,13-04-2025,1.51,3,Never,36.7,Yes,37,Yes,Retired,High,12-05-2025
+758,85,Female,Breast,II,14-09-2016,Surgery,29-04-2022,08-07-2024,5.79,15,Never,34.8,Yes,16,No,Healthcare,Low,05-02-2025
+759,79,Female,Prostate,III,18-09-2024,Chemotherapy,10-11-2024,04-01-2025,1.98,12,Current,17.4,No,24,No,Unemployed,High,20-02-2025
+760,32,Male,Skin,IV,25-07-2021,Chemotherapy,24-09-2021,21-12-2024,7.45,8,Former,26.6,Yes,45,No,Manual Labor,High,26-01-2025
+761,83,Female,Breast,IV,08-10-2016,Hormone Therapy,30-09-2017,06-02-2021,8.92,11,Current,17.4,Yes,80,Yes,Retired,Low,09-08-2024
+762,47,Male,Prostate,IV,27-04-2023,Radiation,18-07-2024,19-11-2024,7.65,17,Never,20,Yes,69,No,Unemployed,Medium,23-01-2025
+763,56,Female,Breast,II,30-09-2017,Chemotherapy,21-05-2025,21-05-2025,7.45,10,Never,25.8,Yes,110,No,Manual Labor,High,22-05-2025
+764,21,Female,Leukemia,IV,06-04-2023,Chemotherapy,02-03-2024,16-05-2025,7.8,5,Never,31.3,No,18,Yes,Healthcare,Medium,17-05-2025
+765,32,Male,Colon,I,30-06-2022,Surgery,09-02-2023,07-09-2023,5.1,8,Never,24.3,Yes,63,No,Manual Labor,Medium,28-08-2024
+766,84,Male,Lung,I,21-06-2017,Surgery,18-12-2018,14-01-2019,8.37,10,Former,26,No,96,Yes,Manual Labor,Low,16-02-2024
+767,21,Male,Colon,III,03-04-2021,Surgery,23-03-2023,21-09-2023,3.58,16,Former,27.3,No,70,Yes,Unemployed,Medium,17-10-2024
+768,52,Female,Skin,II,29-01-2023,Chemotherapy,02-02-2025,20-02-2025,9.49,19,Current,23.2,Yes,119,Yes,Unemployed,Low,10-05-2025
+769,28,Female,Breast,IV,01-02-2018,Surgery,29-07-2021,14-05-2024,4.82,9,Never,13.3,Yes,105,Yes,Healthcare,High,27-12-2024
+770,40,Male,Leukemia,II,01-11-2023,Hormone Therapy,14-03-2024,01-05-2025,1.12,14,Former,18.2,Yes,47,No,Manual Labor,Low,03-05-2025
+771,47,Female,Skin,I,21-12-2021,Immunotherapy,08-12-2023,27-08-2024,7.87,1,Former,16.3,No,74,No,Office Worker,Low,02-11-2024
+772,75,Female,Prostate,II,04-09-2023,Hormone Therapy,14-03-2024,09-09-2024,3.74,8,Former,34.9,No,78,Yes,Office Worker,Low,07-01-2025
+773,65,Male,Skin,IV,19-11-2022,Chemotherapy,24-01-2025,23-03-2025,2.05,2,Current,27.5,Yes,76,No,Unemployed,Low,03-04-2025
+774,59,Male,Skin,IV,15-03-2024,Chemotherapy,13-03-2025,23-04-2025,9.31,10,Never,23.2,No,115,No,Office Worker,Medium,05-05-2025
+775,35,Male,Prostate,III,04-12-2021,Surgery,10-08-2023,14-03-2025,8.65,15,Current,21.5,No,111,Yes,Office Worker,Low,18-04-2025
+776,65,Male,Skin,III,09-12-2021,Surgery,29-12-2021,17-02-2022,7.13,12,Never,30.2,Yes,103,No,Office Worker,High,27-09-2022
+777,19,Female,Leukemia,IV,22-08-2019,Radiation,14-10-2021,02-02-2024,1.09,14,Current,22.2,Yes,119,Yes,Healthcare,High,20-03-2025
+778,63,Male,Colon,III,08-08-2016,Hormone Therapy,14-01-2021,01-05-2022,2.35,11,Never,26.9,Yes,17,No,Office Worker,High,11-10-2023
+779,80,Male,Skin,I,28-12-2018,Hormone Therapy,12-01-2025,23-02-2025,2.63,3,Current,17.8,No,23,No,Healthcare,Low,19-04-2025
+780,33,Male,Lung,II,01-06-2018,Immunotherapy,07-05-2021,20-10-2022,3.65,6,Former,29.3,Yes,52,Yes,Office Worker,Medium,21-09-2023
+781,54,Male,Lung,III,28-10-2017,Surgery,09-03-2025,13-03-2025,7.41,14,Never,27.5,Yes,77,No,Office Worker,Medium,19-04-2025
+782,38,Male,Breast,IV,28-12-2024,Chemotherapy,27-02-2025,07-03-2025,8.15,19,Former,34.2,Yes,25,Yes,Manual Labor,Low,11-03-2025
+783,87,Male,Leukemia,I,10-08-2016,Chemotherapy,29-03-2019,20-02-2024,3.79,1,Former,24.6,Yes,54,Yes,Retired,High,18-04-2024
+784,47,Female,Lung,I,07-10-2015,Hormone Therapy,13-12-2019,28-03-2023,4.22,1,Never,24.6,Yes,43,Yes,Manual Labor,Low,23-09-2024
+785,79,Male,Leukemia,II,01-01-2025,Surgery,03-02-2025,18-02-2025,9.77,3,Never,18.7,No,73,No,Unemployed,Medium,04-03-2025
+786,36,Female,Prostate,II,15-12-2021,Radiation,26-04-2022,21-12-2022,6.66,19,Never,19.5,No,79,Yes,Healthcare,High,20-01-2024
+787,74,Female,Colon,IV,18-08-2020,Hormone Therapy,21-08-2021,29-10-2021,1.84,3,Current,19.5,No,75,No,Healthcare,High,01-04-2025
+788,54,Female,Leukemia,I,26-09-2017,Immunotherapy,19-06-2023,19-08-2024,1.28,3,Current,23.3,No,44,No,Retired,High,24-10-2024
+789,51,Female,Breast,I,13-01-2024,Radiation,11-11-2024,05-01-2025,0.79,8,Never,31.2,Yes,85,Yes,Manual Labor,Medium,29-04-2025
+790,78,Male,Breast,I,23-05-2022,Surgery,05-04-2023,09-07-2023,6.56,1,Never,21.5,No,116,Yes,Retired,Low,21-08-2023
+791,27,Female,Skin,II,17-03-2021,Hormone Therapy,02-02-2024,15-04-2025,4.56,16,Current,24.4,Yes,31,No,Unemployed,Medium,01-05-2025
+792,18,Female,Lung,I,21-07-2015,Immunotherapy,20-10-2016,19-02-2023,1.73,3,Former,25.2,Yes,26,No,Healthcare,High,24-03-2024
+793,67,Female,Colon,II,19-04-2019,Hormone Therapy,31-01-2022,25-03-2024,2.91,16,Never,18,Yes,47,No,Manual Labor,Low,02-09-2024
+794,70,Female,Skin,I,28-09-2023,Surgery,27-04-2024,29-03-2025,7.77,1,Former,24.8,No,24,No,Manual Labor,Medium,31-03-2025
+795,21,Female,Skin,III,31-08-2023,Immunotherapy,07-09-2023,03-03-2024,1.48,10,Former,28.4,No,97,Yes,Manual Labor,High,18-06-2024
+796,59,Male,Lung,I,17-09-2020,Chemotherapy,03-07-2024,27-04-2025,2.89,15,Former,24.7,Yes,22,Yes,Office Worker,Low,17-05-2025
+797,74,Female,Breast,I,11-05-2025,Surgery,15-05-2025,19-05-2025,8.57,10,Never,20.8,No,90,No,Retired,Medium,20-05-2025
+798,83,Female,Lung,IV,13-06-2020,Chemotherapy,31-10-2022,28-10-2024,4.41,8,Never,31.2,No,10,Yes,Retired,High,18-05-2025
+799,65,Male,Colon,IV,20-12-2022,Surgery,13-07-2024,07-04-2025,0.76,1,Never,31,No,118,Yes,Manual Labor,High,03-05-2025
+800,44,Male,Leukemia,I,29-07-2015,Chemotherapy,22-07-2022,29-08-2024,6.52,13,Never,29.6,No,29,No,Healthcare,Medium,04-09-2024
+801,32,Male,Lung,III,19-03-2018,Surgery,23-04-2022,13-02-2025,8.96,19,Current,21.1,Yes,78,No,Unemployed,Medium,14-02-2025
+802,35,Male,Lung,I,13-05-2021,Surgery,25-10-2021,25-07-2022,1.71,1,Current,25,Yes,58,Yes,Unemployed,Low,21-12-2023
+803,39,Male,Breast,IV,22-10-2024,Radiation,20-11-2024,02-12-2024,1.86,3,Former,26.1,No,80,No,Manual Labor,Low,27-02-2025
+804,78,Male,Colon,II,25-07-2022,Radiation,01-08-2024,11-12-2024,9.05,0,Current,15.7,No,45,No,Manual Labor,Low,23-04-2025
+805,53,Male,Leukemia,IV,17-10-2015,Radiation,16-09-2019,13-11-2024,6.34,5,Former,29.2,No,16,No,Retired,Medium,18-01-2025
+806,76,Male,Leukemia,II,30-05-2015,Chemotherapy,10-11-2018,20-06-2019,9.28,7,Never,21,No,78,Yes,Office Worker,High,11-05-2021
+807,87,Male,Lung,IV,04-08-2018,Immunotherapy,18-12-2023,15-07-2024,7,16,Never,26,No,17,Yes,Healthcare,Low,03-01-2025
+808,58,Female,Leukemia,III,22-09-2016,Chemotherapy,15-07-2020,03-11-2022,4.88,11,Current,23.8,No,5,No,Healthcare,Low,11-02-2023
+809,44,Female,Lung,II,13-10-2022,Surgery,06-01-2024,06-05-2025,4.32,7,Never,23.1,No,97,No,Office Worker,Low,07-05-2025
+810,48,Female,Lung,I,05-12-2024,Hormone Therapy,12-05-2025,20-05-2025,3.57,18,Current,26.4,Yes,54,No,Office Worker,Low,21-05-2025
+811,79,Male,Leukemia,III,01-09-2024,Radiation,11-12-2024,30-01-2025,5.63,7,Never,25.4,No,73,No,Unemployed,High,14-04-2025
+812,46,Female,Prostate,IV,22-09-2023,Surgery,14-04-2025,07-05-2025,1.31,1,Never,27.8,No,69,No,Office Worker,Medium,14-05-2025
+813,89,Male,Colon,II,06-09-2016,Radiation,17-07-2020,31-08-2020,1.4,19,Never,24.8,No,29,No,Healthcare,High,17-07-2023
+814,71,Male,Colon,I,01-05-2025,Surgery,22-05-2025,22-05-2025,8.8,2,Former,26.4,No,67,No,Retired,Medium,22-05-2025
+815,82,Female,Lung,I,17-12-2017,Hormone Therapy,16-07-2021,28-03-2022,3.54,14,Former,33.4,No,70,No,Office Worker,Low,06-01-2024
+816,25,Female,Colon,II,19-10-2019,Hormone Therapy,21-04-2025,28-04-2025,3.49,18,Former,20.3,Yes,3,No,Office Worker,Medium,22-05-2025
+817,77,Male,Prostate,I,03-08-2018,Chemotherapy,14-05-2020,08-06-2023,1.72,,Never,17.1,Yes,39,Yes,Manual Labor,Low,17-03-2024
+818,21,Female,Skin,II,03-05-2018,Chemotherapy,22-09-2024,20-04-2025,4.55,18,Current,27.4,Yes,91,No,Healthcare,Low,26-04-2025
+819,62,Female,Lung,IV,04-03-2024,Immunotherapy,14-07-2024,21-10-2024,7.91,12,Former,21.2,No,111,Yes,Retired,Medium,09-12-2024
+820,70,Female,Lung,II,05-12-2023,Surgery,05-01-2025,11-02-2025,8.07,10,Current,30.2,No,72,Yes,Manual Labor,High,02-03-2025
+821,89,Female,Lung,IV,14-10-2021,Immunotherapy,07-01-2025,22-03-2025,9.65,15,Current,37.8,No,28,No,Manual Labor,Medium,18-05-2025
+822,26,Female,Colon,IV,23-08-2021,Chemotherapy,06-02-2022,30-09-2023,1.32,18,Never,21.8,No,39,Yes,Retired,High,15-02-2025
+823,68,Female,Skin,III,05-05-2016,Chemotherapy,29-08-2018,13-03-2022,6.06,13,Former,30.5,No,38,No,Office Worker,Low,16-11-2024
+824,60,Male,Leukemia,I,18-08-2015,Surgery,01-04-2016,23-12-2016,3.08,5,Current,27.4,Yes,116,Yes,Retired,High,21-09-2021
+825,59,Male,Skin,II,01-03-2019,Hormone Therapy,11-11-2022,05-04-2024,1.96,2,Never,21.5,No,51,No,Office Worker,Medium,18-12-2024
+826,54,Male,Breast,I,14-10-2016,Radiation,02-08-2023,30-01-2025,0.7,15,Never,30.8,No,13,Yes,Retired,Medium,31-01-2025
+827,71,Female,Breast,III,13-08-2015,Immunotherapy,20-02-2019,14-12-2021,3.65,3,Never,26,No,11,Yes,Unemployed,Low,20-06-2022
+828,71,Male,Lung,II,10-04-2019,Radiation,29-06-2024,22-12-2024,5.73,12,Former,27.5,Yes,114,No,Manual Labor,High,31-12-2024
+829,45,Female,Colon,I,23-08-2021,Immunotherapy,30-10-2024,20-01-2025,6.01,18,Never,18.7,No,30,Yes,Retired,Medium,06-03-2025
+830,34,Male,Prostate,I,27-11-2021,Hormone Therapy,14-12-2023,10-08-2024,1.51,13,Former,25.1,No,116,No,Office Worker,Low,02-11-2024
+831,62,Female,Skin,II,22-04-2016,Surgery,05-07-2017,19-09-2018,1.59,18,Never,32.9,No,64,No,Unemployed,High,19-02-2021
+832,55,Male,Leukemia,III,05-01-2020,Immunotherapy,22-03-2022,19-09-2022,4.83,9,Former,19.4,Yes,22,No,Healthcare,High,12-11-2022
+833,58,Female,Skin,III,14-06-2024,Hormone Therapy,17-04-2025,16-05-2025,2.21,6,Never,20.8,Yes,60,Yes,Office Worker,Medium,17-05-2025
+834,51,Female,Lung,II,22-02-2025,Chemotherapy,21-05-2025,21-05-2025,0.86,3,Former,22.5,No,118,Yes,Office Worker,High,21-05-2025
+835,21,Male,Prostate,I,15-09-2023,Radiation,02-05-2024,18-02-2025,5.75,17,Current,20.7,Yes,116,Yes,Healthcare,Medium,29-04-2025
+836,60,Female,Leukemia,III,09-11-2019,Radiation,29-06-2022,10-08-2024,5.88,13,Former,19.9,Yes,18,Yes,Office Worker,Low,04-05-2025
+837,45,Male,Breast,III,10-09-2020,Immunotherapy,13-04-2021,12-05-2025,3.32,15,Never,23.9,No,4,Yes,Healthcare,High,13-05-2025
+838,54,Female,Prostate,III,19-02-2023,Hormone Therapy,26-06-2023,03-02-2024,1.27,15,Former,19.3,Yes,90,Yes,Healthcare,High,29-03-2024
+839,65,Female,Breast,IV,24-05-2015,Radiation,26-10-2023,18-05-2025,6.07,3,Never,24.8,No,108,No,Manual Labor,Low,22-05-2025
+840,29,Male,Breast,II,17-09-2021,Hormone Therapy,15-03-2023,04-01-2025,8.37,17,Current,20.8,Yes,1,No,Manual Labor,High,24-01-2025
+841,75,Male,Prostate,IV,30-11-2024,Surgery,12-05-2025,22-05-2025,9.88,12,Never,27.2,No,95,Yes,Healthcare,Medium,22-05-2025
+842,47,Male,Skin,I,28-06-2022,Surgery,15-07-2024,09-11-2024,6.89,0,Current,12.3,Yes,74,No,Healthcare,Medium,18-01-2025
+843,29,Male,Breast,IV,07-03-2023,Hormone Therapy,07-12-2023,12-12-2023,9.53,6,Former,26.8,Yes,117,Yes,Office Worker,Low,22-08-2024
+844,32,Male,Skin,IV,30-06-2017,Chemotherapy,01-10-2018,29-04-2025,6.3,6,Former,17.6,No,44,No,Retired,Low,05-05-2025
+845,71,Male,Breast,III,21-11-2021,Surgery,09-01-2024,23-07-2024,1.71,6,Former,33.1,Yes,58,Yes,Retired,Low,16-01-2025
+846,50,Male,Leukemia,I,05-03-2020,Chemotherapy,05-05-2022,03-07-2022,8.44,10,Never,23.7,No,82,Yes,Manual Labor,Low,28-06-2024
+847,85,Female,Skin,II,23-02-2016,Surgery,18-10-2022,04-10-2023,3.85,1,Former,24.7,Yes,119,Yes,Manual Labor,High,16-10-2023
+848,74,Male,Leukemia,III,24-03-2022,Radiation,26-05-2023,05-02-2025,0.64,15,Former,28.7,Yes,14,No,Manual Labor,High,30-03-2025
+849,56,Male,Prostate,IV,21-10-2019,Hormone Therapy,18-06-2021,04-10-2023,6.25,18,Never,18.6,Yes,32,No,Retired,Low,07-03-2025
+850,86,Male,Leukemia,II,28-11-2023,Chemotherapy,02-06-2024,27-10-2024,6.24,9,Current,26.5,Yes,96,No,Office Worker,Medium,15-02-2025
+851,76,Female,Colon,III,11-01-2025,Chemotherapy,09-02-2025,08-04-2025,2.65,6,Current,24.4,Yes,111,No,Unemployed,Medium,16-05-2025
+852,20,Male,Lung,IV,01-11-2023,Radiation,22-01-2025,20-04-2025,2.25,14,Current,21,No,6,Yes,Retired,Medium,04-05-2025
+853,29,Female,Lung,I,25-01-2017,Surgery,12-09-2020,28-10-2024,4.28,12,Current,13.1,Yes,119,No,Manual Labor,High,14-01-2025
+854,64,Female,Skin,III,13-03-2021,Radiation,14-04-2021,27-05-2022,5.3,2,Current,23.3,Yes,8,No,Manual Labor,Low,08-02-2025
+855,33,Male,Prostate,III,29-01-2023,Hormone Therapy,09-02-2024,21-05-2025,5.88,15,Current,27.7,No,71,No,Retired,Low,21-05-2025
+856,32,Male,Skin,III,04-01-2017,Surgery,27-11-2022,30-12-2023,7.89,1,Former,25.3,Yes,22,No,Office Worker,Medium,01-03-2024
+857,41,Female,Lung,IV,09-06-2018,Chemotherapy,23-05-2023,14-08-2024,5.49,11,Current,29.6,Yes,72,No,Healthcare,Medium,03-10-2024
+858,73,Female,Colon,II,24-05-2015,Radiation,21-04-2017,02-11-2020,4.79,17,Current,16.3,Yes,89,Yes,Office Worker,Low,09-05-2021
+859,77,Female,Prostate,I,23-11-2020,Hormone Therapy,24-05-2021,27-01-2023,1.67,15,Current,21.4,Yes,43,No,Retired,High,05-01-2024
+860,23,Male,Lung,III,27-04-2019,Chemotherapy,21-05-2024,08-06-2024,7,10,Never,18.6,Yes,18,Yes,Manual Labor,High,09-08-2024
+861,79,Female,Breast,IV,07-10-2017,Surgery,13-12-2018,19-01-2022,4.13,13,Former,30.8,No,27,No,Manual Labor,Medium,14-08-2022
+862,49,Female,Breast,II,01-05-2016,Surgery,05-02-2017,03-02-2024,5.15,7,Never,31.9,Yes,84,Yes,Manual Labor,High,01-03-2024
+863,85,Female,Colon,I,04-11-2022,Radiation,15-11-2023,12-09-2024,2.18,1,Never,25.6,No,80,Yes,Retired,Low,20-03-2025
+864,41,Female,Skin,IV,23-11-2021,Surgery,17-06-2024,27-12-2024,3.5,12,Current,27.5,No,69,Yes,Manual Labor,Low,27-03-2025
+865,42,Female,Leukemia,I,25-11-2023,Radiation,27-11-2024,14-01-2025,0.98,17,Former,27,Yes,45,No,Unemployed,High,06-02-2025
+866,64,Male,Colon,II,04-05-2017,Hormone Therapy,08-06-2023,11-01-2024,9.26,14,Former,18.3,Yes,114,No,Manual Labor,Medium,13-03-2024
+867,72,Female,Breast,IV,27-04-2018,Immunotherapy,14-06-2021,04-01-2025,7.93,2,Current,27.5,No,118,Yes,Healthcare,Low,02-03-2025
+868,62,Female,Skin,IV,13-02-2025,Chemotherapy,22-02-2025,20-04-2025,2.63,8,Former,23.3,Yes,51,Yes,Retired,High,12-05-2025
+869,60,Female,Prostate,II,20-04-2017,Immunotherapy,29-09-2021,24-09-2022,9.79,18,Never,22,Yes,60,Yes,Office Worker,High,29-09-2024
+870,76,Female,Colon,IV,22-11-2016,Immunotherapy,13-07-2017,14-05-2024,4.04,19,Current,29.1,Yes,37,Yes,Office Worker,High,09-04-2025
+871,43,Female,Colon,III,08-09-2019,Immunotherapy,04-03-2024,14-04-2025,8.96,2,Never,27.5,No,54,No,Office Worker,High,21-04-2025
+872,39,Female,Prostate,IV,02-07-2015,Surgery,05-02-2021,18-09-2022,1.78,15,Never,12.5,No,60,No,Retired,High,25-03-2025
+873,62,Female,Prostate,III,22-09-2019,Radiation,25-01-2025,16-02-2025,1.76,11,Former,22.1,Yes,64,Yes,Manual Labor,Medium,13-05-2025
+874,60,Male,Leukemia,III,03-12-2024,Radiation,24-03-2025,17-05-2025,7.16,12,Current,19.1,Yes,18,Yes,Retired,High,22-05-2025
+875,38,Male,Colon,I,07-02-2020,Surgery,12-01-2023,20-03-2024,4.98,12,Current,28.4,Yes,40,No,Manual Labor,Low,14-12-2024
+876,68,Male,Colon,IV,24-10-2024,Surgery,25-04-2025,07-05-2025,3.87,17,Former,20.9,No,84,Yes,Healthcare,High,22-05-2025
+877,23,Male,Lung,III,05-11-2016,Surgery,16-12-2024,24-02-2025,3.64,12,Current,28.3,Yes,112,No,Office Worker,High,20-04-2025
+878,62,Female,Skin,I,20-11-2020,Chemotherapy,25-07-2024,28-03-2025,5.14,19,Current,29.1,Yes,118,No,Unemployed,Low,11-04-2025
+879,34,Female,Leukemia,IV,24-12-2018,Surgery,28-04-2025,13-05-2025,7.09,1,Current,20.9,Yes,75,Yes,Unemployed,Low,15-05-2025
+880,55,Female,Skin,II,03-06-2018,Radiation,22-11-2022,29-03-2024,1.37,10,Current,16.3,No,40,Yes,Manual Labor,Medium,06-09-2024
+881,20,Male,Lung,III,12-03-2025,Immunotherapy,14-04-2025,19-04-2025,2.16,2,Current,26.2,No,113,No,Office Worker,Low,11-05-2025
+882,52,Male,Colon,IV,04-05-2025,Surgery,19-05-2025,19-05-2025,9.02,3,Never,21.2,No,45,Yes,Manual Labor,High,19-05-2025
+883,66,Female,Colon,IV,10-10-2019,Hormone Therapy,19-01-2023,14-04-2023,8.69,10,Never,26.1,Yes,19,No,Office Worker,High,09-05-2024
+884,40,Female,Leukemia,III,26-10-2024,Immunotherapy,17-04-2025,13-05-2025,4.58,15,Former,29.5,Yes,115,No,Unemployed,High,17-05-2025
+885,18,Male,Leukemia,I,13-01-2019,Surgery,20-01-2019,17-03-2025,3.61,0,Never,20.8,Yes,55,Yes,Retired,High,25-03-2025
+886,35,Female,Skin,I,14-10-2016,Chemotherapy,28-09-2017,22-09-2023,3.41,12,Current,21.8,Yes,21,Yes,Retired,Low,09-04-2025
+887,87,Female,Lung,II,07-02-2019,Hormone Therapy,12-11-2021,09-06-2024,6.35,15,Former,17.6,No,60,No,Healthcare,High,10-09-2024
+888,32,Male,Breast,I,06-04-2022,Hormone Therapy,21-03-2023,30-06-2023,4.18,7,Former,25.5,No,109,No,Office Worker,Low,04-06-2024
+889,26,Male,Prostate,I,23-03-2019,Immunotherapy,21-12-2021,15-02-2022,3.29,16,Current,28.3,Yes,69,Yes,Retired,High,08-01-2024
+890,22,Female,Breast,II,08-11-2015,Chemotherapy,12-10-2024,17-02-2025,5.86,17,Current,15.4,No,2,Yes,Manual Labor,Medium,25-02-2025
+891,30,Female,Breast,III,31-05-2023,Hormone Therapy,15-02-2024,06-04-2025,0.68,12,Former,23,Yes,67,No,Retired,Medium,06-05-2025
+892,80,Female,Leukemia,II,18-08-2017,Immunotherapy,13-08-2021,06-07-2023,2.7,8,Current,23.4,Yes,11,No,Healthcare,High,21-04-2024
+893,59,Male,Lung,IV,18-12-2023,Surgery,24-10-2024,31-12-2024,8.66,12,Current,28.5,Yes,73,Yes,Office Worker,High,31-01-2025
+894,69,Male,Colon,II,23-11-2022,Chemotherapy,08-08-2023,19-06-2024,5.37,6,Current,23.8,Yes,85,Yes,Unemployed,Medium,19-02-2025
+895,40,Female,Leukemia,III,13-04-2020,Radiation,21-03-2025,30-03-2025,4.17,18,Current,28.8,No,50,Yes,Manual Labor,High,09-04-2025
+896,37,Male,Colon,IV,05-07-2015,Surgery,08-04-2020,16-12-2023,4.24,16,Former,30.3,Yes,2,Yes,Unemployed,High,10-06-2024
+897,42,Male,Lung,I,25-02-2019,Radiation,19-01-2025,18-02-2025,7.43,6,Never,25.1,Yes,58,No,Unemployed,Low,04-05-2025
+898,81,Female,Leukemia,IV,22-09-2017,Immunotherapy,18-09-2019,19-02-2021,6.54,18,Never,17.7,No,62,No,Retired,Medium,30-03-2021
+899,33,Male,Prostate,II,28-10-2022,Hormone Therapy,20-05-2023,05-02-2025,8.21,8,Former,21.9,No,35,Yes,Healthcare,High,01-04-2025
+900,72,Female,Prostate,IV,04-09-2016,Radiation,22-02-2019,15-04-2021,1.86,18,Never,30.3,Yes,100,Yes,Office Worker,High,12-05-2021
+901,24,Female,Breast,I,13-08-2017,Hormone Therapy,16-11-2017,17-05-2025,0.74,16,Never,20.1,Yes,72,No,Office Worker,Low,21-05-2025
+902,59,Female,Colon,III,12-09-2016,Surgery,14-05-2019,06-04-2020,5.69,12,Current,24.8,Yes,7,Yes,Office Worker,High,26-08-2020
+903,44,Male,Lung,III,04-04-2020,Hormone Therapy,06-01-2021,01-01-2025,7.96,3,Current,22.9,No,55,No,Retired,High,11-04-2025
+904,63,Female,Lung,I,22-01-2017,Radiation,27-03-2018,27-09-2023,6.63,18,Current,29.4,Yes,28,No,Office Worker,Medium,30-11-2023
+905,20,Male,Lung,IV,10-05-2025,Immunotherapy,14-05-2025,17-05-2025,2.18,13,Former,24.4,Yes,56,No,Unemployed,Medium,18-05-2025
+906,76,Female,Prostate,III,29-09-2023,Hormone Therapy,30-11-2023,22-04-2025,8.21,19,Never,26.7,Yes,96,No,Retired,Medium,02-05-2025
+907,76,Female,Leukemia,I,02-11-2016,Hormone Therapy,22-03-2021,31-01-2023,8.13,12,Never,21.2,No,118,No,Unemployed,Low,03-07-2023
+908,85,Male,Prostate,II,19-09-2022,Chemotherapy,15-02-2025,03-03-2025,6.44,2,Former,25.9,Yes,109,No,Manual Labor,Low,10-03-2025
+909,24,Female,Skin,I,18-06-2022,Hormone Therapy,13-11-2024,31-03-2025,7.32,15,Current,27.7,No,33,Yes,Manual Labor,Medium,20-04-2025
+910,67,Male,Breast,IV,13-07-2024,Hormone Therapy,04-02-2025,28-03-2025,4.32,4,Never,29.9,Yes,59,Yes,Manual Labor,Low,03-04-2025
+911,65,Male,Lung,I,16-10-2020,Immunotherapy,09-06-2023,13-06-2023,8.37,2,Former,31.1,No,31,Yes,Retired,Medium,15-01-2024
+912,34,Male,Leukemia,I,13-03-2022,Surgery,01-11-2023,19-05-2025,3.39,19,Current,30.3,Yes,50,No,Unemployed,High,21-05-2025
+913,87,Male,Lung,II,13-03-2025,Surgery,02-04-2025,11-04-2025,3.82,17,Former,28.8,Yes,62,No,Healthcare,High,13-04-2025
+914,64,Male,Prostate,III,13-04-2022,Chemotherapy,24-12-2024,08-05-2025,8.7,1,Current,19.8,No,104,Yes,Office Worker,Low,12-05-2025
+915,78,Male,Lung,III,01-03-2018,Hormone Therapy,03-04-2024,28-12-2024,1.82,19,Never,25.9,No,93,Yes,Healthcare,Medium,28-03-2025
+916,88,Male,Prostate,I,15-01-2017,Immunotherapy,02-04-2017,06-06-2022,8.86,5,Former,16.6,No,8,No,Healthcare,Low,22-04-2023
+917,71,Female,Lung,III,06-12-2022,Surgery,13-10-2024,08-01-2025,5,4,Never,17.2,No,85,No,Retired,Medium,24-04-2025
+918,78,Male,Skin,IV,22-07-2021,Radiation,28-08-2021,12-03-2022,7.96,2,Former,33.7,Yes,16,No,Retired,High,19-05-2023
+919,67,Female,Skin,II,06-02-2017,Surgery,10-07-2019,12-03-2022,6.66,16,Former,16.7,Yes,2,No,Healthcare,Medium,04-10-2023
+920,21,Female,Skin,IV,12-07-2020,Hormone Therapy,25-02-2023,15-09-2024,5.37,1,Current,23.6,Yes,6,Yes,Unemployed,Medium,25-02-2025
+921,86,Female,Leukemia,I,13-07-2017,Radiation,05-02-2021,26-11-2024,2.97,15,Never,18,Yes,9,Yes,Unemployed,High,08-12-2024
+922,81,Female,Skin,IV,17-09-2016,Immunotherapy,02-02-2018,26-10-2021,3.17,1,Former,23,No,29,No,Unemployed,Medium,20-03-2022
+923,55,Male,Skin,I,14-12-2015,Immunotherapy,16-01-2023,03-07-2023,7.46,0,Current,26.6,Yes,97,Yes,Retired,Low,21-10-2024
+924,18,Female,Leukemia,II,01-10-2018,Hormone Therapy,14-12-2022,13-08-2024,1.63,3,Current,25.8,Yes,82,No,Healthcare,Medium,16-11-2024
+925,44,Female,Lung,IV,24-10-2020,Chemotherapy,29-07-2024,09-01-2025,4.06,0,Never,22.1,Yes,100,Yes,Healthcare,Low,06-05-2025
+926,77,Female,Leukemia,II,27-10-2024,Radiation,26-11-2024,19-05-2025,9.95,15,Former,26.6,Yes,87,No,Retired,High,19-05-2025
+927,73,Female,Colon,IV,06-02-2021,Immunotherapy,21-12-2021,06-03-2022,6.43,17,Former,29.3,Yes,61,No,Manual Labor,Medium,30-03-2023
+928,59,Female,Colon,I,06-05-2017,Surgery,25-07-2019,05-04-2023,8.84,17,Never,30.6,Yes,58,No,Manual Labor,Medium,07-06-2024
+929,85,Male,Skin,IV,26-10-2024,Chemotherapy,07-05-2025,18-05-2025,9.89,17,Former,16.5,Yes,65,No,Unemployed,Low,20-05-2025
+930,85,Female,Leukemia,II,18-03-2023,Immunotherapy,05-06-2024,18-04-2025,9.93,19,Former,27.4,Yes,107,No,Unemployed,Low,16-05-2025
+931,46,Male,Leukemia,I,07-09-2021,,02-10-2022,27-11-2024,7.21,13,Current,28.3,No,20,Yes,Healthcare,Medium,29-01-2025
+932,44,Male,Skin,IV,15-02-2023,Immunotherapy,23-12-2024,22-03-2025,0.51,,Current,22.2,No,54,Yes,Manual Labor,Medium,19-04-2025
+933,41,Female,Skin,IV,24-03-2019,Hormone Therapy,25-04-2025,25-04-2025,5.61,6,Current,21.6,No,60,Yes,Healthcare,Medium,17-05-2025
+934,79,Female,Lung,I,25-02-2016,Surgery,03-10-2017,27-01-2022,4.08,10,Current,24.4,No,29,Yes,Unemployed,Medium,19-05-2025
+935,58,Male,Colon,IV,01-12-2024,Surgery,10-12-2024,02-03-2025,5.6,0,Former,19.7,No,14,Yes,Retired,Medium,16-04-2025
+936,73,Male,Prostate,IV,30-07-2021,Chemotherapy,05-08-2021,19-07-2022,1.66,18,Former,19.7,Yes,98,No,Office Worker,High,21-12-2022
+937,52,Female,Lung,I,17-05-2021,Hormone Therapy,29-06-2023,04-10-2024,7.73,0,Current,25.9,No,37,No,Manual Labor,Medium,31-10-2024
+938,82,Male,Skin,IV,25-07-2020,Chemotherapy,19-08-2024,18-12-2024,9.58,15,Former,31.5,Yes,61,No,Retired,High,14-01-2025
+939,71,Male,Leukemia,III,19-05-2017,Immunotherapy,07-05-2022,28-04-2025,0.63,15,Never,24.2,Yes,71,No,Office Worker,Low,05-05-2025
+940,51,Female,Skin,II,27-03-2017,Chemotherapy,05-03-2024,21-05-2025,4.08,3,Never,26.1,Yes,78,No,Retired,High,22-05-2025
+941,33,Male,Colon,II,10-08-2018,Surgery,14-07-2019,19-04-2024,2.02,18,Former,22.4,No,101,Yes,Manual Labor,Medium,17-08-2024
+942,29,Female,Leukemia,III,04-04-2023,Chemotherapy,07-04-2024,23-08-2024,8.07,8,Never,20.5,Yes,1,Yes,Retired,Medium,14-12-2024
+943,71,Female,Colon,III,02-09-2019,Hormone Therapy,11-07-2022,23-10-2022,1.62,5,Current,18.7,No,23,No,Manual Labor,Medium,22-02-2024
+944,40,Male,Leukemia,IV,04-11-2019,Radiation,13-06-2021,10-05-2024,3.1,6,Former,16,Yes,44,No,Retired,Medium,01-01-2025
+945,44,Male,Leukemia,III,03-11-2019,Surgery,24-09-2022,07-01-2025,3.85,14,Former,23,Yes,57,Yes,Retired,High,17-01-2025
+946,86,Male,Prostate,IV,27-07-2016,Immunotherapy,08-09-2022,20-05-2025,1.84,0,Current,19.1,Yes,80,No,Retired,Low,22-05-2025
+947,55,Female,Breast,I,27-10-2015,Immunotherapy,05-09-2018,21-03-2024,4.13,13,Never,31,Yes,87,Yes,Unemployed,High,04-11-2024
+948,46,Female,Lung,IV,02-07-2019,Hormone Therapy,11-11-2019,14-05-2024,1.89,8,Former,17.6,No,23,No,Healthcare,Medium,21-01-2025
+949,88,Female,Prostate,IV,03-02-2017,Radiation,17-05-2017,14-08-2017,8.93,17,Former,24,No,14,No,Healthcare,High,26-03-2024
+950,69,Male,Skin,IV,27-12-2021,Immunotherapy,25-05-2023,25-08-2024,6.54,6,Current,22.4,Yes,71,Yes,Retired,High,17-10-2024
+951,47,Male,Skin,IV,23-08-2017,Chemotherapy,25-09-2021,01-03-2022,8.24,16,Never,21.9,Yes,42,No,Office Worker,High,03-11-2024
+952,68,Female,Skin,II,29-11-2022,Radiation,19-02-2023,27-08-2024,6.61,15,Current,21.5,No,32,Yes,Manual Labor,Low,06-12-2024
+953,32,Female,Breast,II,25-09-2020,Hormone Therapy,23-10-2024,27-12-2024,7.71,16,Never,14,No,36,Yes,Healthcare,Medium,12-03-2025
+954,88,Male,Prostate,II,17-10-2022,Radiation,03-03-2024,19-04-2025,4.42,0,Never,13.5,No,75,No,Unemployed,Low,13-05-2025
+955,42,Female,Leukemia,I,03-08-2020,Hormone Therapy,25-10-2023,27-02-2025,6.29,10,Former,21.4,No,40,No,Office Worker,Medium,11-05-2025
+956,34,Female,Leukemia,IV,09-09-2019,Immunotherapy,10-03-2022,11-08-2024,2.7,1,Never,24,Yes,62,Yes,Manual Labor,Medium,22-08-2024
+957,26,Female,Lung,IV,15-04-2016,Radiation,31-01-2025,14-05-2025,3.76,16,Former,33.2,No,85,No,Healthcare,Medium,18-05-2025
+958,38,Female,Leukemia,IV,05-04-2016,Surgery,28-06-2018,04-09-2020,4.72,9,Current,28.1,Yes,18,Yes,Healthcare,High,15-07-2022
+959,59,Female,Lung,III,22-12-2023,Hormone Therapy,12-08-2024,14-12-2024,2.08,4,Former,19.5,No,49,No,Unemployed,High,21-03-2025
+960,46,Female,Leukemia,II,18-11-2021,Radiation,11-11-2023,05-11-2024,3.72,17,Former,17.6,Yes,107,Yes,Retired,Medium,27-02-2025
+961,26,Male,Breast,III,09-09-2023,Surgery,02-10-2023,11-09-2024,3.48,14,Current,28.7,Yes,52,No,Retired,Medium,21-04-2025
+962,43,Female,Leukemia,II,25-10-2021,Hormone Therapy,28-12-2023,14-07-2024,4.53,13,Former,20.8,Yes,49,No,Healthcare,Medium,21-05-2025
+963,70,Male,Lung,III,03-07-2023,Hormone Therapy,09-01-2025,19-05-2025,2.31,0,Former,25.7,Yes,33,Yes,Healthcare,Medium,19-05-2025
+964,66,Male,Leukemia,I,01-09-2024,Surgery,15-10-2024,12-01-2025,3.47,2,Current,29.2,Yes,49,Yes,Unemployed,High,18-02-2025
+965,72,Male,Prostate,II,06-10-2023,Radiation,18-11-2024,23-02-2025,8.41,7,Never,27.3,No,46,No,Office Worker,High,15-05-2025
+966,63,Male,Lung,III,15-10-2015,Chemotherapy,03-03-2025,04-03-2025,5.67,0,Never,31.6,No,49,No,Office Worker,High,22-05-2025
+967,42,Male,Leukemia,I,23-01-2022,Radiation,07-05-2022,22-10-2023,4.32,15,Former,33.1,Yes,92,Yes,Retired,High,21-08-2024
+968,23,Male,Colon,III,14-10-2024,Hormone Therapy,17-02-2025,14-04-2025,6.53,15,Never,23.4,Yes,105,No,Office Worker,Medium,13-05-2025
+969,60,Female,Prostate,IV,10-11-2021,Radiation,19-08-2023,27-04-2024,1.57,13,Current,22.7,No,84,Yes,Manual Labor,Medium,28-07-2024
+970,80,Female,Breast,II,17-03-2022,Immunotherapy,02-06-2023,19-12-2024,1.51,3,Current,24.9,Yes,26,Yes,Office Worker,Medium,15-04-2025
+971,19,Female,Colon,III,11-03-2016,Hormone Therapy,09-02-2024,16-08-2024,4.56,16,Never,25.2,No,78,No,Manual Labor,High,14-09-2024
+972,43,Female,Leukemia,III,21-11-2020,Hormone Therapy,05-04-2021,07-01-2023,5.35,15,Former,27.7,No,40,Yes,Healthcare,High,16-08-2023
+973,83,Male,Skin,IV,24-05-2019,Hormone Therapy,05-12-2019,20-05-2021,0.71,14,Never,29.8,No,2,No,Healthcare,Medium,22-12-2021
+974,37,Female,Leukemia,III,14-04-2023,Immunotherapy,19-08-2023,18-09-2023,7.42,2,Current,27.3,Yes,12,No,Office Worker,Medium,28-11-2023
+975,57,Female,Colon,III,07-10-2015,Chemotherapy,02-03-2018,18-07-2021,7.81,3,Current,15.7,No,110,No,Office Worker,Medium,01-12-2021
+976,23,Female,Prostate,II,26-01-2018,Radiation,21-06-2019,06-10-2023,5.22,3,Never,29.3,Yes,18,No,Unemployed,High,17-09-2024
+977,29,Female,Leukemia,IV,20-11-2022,Immunotherapy,14-12-2024,29-03-2025,8.5,18,Current,30.8,Yes,6,Yes,Office Worker,High,16-04-2025
+978,44,Female,Skin,III,26-08-2023,Immunotherapy,21-04-2025,14-05-2025,8.59,4,Former,24.6,No,69,No,Healthcare,Low,22-05-2025
+979,28,Female,Lung,I,29-12-2016,Immunotherapy,01-02-2017,15-09-2023,3.1,2,Current,29.1,No,9,Yes,Healthcare,Low,23-02-2025
+980,32,Female,Colon,II,31-05-2020,Radiation,17-05-2021,05-07-2024,1.84,5,Never,28.4,No,26,Yes,Manual Labor,Medium,12-12-2024
+981,38,Male,Breast,IV,17-09-2021,Immunotherapy,31-03-2023,11-04-2023,7.61,10,Never,27.1,No,35,Yes,Retired,Medium,22-09-2023
+982,31,Male,Prostate,IV,03-04-2022,Surgery,19-12-2024,07-04-2025,3.02,9,Current,29.4,Yes,108,Yes,Retired,Low,19-04-2025
+983,51,Male,Colon,II,13-01-2019,Chemotherapy,10-12-2019,17-10-2020,1,16,Former,27.9,No,1,Yes,Healthcare,High,10-03-2021
+984,29,Female,Skin,IV,13-05-2019,Chemotherapy,18-08-2022,06-11-2023,1.04,9,Never,27.7,Yes,106,Yes,Healthcare,Medium,25-07-2024
+985,21,Female,Prostate,II,26-04-2021,Hormone Therapy,24-08-2021,22-03-2023,6.04,18,Current,26.8,No,6,Yes,Healthcare,Low,28-09-2023
+986,25,Male,Lung,I,26-12-2019,Chemotherapy,10-05-2024,27-05-2024,3.62,10,Current,21.9,No,12,No,Healthcare,High,25-02-2025
+987,19,Male,Prostate,II,30-09-2016,Immunotherapy,25-12-2019,11-01-2022,5.52,10,Never,29.1,Yes,112,No,Office Worker,Medium,09-01-2023
+988,25,Male,Leukemia,II,21-11-2023,Immunotherapy,23-04-2025,26-04-2025,7.86,9,Former,28,Yes,114,No,Retired,Low,30-04-2025
+989,38,Male,Skin,I,10-01-2023,Radiation,10-04-2025,26-04-2025,1.8,6,Former,25,No,1,No,Unemployed,Low,21-05-2025
+990,43,Male,Skin,III,26-11-2015,Immunotherapy,14-08-2024,24-09-2024,7.5,11,Former,29.1,No,44,No,Unemployed,Low,14-10-2024
+991,79,Female,Prostate,I,13-11-2024,Immunotherapy,22-01-2025,15-04-2025,0.61,16,Current,20.7,No,72,Yes,Manual Labor,High,10-05-2025
+992,38,Female,Lung,II,31-10-2016,Radiation,23-01-2017,13-09-2023,5.42,6,Current,24.8,No,59,Yes,Office Worker,High,12-08-2024
+993,35,Male,Prostate,IV,18-07-2016,Radiation,19-02-2022,08-10-2022,1.21,19,Never,21.4,Yes,110,No,Office Worker,Low,25-12-2024
+994,69,Male,Lung,III,24-04-2020,Immunotherapy,22-11-2022,01-04-2023,4.09,9,Current,22,Yes,25,No,Office Worker,Medium,30-12-2024
+995,40,Male,Colon,I,25-12-2018,Hormone Therapy,08-12-2022,01-04-2024,0.85,19,Never,24.6,No,85,Yes,Office Worker,Medium,16-06-2024
+996,19,Male,Colon,IV,18-04-2022,Immunotherapy,22-05-2022,20-01-2025,2.99,0,Current,22.1,No,101,No,Unemployed,Medium,21-03-2025
+997,52,Male,Leukemia,III,09-12-2019,Hormone Therapy,24-05-2023,16-01-2024,8.68,17,Former,31.1,Yes,30,Yes,Healthcare,High,19-04-2025
+998,61,Male,Lung,I,01-05-2019,Chemotherapy,10-06-2022,02-01-2023,2.7,19,Current,17.3,Yes,11,No,Healthcare,High,15-10-2023
+999,83,Female,Leukemia,IV,02-10-2019,Hormone Therapy,12-09-2021,14-03-2023,9.72,3,Former,33,Yes,68,Yes,Unemployed,High,29-04-2023
+1000,59,Male,Lung,I,30-01-2016,Radiation,04-02-2016,04-05-2024,6.49,4,Never,29,Yes,58,No,Unemployed,Medium,01-05-2025
+1001,40,Male,Colon,IV,01-07-2018,Radiation,11-05-2019,07-06-2020,3.02,15,Current,24.1,No,8,No,Manual Labor,Low,06-06-2023
+1002,35,Female,Colon,IV,13-01-2022,Chemotherapy,03-01-2023,07-02-2023,9.17,4,Never,20.7,Yes,30,Yes,Office Worker,Low,13-09-2023
+1003,71,Female,Breast,III,30-04-2022,Radiation,05-06-2023,08-11-2024,2.87,2,Former,20.2,Yes,76,Yes,Unemployed,High,13-11-2024
+1004,19,Male,Leukemia,II,14-05-2018,Chemotherapy,14-05-2021,06-04-2025,0.65,17,Current,25.2,Yes,101,No,Retired,Low,29-04-2025
+1005,19,Male,Lung,I,24-01-2023,Radiation,03-01-2024,10-06-2024,0.6,6,Current,22.9,Yes,23,No,Office Worker,Medium,07-10-2024
+1006,57,Female,Skin,IV,10-03-2018,Immunotherapy,07-03-2021,03-05-2021,7.59,8,Never,29.7,Yes,13,Yes,Manual Labor,High,12-12-2022
+1007,22,Female,Leukemia,I,19-03-2020,Chemotherapy,02-10-2023,18-02-2025,2.32,19,Never,20.4,Yes,15,No,Healthcare,High,09-04-2025
+1008,24,Female,Skin,II,21-01-2017,Radiation,09-12-2021,20-11-2022,7.72,2,Never,19.3,No,15,Yes,Retired,High,14-10-2023
+1009,87,Male,Colon,II,11-11-2022,Surgery,20-10-2024,14-05-2025,5,10,Current,16.9,No,113,Yes,Retired,Medium,16-05-2025
+1010,57,Male,Prostate,I,14-11-2020,Hormone Therapy,13-11-2022,14-11-2022,2.46,15,Never,23.4,No,61,Yes,Unemployed,Medium,28-06-2023
+1011,85,Male,Colon,II,07-05-2022,Immunotherapy,28-07-2022,22-03-2025,8.47,9,Current,12.2,No,116,Yes,Unemployed,High,26-04-2025
+1012,71,Female,Breast,I,15-09-2024,Surgery,20-12-2024,02-04-2025,6.4,2,Current,25.7,No,98,No,Manual Labor,Low,07-04-2025
+1013,75,Male,Leukemia,IV,17-06-2016,Radiation,21-03-2019,24-03-2022,3.95,9,Current,20.4,Yes,56,No,Retired,High,03-12-2024
+1014,89,Female,Skin,IV,10-08-2023,Chemotherapy,29-09-2024,02-01-2025,9.27,18,Current,18.9,Yes,43,No,Retired,High,03-04-2025
+1015,32,Female,Leukemia,I,15-05-2023,Surgery,15-01-2024,12-03-2024,7.52,4,Current,17.5,No,12,No,Office Worker,Low,25-12-2024
+1016,21,Male,Leukemia,III,02-08-2015,Chemotherapy,06-12-2022,09-03-2023,9.23,15,Never,21.1,No,36,No,Manual Labor,Medium,17-03-2025
+1017,42,Male,Colon,I,08-06-2022,Surgery,15-11-2023,20-04-2025,4.35,1,Never,32.2,No,53,No,Manual Labor,Low,08-05-2025
+1018,35,Female,Prostate,III,04-07-2016,Hormone Therapy,01-11-2019,19-11-2024,7.54,1,Former,31.6,No,78,No,Retired,Medium,02-01-2025
+1019,21,Male,Lung,III,19-11-2023,Immunotherapy,22-12-2024,22-01-2025,5.15,12,Former,20.8,Yes,76,No,Office Worker,Low,04-03-2025
+1020,86,Male,Prostate,III,22-11-2022,Hormone Therapy,06-10-2024,08-10-2024,3.25,0,Current,28.7,Yes,39,Yes,Office Worker,High,12-12-2024
+1021,34,Female,Lung,III,22-08-2024,Hormone Therapy,24-03-2025,11-04-2025,4.3,2,Never,33.4,No,22,Yes,Manual Labor,Low,12-04-2025
+1022,21,Female,Lung,II,26-04-2021,Surgery,11-12-2023,06-10-2024,7.16,8,Never,30,Yes,71,Yes,Unemployed,High,23-01-2025
+1023,19,Male,Breast,III,16-02-2025,Radiation,11-05-2025,19-05-2025,9.37,7,Former,25.2,Yes,111,No,Healthcare,High,22-05-2025
+1024,57,Female,Colon,III,24-11-2021,Surgery,27-03-2025,09-04-2025,3.45,10,Former,32.2,No,55,No,Office Worker,High,15-05-2025
+1025,66,Male,Leukemia,II,17-12-2024,Hormone Therapy,10-05-2025,15-05-2025,7.31,15,Current,26.9,No,68,Yes,Retired,Low,17-05-2025
+1026,81,Female,Lung,IV,23-01-2025,Surgery,12-04-2025,08-05-2025,3.3,3,Current,26.6,No,86,Yes,Healthcare,Low,21-05-2025
+1027,66,Female,Leukemia,I,20-01-2023,Surgery,02-08-2024,19-04-2025,1.56,3,Never,23.4,Yes,118,No,Retired,Medium,28-04-2025
+1028,70,Male,Colon,IV,13-08-2022,Radiation,09-02-2023,20-04-2024,1.09,15,Current,27.1,No,21,No,Healthcare,High,02-09-2024
+1029,34,Female,Skin,III,16-12-2017,Chemotherapy,21-08-2024,28-09-2024,4.96,12,Current,20.2,Yes,62,No,Healthcare,High,31-01-2025
+1030,53,Male,Skin,II,28-05-2022,Radiation,06-09-2022,29-10-2023,3.33,19,Current,22,Yes,109,Yes,Unemployed,High,05-11-2024
+1031,61,Female,Colon,IV,26-06-2018,Radiation,01-06-2024,19-01-2025,2.66,11,Never,27.3,Yes,69,No,Manual Labor,Medium,21-05-2025
+1032,72,Male,Prostate,IV,27-04-2021,Radiation,28-04-2022,03-09-2022,9.89,9,Current,24.1,No,77,No,Office Worker,High,18-04-2023
+1033,86,Female,Skin,I,21-05-2025,Hormone Therapy,21-05-2025,22-05-2025,4.78,9,Never,31.7,Yes,21,Yes,Manual Labor,Medium,22-05-2025
+1034,25,Female,Skin,III,01-02-2017,Chemotherapy,26-02-2024,28-03-2025,1.68,16,Current,20.2,Yes,78,Yes,Manual Labor,Low,28-04-2025
+1035,47,Male,Prostate,II,30-07-2019,Immunotherapy,09-08-2020,10-09-2024,0.87,8,Former,22.6,Yes,95,Yes,Manual Labor,Medium,29-09-2024
+1036,69,Male,Leukemia,II,27-09-2024,Hormone Therapy,23-04-2025,19-05-2025,6.26,5,Former,26.8,Yes,63,No,Unemployed,High,21-05-2025
+1037,36,Female,Breast,I,11-08-2016,Surgery,04-10-2018,29-11-2019,7.94,0,Never,26.3,Yes,62,No,Office Worker,Medium,11-10-2022
+1038,60,Male,Leukemia,I,17-04-2019,Hormone Therapy,08-05-2024,12-04-2025,5.59,11,Current,20.5,No,95,Yes,Manual Labor,Medium,29-04-2025
+1039,23,Male,Lung,III,04-06-2020,Immunotherapy,03-04-2021,01-02-2024,9.13,6,Former,28.4,Yes,80,No,Office Worker,Medium,12-08-2024
+1040,73,Female,Colon,III,09-06-2020,Immunotherapy,07-04-2023,24-04-2024,9.34,19,Current,24.9,Yes,102,No,Retired,High,01-08-2024
+1041,71,Male,Leukemia,I,22-10-2021,Hormone Therapy,21-10-2022,12-02-2024,8.96,4,Former,16.8,No,93,Yes,Unemployed,High,05-10-2024
+1042,36,Male,Prostate,I,09-08-2016,Radiation,13-07-2021,24-09-2024,4.35,0,Never,28,Yes,109,Yes,Unemployed,Low,28-01-2025
+1043,20,Male,Colon,II,13-01-2019,Chemotherapy,20-03-2019,29-01-2021,8.3,2,Never,33.5,Yes,109,No,Healthcare,Medium,14-12-2021
+1044,72,Female,Lung,II,31-01-2017,Hormone Therapy,22-11-2022,23-07-2023,1.21,11,Former,23.1,No,85,Yes,Manual Labor,Medium,13-04-2024
+1045,73,Male,Colon,IV,25-12-2018,Surgery,05-11-2022,21-08-2023,9.68,5,Former,21,No,73,Yes,Unemployed,Low,03-03-2024
+1046,83,Male,Leukemia,I,07-01-2023,Chemotherapy,04-05-2023,05-03-2025,9.41,6,Never,18.7,No,63,Yes,Manual Labor,High,08-05-2025
+1047,59,Female,Skin,III,27-01-2019,Surgery,21-01-2020,08-03-2020,9.63,19,Never,34.3,Yes,17,No,Healthcare,Low,29-04-2022
+1048,86,Male,Colon,I,24-03-2020,Chemotherapy,19-02-2023,15-11-2024,9.96,6,Former,22.6,Yes,39,Yes,Unemployed,High,14-04-2025
+1049,53,Female,Leukemia,II,20-12-2023,Immunotherapy,11-04-2025,10-05-2025,1.42,3,Never,22.4,Yes,69,Yes,Healthcare,Medium,10-05-2025
+1050,35,Female,Prostate,IV,22-11-2022,Radiation,04-02-2023,07-02-2024,1.36,18,Former,23.5,Yes,82,Yes,Healthcare,High,30-10-2024
+1051,34,Male,Leukemia,IV,05-09-2018,Chemotherapy,,14-08-2024,8.59,10,Never,24.7,No,35,Yes,Healthcare,High,02-11-2024
+1052,44,Female,Breast,I,10-09-2024,Immunotherapy,14-11-2024,22-12-2024,3.75,11,Current,24.1,Yes,65,Yes,Office Worker,High,27-01-2025
+1053,66,Male,Colon,I,04-08-2015,Hormone Therapy,14-12-2023,19-04-2025,7.63,9,Current,10.5,Yes,46,Yes,Office Worker,High,19-05-2025
+1054,49,Female,Leukemia,IV,15-05-2020,Surgery,23-10-2022,22-01-2025,5.93,17,Current,28,No,49,No,Unemployed,Medium,04-03-2025
+1055,61,Male,Skin,III,31-03-2019,Radiation,29-11-2019,05-04-2024,4.78,1,Current,20.1,No,59,No,Healthcare,Medium,25-11-2024
+1056,26,Male,Prostate,II,21-10-2019,Chemotherapy,29-08-2022,12-12-2024,8.74,13,Current,23.5,No,51,Yes,Manual Labor,Low,12-04-2025
+1057,52,Female,Colon,IV,16-05-2022,Immunotherapy,04-07-2024,12-07-2024,5.73,13,Former,29.4,No,64,No,Healthcare,High,14-10-2024
+1058,42,Male,Lung,II,24-09-2024,Hormone Therapy,06-03-2025,01-04-2025,8.95,1,Former,27.5,No,78,No,Healthcare,Medium,27-04-2025
+1059,39,Male,Breast,IV,10-03-2020,Surgery,06-08-2021,04-05-2024,3.03,15,Never,23.2,Yes,79,No,Retired,Medium,19-07-2024
+1060,18,Male,Breast,II,20-09-2015,Immunotherapy,24-10-2020,25-11-2021,7.6,11,Current,23.8,Yes,5,No,Retired,Low,08-02-2023
+1061,67,Male,Prostate,IV,13-11-2016,Radiation,26-03-2018,04-05-2022,0.56,11,Former,18.4,Yes,94,Yes,Office Worker,Low,28-05-2022
+1062,34,Male,Breast,III,19-08-2023,Chemotherapy,17-04-2024,30-09-2024,2.8,8,Never,14.4,Yes,119,No,Office Worker,Medium,07-03-2025
+1063,51,Female,Colon,IV,21-01-2017,Surgery,24-05-2018,11-01-2021,1.11,5,Former,20.9,Yes,44,Yes,Healthcare,Medium,13-07-2021
+1064,32,Male,Skin,IV,30-01-2023,Radiation,15-04-2023,05-02-2024,0.79,17,Current,28.4,Yes,114,No,Office Worker,Low,26-02-2024
+1065,49,Male,Colon,IV,13-03-2021,Immunotherapy,25-01-2023,30-05-2024,2.57,9,Current,31,No,66,Yes,Unemployed,Low,15-02-2025
+1066,21,Female,Prostate,III,21-01-2019,Chemotherapy,28-05-2019,10-01-2023,1.35,16,Never,17.4,No,83,No,Healthcare,Low,21-04-2024
+1067,86,Male,Prostate,I,16-03-2022,Surgery,04-05-2022,11-11-2023,7.36,8,Current,23.9,Yes,68,No,Manual Labor,Low,18-09-2024
+1068,57,Female,Breast,IV,14-02-2025,Surgery,25-02-2025,17-05-2025,7.31,2,Current,30.1,No,56,No,Unemployed,Medium,21-05-2025
+1069,57,Male,Leukemia,IV,05-11-2022,Chemotherapy,19-04-2024,20-07-2024,1.37,13,Never,22.2,Yes,81,No,Unemployed,Low,29-12-2024
+1070,19,Female,Colon,I,07-06-2020,Surgery,23-09-2022,19-11-2022,0.59,19,Former,21.7,No,52,No,Healthcare,Medium,19-12-2022
+1071,60,Female,Lung,IV,03-05-2018,Surgery,15-07-2023,07-08-2023,8.73,14,Former,22,No,58,Yes,Office Worker,Low,31-01-2024
+1072,29,Male,Breast,II,04-01-2018,Surgery,29-10-2020,24-12-2020,7.41,19,Current,29.5,Yes,39,Yes,Office Worker,High,01-04-2024
+1073,30,Female,Breast,II,07-10-2022,Hormone Therapy,03-10-2024,16-03-2025,2.64,12,Current,13,Yes,57,Yes,Healthcare,Low,22-03-2025
+1074,57,Male,Breast,I,29-04-2020,Chemotherapy,08-04-2023,20-10-2024,4.6,12,Never,34,No,3,No,Retired,Low,17-12-2024
+1075,22,Female,Leukemia,IV,03-12-2019,Hormone Therapy,02-02-2020,04-05-2025,5.42,6,Former,34.7,Yes,34,No,Healthcare,High,16-05-2025
+1076,84,Male,Lung,II,23-02-2025,Surgery,11-03-2025,28-04-2025,0.99,10,Current,30.1,Yes,109,Yes,Manual Labor,Low,06-05-2025
+1077,83,Male,Leukemia,III,18-03-2022,Hormone Therapy,06-04-2023,12-06-2023,9.33,19,Never,23.8,No,71,Yes,Retired,Low,29-03-2025
+1078,56,Female,Lung,I,20-05-2018,Chemotherapy,13-11-2019,03-10-2024,9.31,10,Former,16.6,No,23,Yes,Unemployed,Low,29-11-2024
+1079,87,Male,Skin,III,10-03-2017,Hormone Therapy,13-02-2024,11-05-2025,3.37,19,Current,30.2,No,37,No,Manual Labor,Medium,21-05-2025
+1080,66,Female,Prostate,II,25-07-2020,Radiation,10-09-2024,23-04-2025,6.64,17,Current,27.2,No,5,No,Manual Labor,Medium,16-05-2025
+1081,35,Female,Colon,II,14-10-2016,Radiation,21-08-2023,24-08-2023,6.57,4,Never,27,No,42,Yes,Unemployed,Medium,15-11-2024
+1082,65,Male,Leukemia,II,25-03-2017,Radiation,25-11-2021,02-08-2023,9.99,0,Never,16,No,16,Yes,Manual Labor,Medium,08-04-2025
+1083,71,Male,Colon,IV,02-01-2021,Radiation,17-01-2025,19-01-2025,6.06,1,Never,35.3,No,80,No,Unemployed,Low,04-02-2025
+1084,76,Female,Prostate,I,14-12-2015,Chemotherapy,04-05-2019,21-09-2023,9.15,6,Current,26.5,Yes,20,No,Healthcare,Medium,26-08-2024
+1085,41,Female,Prostate,II,02-02-2023,Surgery,30-09-2024,01-02-2025,6.61,12,Current,23.6,Yes,47,No,Manual Labor,High,08-03-2025
+1086,70,Female,Prostate,IV,01-04-2018,Chemotherapy,07-09-2022,30-04-2024,1.77,4,Former,17.7,Yes,98,No,Healthcare,Medium,14-02-2025
+1087,70,Female,Skin,III,01-05-2022,Hormone Therapy,18-07-2022,06-11-2024,8.43,15,Never,28.6,Yes,54,Yes,Healthcare,Medium,22-05-2025
+1088,68,Female,Prostate,I,25-06-2020,Immunotherapy,07-05-2024,14-01-2025,4.65,2,Never,25.6,No,116,No,Office Worker,Medium,28-01-2025
+1089,28,Female,Prostate,II,25-01-2019,Surgery,08-09-2020,12-09-2022,0.73,10,Never,22.7,No,102,No,Retired,Medium,20-09-2024
+1090,63,Male,Prostate,IV,14-05-2022,Surgery,09-09-2022,09-05-2025,0.71,3,Current,18,No,111,Yes,Healthcare,High,20-05-2025
+1091,82,Female,Colon,IV,28-06-2024,Chemotherapy,29-01-2025,05-04-2025,5.39,2,Never,29.2,Yes,43,Yes,Unemployed,Low,21-05-2025
+1092,84,Female,Lung,IV,26-06-2016,Immunotherapy,25-06-2020,10-07-2024,2.52,1,Former,21.2,No,108,No,Healthcare,High,07-08-2024
+1093,81,Female,Lung,II,27-02-2023,Surgery,14-12-2024,23-04-2025,8.34,8,Never,32.4,No,31,No,Healthcare,Medium,10-05-2025
+1094,27,Female,Breast,IV,10-02-2020,Surgery,07-07-2024,05-01-2025,3.11,3,Former,24.1,No,85,No,Retired,High,29-03-2025
+1095,66,Male,Breast,II,07-10-2022,Immunotherapy,14-03-2023,26-01-2025,3.71,15,Never,27.9,Yes,90,Yes,Office Worker,Medium,30-01-2025
+1096,43,Female,Breast,IV,08-09-2015,Surgery,18-01-2016,22-11-2024,3.5,14,Former,28.6,No,16,No,Healthcare,High,11-01-2025
+1097,18,Male,Colon,II,17-05-2022,Chemotherapy,04-07-2022,06-08-2024,0.61,2,Never,24.4,Yes,55,Yes,Healthcare,Medium,15-02-2025
+1098,38,Male,Lung,II,16-07-2022,Radiation,21-05-2025,22-05-2025,8.76,5,Former,29.8,Yes,58,No,Unemployed,Low,22-05-2025
+1099,79,Female,Breast,I,29-04-2022,Radiation,14-06-2023,13-09-2024,4.5,13,Never,23.3,Yes,117,No,Office Worker,High,22-11-2024
+1100,88,Female,Lung,IV,11-05-2025,Radiation,17-05-2025,19-05-2025,2.33,7,Current,27.5,No,118,No,Retired,Medium,22-05-2025
+1101,80,Female,Lung,III,24-11-2019,Surgery,16-11-2021,08-02-2022,0.74,19,Former,23.9,No,93,No,Office Worker,Medium,24-02-2025
+1102,26,Female,Lung,I,05-10-2022,Chemotherapy,01-01-2023,10-09-2023,1.37,9,Current,30.9,No,80,Yes,Retired,Medium,18-01-2025
+1103,53,Female,Breast,II,05-04-2019,Hormone Therapy,11-06-2022,10-04-2024,2.29,4,Current,25.5,Yes,14,Yes,Healthcare,Medium,04-05-2024
+1104,46,Male,Leukemia,IV,27-12-2017,Surgery,19-07-2019,29-11-2021,7.48,10,Current,22,No,87,No,Healthcare,Low,09-01-2022
+1105,22,Male,Breast,I,02-12-2017,Chemotherapy,22-08-2018,13-04-2023,8.98,9,Former,29.9,Yes,66,Yes,Office Worker,Medium,03-06-2024
+1106,42,Male,Colon,III,29-09-2021,Chemotherapy,10-03-2023,29-05-2023,7.71,0,Current,19.5,Yes,87,Yes,Manual Labor,Low,04-02-2024
+1107,59,Female,Lung,I,16-07-2020,Chemotherapy,16-04-2023,13-07-2024,2.25,2,Never,34.3,Yes,66,No,Retired,High,16-07-2024
+1108,75,Female,Breast,IV,12-03-2025,Chemotherapy,04-05-2025,05-05-2025,7.18,1,Never,31.2,Yes,22,Yes,Unemployed,Medium,20-05-2025
+1109,54,Female,Lung,I,03-04-2019,Hormone Therapy,07-07-2021,27-10-2022,5.22,15,Former,18,No,1,Yes,Manual Labor,Low,20-12-2023
+1110,20,Female,Lung,IV,13-12-2017,Chemotherapy,31-12-2017,04-03-2021,7.27,10,Current,30.3,Yes,86,Yes,Manual Labor,Medium,07-05-2021
+1111,81,Male,Prostate,IV,02-04-2019,Immunotherapy,26-11-2023,31-01-2024,5.2,12,Current,28.3,Yes,115,No,Manual Labor,Medium,04-01-2025
+1112,71,Male,Colon,III,05-04-2016,Immunotherapy,10-11-2024,01-04-2025,9,14,Never,21.2,No,98,No,Unemployed,Low,22-04-2025
+1113,28,Female,Prostate,III,11-04-2024,Immunotherapy,09-06-2024,10-11-2024,8.41,18,Never,14.2,Yes,10,No,Retired,High,06-01-2025
+1114,58,Male,Lung,II,30-12-2024,Immunotherapy,13-01-2025,09-04-2025,3.87,6,Never,19,Yes,39,Yes,Retired,Low,10-04-2025
+1115,20,Female,Leukemia,II,01-05-2019,Radiation,11-02-2021,08-01-2024,2.96,16,Never,26.5,No,105,No,Healthcare,High,23-09-2024
+1116,88,Female,Leukemia,I,20-09-2016,Radiation,02-10-2019,19-04-2021,2.62,19,Current,21.3,Yes,117,No,Healthcare,Low,07-09-2024
+1117,53,Female,Colon,III,15-05-2021,Radiation,24-10-2022,03-02-2024,2.31,12,Never,21.1,No,30,Yes,Healthcare,Low,07-03-2024
+1118,71,Male,Prostate,IV,25-04-2023,Chemotherapy,02-10-2023,18-10-2024,3.69,15,Current,24.7,No,83,No,Unemployed,Medium,01-04-2025
+1119,82,Male,Colon,IV,12-05-2020,Hormone Therapy,18-01-2024,22-03-2025,1.52,18,Never,28.6,No,100,Yes,Manual Labor,High,01-05-2025
+1120,53,Female,Skin,I,01-11-2015,Immunotherapy,06-07-2018,27-09-2018,1.32,19,Never,27.5,No,50,Yes,Unemployed,Medium,17-04-2019
+1121,58,Male,Lung,I,06-09-2020,Immunotherapy,27-11-2022,04-04-2024,3.98,1,Never,23.7,Yes,60,No,Manual Labor,High,28-05-2024
+1122,48,Female,Skin,IV,16-05-2024,Chemotherapy,10-11-2024,08-05-2025,1.84,13,Current,18.8,No,101,Yes,Retired,Low,11-05-2025
+1123,19,Female,Leukemia,IV,03-04-2022,Hormone Therapy,17-01-2024,04-02-2024,7.07,13,Current,19.5,No,84,Yes,Unemployed,Medium,23-02-2024
+1124,19,Male,Prostate,III,04-09-2024,Immunotherapy,10-11-2024,,1.52,18,Never,29,No,82,Yes,Office Worker,Medium,06-05-2025
+1125,33,Male,Breast,III,29-07-2017,Radiation,30-05-2024,21-07-2024,4.76,6,Current,15.9,Yes,81,No,Office Worker,Low,04-04-2025
+1126,49,Male,Lung,I,17-01-2023,Immunotherapy,16-04-2025,04-05-2025,9.44,16,Current,22,No,45,Yes,Unemployed,Medium,20-05-2025
+1127,26,Male,Colon,IV,06-06-2023,Chemotherapy,19-11-2024,06-12-2024,6.43,3,Former,23.1,No,29,No,Retired,Low,19-05-2025
+1128,42,Male,Breast,II,24-07-2024,Chemotherapy,19-01-2025,16-04-2025,2.94,9,Former,28.1,No,82,No,Unemployed,Low,07-05-2025
+1129,74,Male,Colon,I,05-09-2016,Hormone Therapy,31-01-2017,06-06-2017,1.41,6,Never,19.6,Yes,62,No,Office Worker,Medium,01-12-2017
+1130,81,Male,Breast,I,11-02-2019,Hormone Therapy,24-05-2019,05-12-2024,0.94,9,Former,33.6,Yes,58,No,Healthcare,Low,22-12-2024
+1131,37,Female,Colon,II,09-11-2023,Chemotherapy,03-06-2024,13-01-2025,8.29,5,Current,29.3,Yes,92,Yes,Healthcare,High,03-02-2025
+1132,69,Male,Colon,I,15-07-2015,Hormone Therapy,03-03-2021,13-02-2023,9.2,11,Current,18.9,Yes,108,No,Unemployed,Low,19-02-2023
+1133,22,Female,Prostate,IV,29-04-2016,Chemotherapy,18-08-2018,11-05-2021,1.79,12,Former,25.4,Yes,67,Yes,Unemployed,High,14-05-2023
+1134,47,Female,Lung,III,22-06-2023,Immunotherapy,18-08-2024,10-04-2025,2.53,2,Current,24.3,Yes,57,Yes,Healthcare,High,12-04-2025
+1135,47,Male,Prostate,IV,06-11-2020,Surgery,21-09-2024,16-01-2025,1.38,1,Former,27.4,No,51,No,Unemployed,High,27-04-2025
+1136,30,Female,Leukemia,II,19-01-2016,Immunotherapy,28-07-2016,22-12-2022,9.11,2,Current,11.8,Yes,87,No,Manual Labor,Medium,17-06-2024
+1137,26,Female,Skin,II,15-12-2018,Surgery,04-11-2023,03-05-2024,0.68,8,Current,21,No,69,Yes,,High,14-03-2025
+1138,75,Female,Prostate,IV,02-02-2022,Radiation,06-03-2023,27-06-2023,1.1,9,Never,19.7,No,43,Yes,Unemployed,High,23-03-2025
+1139,51,Male,Leukemia,III,08-06-2018,Radiation,24-06-2021,10-11-2021,6.55,6,Never,27.7,No,13,Yes,Unemployed,Medium,23-11-2023
+1140,20,Female,Colon,III,05-06-2024,Radiation,12-10-2024,25-01-2025,5.01,5,Former,14.1,No,60,Yes,Office Worker,Low,29-01-2025
+1141,75,Female,Colon,III,08-02-2022,Hormone Therapy,18-07-2023,01-08-2023,8.96,11,Former,20.1,No,98,Yes,Unemployed,Medium,17-03-2024
+1142,35,Female,Breast,II,21-08-2017,Radiation,16-06-2020,09-03-2021,1.87,7,Never,29.2,No,46,Yes,Retired,High,23-05-2024
+1143,61,Female,Breast,IV,26-11-2023,Radiation,07-12-2023,18-06-2024,8.8,17,Never,20.6,No,8,No,Unemployed,Low,01-12-2024
+1144,74,Male,Skin,III,16-10-2020,Hormone Therapy,13-07-2021,06-12-2021,9.61,18,Never,30.7,No,25,Yes,Healthcare,Medium,23-12-2024
+1145,36,Male,Skin,I,30-11-2017,Radiation,21-10-2022,27-05-2023,4.36,14,Former,26.6,Yes,96,No,Healthcare,Low,13-02-2025
+1146,43,Female,Lung,II,09-04-2018,Radiation,06-07-2021,14-01-2022,4.64,18,Never,25.7,No,42,No,Unemployed,Low,17-05-2022
+1147,46,Male,Breast,IV,20-10-2016,Immunotherapy,21-04-2017,01-11-2018,4.52,8,Current,33.3,No,111,Yes,Retired,Medium,19-11-2018
+1148,33,Male,Colon,III,29-09-2024,Surgery,02-11-2024,11-11-2024,8.22,11,Current,22.9,No,5,Yes,Manual Labor,Low,20-02-2025
+1149,86,Male,Leukemia,IV,16-11-2023,Radiation,11-12-2023,15-03-2025,5.99,4,Never,25.2,No,97,No,Healthcare,High,06-04-2025
+1150,35,Female,Colon,IV,02-05-2017,Chemotherapy,04-10-2020,05-03-2021,2.44,15,Former,22.6,No,39,No,Manual Labor,Medium,29-12-2023
+1151,50,Male,Colon,IV,15-12-2016,Immunotherapy,19-02-2021,28-06-2023,5.06,0,Former,23,No,6,No,Manual Labor,Medium,13-08-2024
+1152,63,Male,Lung,II,28-11-2023,Chemotherapy,07-11-2024,11-12-2024,9.09,9,Never,21.5,Yes,18,Yes,Retired,High,09-05-2025
+1153,44,Male,Breast,III,28-08-2018,Immunotherapy,08-07-2023,25-06-2024,7.33,9,Never,16.9,Yes,70,Yes,Unemployed,Medium,17-03-2025
+1154,39,Male,Breast,II,14-04-2024,Chemotherapy,22-06-2024,03-10-2024,4.9,6,Former,23.9,No,99,Yes,Healthcare,Low,20-12-2024
+1155,31,Male,Leukemia,I,13-05-2020,Chemotherapy,28-03-2021,11-08-2023,5.66,15,Never,18.4,No,55,No,Healthcare,Low,20-03-2025
+1156,26,Male,Breast,III,31-10-2020,Radiation,03-06-2021,11-04-2025,2.06,1,Current,24.1,No,13,Yes,Healthcare,Low,29-04-2025
+1157,68,Female,Lung,II,13-11-2019,Hormone Therapy,01-03-2023,28-12-2024,9.36,2,Former,23.4,Yes,59,Yes,Healthcare,Low,28-01-2025
+1158,87,Male,Colon,II,06-11-2022,Chemotherapy,29-07-2023,21-04-2024,3.91,16,Current,24.6,No,82,No,Retired,Medium,13-03-2025
+1159,22,Female,Skin,IV,10-11-2019,Radiation,17-01-2020,31-05-2023,9.66,3,Never,20.6,No,41,No,Office Worker,High,08-01-2025
+1160,19,Female,Colon,III,05-04-2020,Surgery,21-01-2021,29-12-2022,0.73,15,Former,24,Yes,24,No,Healthcare,Medium,23-02-2025
+1161,39,Male,Colon,II,25-08-2015,Radiation,13-02-2016,30-08-2021,7.46,13,Former,21,No,60,No,Unemployed,Medium,29-09-2024
+1162,59,Male,Lung,IV,07-11-2019,Chemotherapy,09-02-2022,10-05-2022,9.29,15,Current,20.2,No,49,Yes,Manual Labor,Medium,25-03-2025
+1163,81,Female,Breast,III,24-07-2021,Surgery,16-02-2023,03-03-2024,7.17,18,Former,23.6,No,29,Yes,Manual Labor,High,29-05-2024
+1164,84,Male,Breast,II,22-06-2018,Hormone Therapy,27-03-2019,20-11-2019,6.68,15,Never,30.3,No,53,Yes,Unemployed,Medium,25-04-2024
+1165,84,Female,Colon,III,30-07-2016,Hormone Therapy,26-11-2017,04-04-2020,6.51,17,Former,20.2,Yes,65,No,Unemployed,Medium,24-04-2023
+1166,38,Male,Leukemia,I,04-10-2020,Radiation,14-12-2020,11-12-2023,8.52,5,Current,26.6,No,100,Yes,Healthcare,Low,13-01-2025
+1167,45,Male,Colon,III,22-09-2015,Immunotherapy,08-08-2018,18-03-2021,9.03,7,Never,22,Yes,86,Yes,Unemployed,High,01-04-2023
+1168,47,Male,Lung,IV,12-03-2020,Hormone Therapy,13-09-2023,30-01-2024,1.9,10,Never,28,Yes,99,No,Unemployed,Low,29-08-2024
+1169,83,Male,Lung,IV,19-08-2020,Chemotherapy,01-05-2021,03-09-2022,5.61,0,Former,21.6,No,115,No,Retired,High,06-10-2022
+1170,77,Female,Skin,II,23-08-2015,Hormone Therapy,19-09-2018,28-11-2021,0.92,1,Never,17.3,No,105,No,Manual Labor,High,06-01-2024
+1171,44,Female,Leukemia,IV,28-03-2018,Chemotherapy,04-01-2020,10-10-2023,9.36,6,Never,14.8,Yes,61,Yes,Healthcare,Medium,30-01-2025
+1172,55,Male,Leukemia,III,20-11-2016,Immunotherapy,17-04-2017,16-07-2019,6.84,1,Current,35.6,Yes,32,Yes,Healthcare,High,04-08-2022
+1173,43,Female,Prostate,I,06-08-2023,Immunotherapy,03-03-2024,29-08-2024,5.11,2,Never,30.7,Yes,19,No,Manual Labor,Low,26-09-2024
+1174,29,Female,Colon,IV,11-12-2015,Immunotherapy,04-11-2016,23-05-2019,6.27,18,Former,25.6,Yes,76,Yes,Manual Labor,Low,24-05-2021
+1175,22,Female,Colon,I,12-12-2023,Chemotherapy,11-12-2024,18-05-2025,6.06,6,Current,28.1,No,69,No,Office Worker,High,19-05-2025
+1176,50,Male,Breast,IV,18-11-2022,Radiation,17-05-2023,09-10-2024,1.76,17,Former,25.9,Yes,114,Yes,Healthcare,Medium,12-03-2025
+1177,56,Female,Breast,I,12-01-2024,Chemotherapy,18-08-2024,14-02-2025,9.65,15,Never,20.4,Yes,87,No,Retired,Medium,31-03-2025
+1178,67,Male,Prostate,II,12-01-2022,Chemotherapy,07-04-2024,15-07-2024,6.42,17,Never,24.4,Yes,36,No,Retired,Low,06-02-2025
+1179,80,Female,Colon,III,01-06-2021,Radiation,05-05-2024,15-10-2024,3.1,15,Former,28.5,No,18,No,Unemployed,Low,22-01-2025
+1180,24,Female,Lung,II,09-05-2018,Immunotherapy,07-06-2018,18-05-2021,4.47,4,Never,28.1,Yes,55,Yes,Office Worker,Medium,11-02-2024
+1181,33,Male,Leukemia,I,26-11-2024,Surgery,20-04-2025,08-05-2025,4.79,17,Current,21.2,No,21,No,Office Worker,High,15-05-2025
+1182,34,Female,Colon,I,28-08-2017,Surgery,13-01-2019,17-09-2020,5.01,10,Never,25.7,Yes,58,Yes,Manual Labor,Medium,05-05-2022
+1183,31,Male,Colon,IV,26-07-2019,Surgery,27-05-2020,06-11-2022,5.53,18,Former,30.4,No,62,Yes,Office Worker,Low,22-09-2023
+1184,50,Female,Breast,IV,08-02-2024,Surgery,23-02-2025,20-03-2025,8.4,17,Never,22.2,No,33,No,Healthcare,High,18-04-2025
+1185,49,Male,Breast,I,27-03-2022,Surgery,29-01-2025,05-05-2025,5.17,16,Former,24.7,No,84,Yes,Healthcare,Low,12-05-2025
+1186,42,Female,Prostate,IV,22-05-2019,Hormone Therapy,26-05-2023,19-06-2023,1.51,9,Current,32.3,No,85,No,Office Worker,Medium,02-05-2025
+1187,28,Female,Colon,I,09-03-2017,Immunotherapy,24-09-2018,01-12-2018,3.4,16,Current,28.7,No,16,Yes,Unemployed,Medium,26-06-2019
+1188,57,Female,Lung,III,22-07-2015,Immunotherapy,06-11-2021,18-11-2021,1.28,2,Current,26.8,Yes,21,No,Healthcare,Medium,12-09-2022
+1189,67,Male,Breast,I,22-02-2019,Surgery,24-02-2023,24-04-2025,3.62,15,Current,24.9,Yes,27,No,Retired,Low,10-05-2025
+1190,37,Female,Lung,IV,11-11-2016,Hormone Therapy,10-09-2024,05-04-2025,7.44,8,Current,18.2,Yes,61,No,Office Worker,Medium,18-05-2025
+1191,55,Male,Breast,I,07-06-2024,Radiation,03-02-2025,03-04-2025,4.48,5,Current,25.6,No,45,Yes,Unemployed,Low,18-04-2025
+1192,64,Male,Breast,III,05-04-2025,Surgery,26-04-2025,06-05-2025,1,13,Never,25.3,Yes,54,Yes,Manual Labor,Low,12-05-2025
+1193,88,Male,Prostate,I,13-05-2022,Hormone Therapy,18-09-2022,10-10-2022,3.85,9,Former,17.1,No,58,Yes,Manual Labor,Low,07-10-2024
+1194,41,Female,Colon,II,15-09-2020,Hormone Therapy,15-09-2023,18-12-2024,9.47,19,Current,25.6,Yes,110,Yes,Manual Labor,Low,21-12-2024
+1195,35,Male,Leukemia,III,05-09-2022,Chemotherapy,31-10-2024,06-03-2025,9.19,8,Former,23.1,No,53,Yes,Healthcare,Low,29-03-2025
+1196,80,Female,Leukemia,I,21-10-2017,Radiation,24-07-2018,30-05-2019,8.45,16,Former,25.7,Yes,103,Yes,Office Worker,Medium,12-10-2020
+1197,36,Male,Skin,III,22-01-2021,Chemotherapy,22-05-2022,,1.94,10,Former,26.4,No,107,No,Office Worker,Low,22-05-2025
+1198,43,Male,Skin,I,03-11-2018,Hormone Therapy,13-02-2019,27-05-2021,3.48,19,Former,23.9,No,116,Yes,Retired,Low,14-04-2022
+1199,21,Female,Prostate,IV,04-05-2018,Surgery,19-01-2021,12-06-2021,7.14,5,Never,24.2,No,66,No,Healthcare,Medium,19-09-2022
+1200,25,Female,Breast,III,18-04-2021,Chemotherapy,14-03-2023,10-11-2024,8.82,4,Current,32,Yes,55,Yes,Manual Labor,Medium,27-11-2024
+1201,67,Male,Lung,I,13-05-2016,Surgery,09-05-2019,16-09-2022,0.76,9,Former,20.1,Yes,39,Yes,Retired,Low,05-08-2023
+1202,73,Male,Breast,III,14-08-2015,Surgery,18-05-2021,31-08-2022,2.28,6,Current,27.6,Yes,21,No,Office Worker,Medium,01-05-2023
+1203,27,Female,Leukemia,III,08-07-2016,Surgery,12-08-2016,19-12-2024,7.37,18,Never,23.6,Yes,108,Yes,Unemployed,Low,08-04-2025
+1204,67,Female,Colon,I,13-01-2021,Surgery,08-04-2021,04-05-2023,7.43,4,Never,26.3,Yes,92,Yes,Office Worker,Medium,20-02-2024
+1205,89,Male,Lung,II,14-06-2017,Immunotherapy,23-09-2019,12-12-2024,4.37,18,Current,25.7,No,81,Yes,Office Worker,Medium,10-03-2025
+1206,60,Male,Leukemia,IV,21-03-2023,Radiation,09-03-2025,11-03-2025,2.02,5,Never,22.4,No,78,No,Manual Labor,Low,09-04-2025
+1207,84,Male,Prostate,IV,23-09-2024,Chemotherapy,24-04-2025,06-05-2025,8.88,11,Current,29.3,Yes,81,Yes,Retired,Low,19-05-2025
+1208,24,Male,Leukemia,I,24-12-2015,Radiation,17-02-2016,02-12-2017,1.55,13,Current,16.6,Yes,30,Yes,Manual Labor,Low,03-03-2018
+1209,49,Male,Leukemia,I,20-07-2015,Chemotherapy,23-05-2018,21-09-2019,7.99,18,Former,23,Yes,24,Yes,Office Worker,Medium,23-02-2022
+1210,51,Female,Colon,III,01-05-2025,Immunotherapy,17-05-2025,17-05-2025,10,14,Never,23.8,Yes,86,Yes,Unemployed,Medium,20-05-2025
+1211,41,Female,Breast,III,08-07-2022,Chemotherapy,15-02-2025,07-03-2025,2.81,11,Never,21.1,No,34,No,Healthcare,Medium,09-05-2025
+1212,28,Male,Lung,III,04-10-2017,Surgery,26-02-2020,24-08-2024,6.68,2,Never,33,Yes,42,No,Manual Labor,Medium,16-09-2024
+1213,45,Male,Lung,III,25-12-2016,Immunotherapy,25-11-2021,24-01-2025,5.1,13,Never,28.3,No,118,Yes,Office Worker,Low,31-01-2025
+1214,70,Female,Lung,II,08-03-2020,Chemotherapy,07-03-2025,15-04-2025,4.31,3,Current,30.2,No,97,No,Unemployed,Low,05-05-2025
